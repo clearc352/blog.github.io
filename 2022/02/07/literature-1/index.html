@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.0.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"flat"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="Abstract本文目的是发掘GBM相关的表面组基因以及识别关键的具有发展潜力的细胞表面基因作为GBM分子标志物用于治疗。主要利用TCGA GBM RNA-Seq数据以及GTEx正常脑皮层数据识别在GBM中显著失调的表面组基因，本文还综合分析了转录组学，蛋白组学数据来区分具有高置信度的GBM表面组特征。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="整合RNA和蛋白质组学数据识别多形性胶质母细胞瘤表面组特征">
+<meta property="og:url" content="http://example.com/2022/02/07/literature-1/index.html">
+<meta property="og:site_name" content="CleaC Blog">
+<meta property="og:description" content="Abstract本文目的是发掘GBM相关的表面组基因以及识别关键的具有发展潜力的细胞表面基因作为GBM分子标志物用于治疗。主要利用TCGA GBM RNA-Seq数据以及GTEx正常脑皮层数据识别在GBM中显著失调的表面组基因，本文还综合分析了转录组学，蛋白组学数据来区分具有高置信度的GBM表面组特征。">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/2022/02/07/literature-1/T1.png">
+<meta property="og:image" content="http://example.com/2022/02/07/literature-1/12885_2021_8591_Fig1_HTML.jpg">
+<meta property="og:image" content="http://example.com/2022/02/07/literature-1/12885_2021_8591_Fig2_HTML.jpg">
+<meta property="og:image" content="http://example.com/2022/02/07/literature-1/S1.png">
+<meta property="og:image" content="http://example.com/2022/02/07/literature-1/S2.png">
+<meta property="og:image" content="http://example.com/2022/02/07/literature-1/S3.png">
+<meta property="og:image" content="http://example.com/2022/02/07/literature-1/12885_2021_8591_Fig3_HTML.jpg">
+<meta property="og:image" content="http://example.com/2022/02/07/literature-1/12885_2021_8591_Fig4_HTML.jpg">
+<meta property="og:image" content="http://example.com/2022/02/07/literature-1/12885_2021_8591_Fig5_HTML.jpg">
+<meta property="article:published_time" content="2022-02-07T00:23:08.000Z">
+<meta property="article:modified_time" content="2022-02-07T06:33:00.532Z">
+<meta property="article:author" content="Clearc352">
+<meta property="article:tag" content="literature">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/2022/02/07/literature-1/T1.png">
+
+<link rel="canonical" href="http://example.com/2022/02/07/literature-1/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'en'
+  };
+</script>
+
+  <title>整合RNA和蛋白质组学数据识别多形性胶质母细胞瘤表面组特征 | CleaC Blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">CleaC Blog</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <a role="button" class="book-mark-link book-mark-link-fixed"></a>
+
+  <a href="https://github.com/yourname" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/02/07/literature-1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar1.jpg">
+      <meta itemprop="name" content="Clearc352">
+      <meta itemprop="description" content="Love that will never die">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="CleaC Blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          整合RNA和蛋白质组学数据识别多形性胶质母细胞瘤表面组特征
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2022-02-07 08:23:08 / Modified: 14:33:00" itemprop="dateCreated datePublished" datetime="2022-02-07T08:23:08+08:00">2022-02-07</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>本文目的是发掘GBM相关的表面组基因以及识别关键的具有发展潜力的细胞表面基因作为GBM分子标志物用于治疗。主要利用TCGA GBM RNA-Seq数据以及GTEx正常脑皮层数据识别在GBM中显著失调的表面组基因，本文还综合分析了转录组学，蛋白组学数据来区分具有高置信度的GBM表面组特征。</p>
+<span id="more"></span>
+
+<h2 id="Background"><a href="#Background" class="headerlink" title="Background"></a>Background</h2><p>多形性胶质母细胞瘤（GBM）是最常见的且致死率高的成人中枢神经系统肿瘤。尽管近些年已经开发了很多治疗方法，但是该疾病的中位生存期依旧较差。GBM患者的平均生存时间期望只有个月且五年内的生存期低于3%。目前标准的GBM治疗方案通常是在最大程度上安全的手术切除的基础上，伴随着放化疗的治疗。然而该病具有高复发率和其肿瘤内很高的异质性导致治疗的预后很差。因此，需要开发更好且有效的治疗方案。</p>
+<p>替莫挫胺是最常用的口服脱氧核糖核酸烷化（DNA-alkylating）药物，常用于在临床上GBM的化疗。常见的联合替莫挫胺和放射线疗法的标准化的Stupp治疗方案常用于治疗GBM。其他的GBM治疗方案有例如VEGF靶向的单克隆抗体贝伐单抗治疗、脱氧核糖核酸烷化药物或者检查点抑制剂治疗等。</p>
+<p>细胞表面蛋白质或表面基因组是一个整合和转运细胞内外关键信号级联的信息阀门。同时，表面基因组也在肿瘤发生的支持和侵袭的关键进展中起重要作用。事实上，异常的表面基因组表达和活性常在许多癌症类型中观察到。因此，表面基因组在癌症的治疗靶向或生物分子标志物中具有很大的潜力。最近的一项研究表明，56%的细胞表面蛋白在GBM中具有不同的表达并且在血浆以及脑脊液中也可以观察到这一现象，表明表面组蛋白具有成为生物标志物的潜力。质谱仪分析显示，表面基因组在患癌脑细胞系中平均大小大于其他（部位）类型癌症。因此，GBM表面组基因可能是我们理解GBM发病机制和药物反应的关键，靶向这些基因可能解开GBM治疗中潜在“可药性”阶段。</p>
+<p>目前，一个全面综合的GBM表面基因组图谱概述还没有完全定义。因此，本文旨在使用TCGA(GBM)和GTEx（normal brain）数据库的数据分析GBM表面组基因表达图谱的特征。由于TCGA正常脑组织样本较少，所以本文在两个数据库整合和完成了差异基因表达分析。为了进一步获得具有高置信度的GBM表面基因标志，我们使用PPI hub基因分析整合了GBM转录组和细胞表面蛋白质组的特征。总而言之，我们识别出了在GBM上调的表面组基因包括CD44,PTPRJ和HLA-DRA，这些基因在未来研究GBM发病机制的生物相关性可能有重要作用。</p>
+<h2 id="Result"><a href="#Result" class="headerlink" title="Result"></a>Result</h2><h4 id="TCGA和GTEx患者的特征"><a href="#TCGA和GTEx患者的特征" class="headerlink" title="TCGA和GTEx患者的特征"></a>TCGA和GTEx患者的特征</h4><p>如表所示，对TCGA数据分别进行性别，治疗年龄以及治疗效果进行分组。</p>
+<p><img src="/2022/02/07/literature-1/T1.png" alt="Table1"></p>
+<h4 id="识别GBM的差异表达基因"><a href="#识别GBM的差异表达基因" class="headerlink" title="识别GBM的差异表达基因"></a>识别GBM的差异表达基因</h4><p>图1显示差异基因分析流程。由于大多数GBM病例都发现于大脑的幕上区域，文章仅选取了GTE中RNA-Seq表达谱中的皮质，正面皮质以及前刺铰接皮层。图2.A显示利用t-SNE分析反映了GBM肿瘤和正常脑组织read count 值的方向性。图2.A清晰地显示了表达谱中正常脑组织和肿瘤中表达模式的不同。最终，RNA表达数据中18021个基因有13548个基因通过了质控。通过设置差异基因的阈值（具体阈值见Methods），在GBM中找到了2381个DEGs，其中有648个基因上调，1733个基因下调（见图2.B）。</p>
+<p><img src="/2022/02/07/literature-1/12885_2021_8591_Fig1_HTML.jpg" alt="F1"></p>
+<p><img src="/2022/02/07/literature-1/12885_2021_8591_Fig2_HTML.jpg" alt="F2"></p>
+<h4 id="对DEGs的功能富集和分类"><a href="#对DEGs的功能富集和分类" class="headerlink" title="对DEGs的功能富集和分类"></a>对DEGs的功能富集和分类</h4><p>对上述结果找到的差异基因进行GO和KEGG的功能富集。对于上调/下调的差异基因，GO富集显示差异基因与细胞表面和膜相关蛋白相关联；KEGG富集显示，上调基因主要涉及癌症传播和细胞黏附相关的通路，下调基因主要涉及神经活性配体-受体交互和主要细胞信号传导相关的通路。（图S1.ALL）</p>
+<p><img src="/2022/02/07/literature-1/S1.png" alt="FS1"></p>
+<h4 id="识别GBM细胞表面抗原的候选分子"><a href="#识别GBM细胞表面抗原的候选分子" class="headerlink" title="识别GBM细胞表面抗原的候选分子"></a>识别GBM细胞表面抗原的候选分子</h4><p>Bausch-Fluck, Cunha. and Lee.等人的研究通过不同的研究方法，已经获得了表面组差异基因的基因列表。对他们基因列表取交集，得到了395个共同表面组差异基因，其中有124个上调基因，271个下调基因（图S2.A）。根据Almén等人的研究，表面组可以分为以下五个亚型：受体型，运输型，酶型，混杂型和未定义型。将图A中的结果根据亚型分类，可以发现42.8%的GBM差异表达基因属于受体亚型（图S2.B）。KEGG分析<strong>GBM-富集</strong>表面蛋白识别到与免疫防御和传播相关的通路；而<strong>GBM-缺乏</strong>细胞表面基因富集到与神经活性韧带交互和主要信号传导相关通路（图S3.ALL）。这一结果与之前所做的差异基因富集相类似，表明表面基因组在控制GBM细胞活动中起到重要作用。</p>
+<p><img src="/2022/02/07/literature-1/S2.png" alt="FS2"></p>
+<p><img src="/2022/02/07/literature-1/S3.png" alt="FS3"></p>
+<h4 id="整合转录组和蛋白组数据识别GBM细胞表面标志"><a href="#整合转录组和蛋白组数据识别GBM细胞表面标志" class="headerlink" title="整合转录组和蛋白组数据识别GBM细胞表面标志"></a>整合转录组和蛋白组数据识别GBM细胞表面标志</h4><p>目前为止，我们已经</p>
+<p>（i）使用转录组数据在GBM分类了所有DEGs。</p>
+<p>（ii）在GBM中找到了<strong>细胞表面</strong>差异表达基因。</p>
+<p>即使转录组分析基因提供了十分有效的信息用于发现的生物标志物，为了进一步深入探究生物标志物的可靠性，我们决定添加一层新的分析用于筛选具有<strong>更高置信度</strong>的GBM细胞表面标志。所以我们整合了上述的转录组数据和公开数据集中可访问的蛋白组数据。该整合分析可以用于细胞表面基因的预测和消除由于转录/翻译后产生的在mRNA和蛋白表达水平的差异（不一致）。因此，我们下载了大量公开数据集提供的大量的GBM组织和细胞系的质谱分析数据。我们假定GBM组织和细胞系拥有不同细胞表面库，并且我们因此可以对两者进行分层。</p>
+<p>对五个<strong>细胞系</strong>样本的质谱分析显示了EGFR,CD44,PTPRJ,SLC1A5,F2R和TSPAN6蛋白的上调，而该结果与图F.3转录组结果一致。对于组织样本，我们只找到一个可访问的研究（Polisetty等），使用其数据找到了10个交叠基因：MRC2, FCGR3A, HLA-DRA, CD44, CD74, MSR1, CD163, EGFR, ITGB2, PTPRZ1（图F.3）。其中只有PTPRZ1基因表达上调，其余基因都为下调。以上，共有14个转录组，组织和细胞交叠基因。值得注意的是，质谱分析蛋白可能会由于蛋白溶解/隔离或其他内在变化影响质谱分析仪器对蛋白的敏感性和探测的能力。因此这些限制可能会导致预测结果的偏差。</p>
+<p><img src="/2022/02/07/literature-1/12885_2021_8591_Fig3_HTML.jpg" alt="F3"></p>
+<h4 id="表面基因组蛋白-蛋白交联网络分析和高置信度GBM细胞表面组标志物的优先级"><a href="#表面基因组蛋白-蛋白交联网络分析和高置信度GBM细胞表面组标志物的优先级" class="headerlink" title="表面基因组蛋白-蛋白交联网络分析和高置信度GBM细胞表面组标志物的优先级"></a>表面基因组蛋白-蛋白交联网络分析和高置信度GBM细胞表面组标志物的优先级</h4><p>接下来，我们进一步使用蛋白-蛋白交联（PPI）网络分析GBM-富集细胞表面标志物。通过该分析可以帮助我们更好地理解细胞表面基因在DEGs和其他基因中的交互作用。图F.4A展示了包含1321个节点和1767条边界的PPI交联网络，该交联网络基于许多已经被验证的特征包括功能实验，共表达分析，文本挖掘，相邻区域，基因融合和数据库。我们识别出87个簇基因模式并且最相关的簇拥有超过30个交互作用的基因包括VCAM1, EGFR, TGFBR1, CD44, NGFR, ITGB2, DCC, PTPRJ, ANBCA1, HLA-DRA, CCR5 and CSF1R等。我们将之前得到的14个交叠基因与和PPI网络中至少20个交互边界的基因交叠，得到6个具有高置信度GBM表面组标志基因（图F.4B）。（这里需要强调，这里我们的数据整合了迄今为止的大量样本。）单细胞RNA测序已经证实GBM微环境内不同细胞间的共表达和相互作用驱动GBM细胞的致癌性（发生）。该研究还将GBM微环境进一步分层为巨噬细胞，少突细胞，T细胞和恶性细胞。上述得到的6个高置信基因中，只有EGFR与恶性细胞强相关，其他基因则与巨噬细胞具有强相关性。</p>
+<p><img src="/2022/02/07/literature-1/12885_2021_8591_Fig4_HTML.jpg" alt="F4"></p>
+<h4 id="验证高置信度GBM表面组基因和生存表达的相关分析"><a href="#验证高置信度GBM表面组基因和生存表达的相关分析" class="headerlink" title="验证高置信度GBM表面组基因和生存表达的相关分析"></a>验证高置信度GBM表面组基因和生存表达的相关分析</h4><p>利用上述得到的6个差异基因，我们根据单个基因表达进行生存分析，发现6个基因的总体生存期与预后均在统计学上无意义。对数据分析，我们发现该临床数据的生存时间端点<strong>不适合</strong>总体生存期而更适合使用无进展生存期来表征。使用无进展生存期后，我们发现CD44,PTPRJ和HLA-DRA的高低表达具有统计学意义。</p>
+<p>接下来对所有的6个基因进行生存分析，无论时OS还是DFS均无统计学意义。对CD44,PTPRJ和HLA-DRA的生存分析表明，仅在DFS上，CD44,PTPRJ和HLA-DRA的高表达与较差的预后相关。</p>
+<h4 id="CD44的共表达网络"><a href="#CD44的共表达网络" class="headerlink" title="CD44的共表达网络"></a>CD44的共表达网络</h4><p>OMICS研究表明，CD44在许多类型的癌症中都有过表达的现象。基于我们上述的分析，CD44在转录组和蛋白组扮演者重要角色，同时其高表达也表征更差的预后。除此之外，单细胞测序也证实CD44被富集在GBM间叶样细胞中，以及在原位异种移植的免疫缺陷小鼠中可以富集到。因此我们使用转录组数据构建CD44共表达网络进行分析。如图F.5A所示，筛选皮尔森相关系数大于0.75的边界构建CD44共表达分析网络。共有27个基因与CD44关联，具有极高相关性的基因有ELK3, CLIC4, GALNT2, TNC,和VIM。如图F.5B所示，所有的CD44共表达簇在GBM中具有高表达量（相对于正常脑组织）。结果表明CD44可能支持GBM的病理发生。</p>
+<p><img src="/2022/02/07/literature-1/12885_2021_8591_Fig5_HTML.jpg" alt="F5"></p>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>总之，我们使用RNA-seq数据识别了GBM表面组基因。通过一体化multi-OMICS策略，我们得到了6个GBM表面富集基因，并且这些基因在GBM发展中起重要作用。另外的，更深入的研究这些基因可能得到潜在的GBM诊断/预后标志物或GBM的治疗方案。</p>
+<h2 id="Methods"><a href="#Methods" class="headerlink" title="Methods"></a>Methods</h2><h4 id="Data"><a href="#Data" class="headerlink" title="Data"></a>Data</h4><p>本文分析使用了TCGA-GBM和GTEx normal brain <strong>read count</strong> 数据。最终，使用了来自TCGA的166个GBM样本和408个来自GTEx的正常脑组织数据。RNA-seq数据在预处理阶段涉及数据过滤和数据标准化。标准化所有数据集采用log2-counts per million。不可靠以及错误数据采用方差过滤（小于15）和低丰度（小于4）删除。</p>
+<h4 id="差异基因分析"><a href="#差异基因分析" class="headerlink" title="差异基因分析"></a>差异基因分析</h4><p>差异分析采用NetworkAnalyst进行分析。NetworkAnalyst平台基于R包limma寻找差异基因。本文研究设置基因调整p值（adjusted p-value）小于0.05并且log2 fold change |2|。</p>
+<h4 id="功能富集"><a href="#功能富集" class="headerlink" title="功能富集"></a>功能富集</h4><p>在DAVID 进行KEGG和GO的通路富集。</p>
+<h4 id="识别hub基因"><a href="#识别hub基因" class="headerlink" title="识别hub基因"></a>识别hub基因</h4><p>利用IMEx 相互作用组学数据库对DEGs进行PPI分析。</p>
+<h4 id="CD44共表达分析"><a href="#CD44共表达分析" class="headerlink" title="CD44共表达分析"></a>CD44共表达分析</h4><p>将原始的read counts文件存储为“.expression”文件在Graphia Prefessional平台进行共表达分析。在Graphia Prefessional处理之后，构建成对的皮尔森相关矩阵，进行每个基因表达谱基因与基因间的比较。将皮尔森相关系数大于0.7（r&gt;0.7）存储为”.pearson”文件，根据用户定义的r&gt;0.75，构建图形网络。</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/literature/" rel="tag"># literature</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/01/28/pandas-command/" rel="prev" title="python笔记">
+      <i class="fa fa-chevron-left"></i> python笔记
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Abstract"><span class="nav-number">1.</span> <span class="nav-text">Abstract</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Background"><span class="nav-number">2.</span> <span class="nav-text">Background</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Result"><span class="nav-number">3.</span> <span class="nav-text">Result</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#TCGA%E5%92%8CGTEx%E6%82%A3%E8%80%85%E7%9A%84%E7%89%B9%E5%BE%81"><span class="nav-number">3.0.1.</span> <span class="nav-text">TCGA和GTEx患者的特征</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%86%E5%88%ABGBM%E7%9A%84%E5%B7%AE%E5%BC%82%E8%A1%A8%E8%BE%BE%E5%9F%BA%E5%9B%A0"><span class="nav-number">3.0.2.</span> <span class="nav-text">识别GBM的差异表达基因</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AF%B9DEGs%E7%9A%84%E5%8A%9F%E8%83%BD%E5%AF%8C%E9%9B%86%E5%92%8C%E5%88%86%E7%B1%BB"><span class="nav-number">3.0.3.</span> <span class="nav-text">对DEGs的功能富集和分类</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%86%E5%88%ABGBM%E7%BB%86%E8%83%9E%E8%A1%A8%E9%9D%A2%E6%8A%97%E5%8E%9F%E7%9A%84%E5%80%99%E9%80%89%E5%88%86%E5%AD%90"><span class="nav-number">3.0.4.</span> <span class="nav-text">识别GBM细胞表面抗原的候选分子</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%95%B4%E5%90%88%E8%BD%AC%E5%BD%95%E7%BB%84%E5%92%8C%E8%9B%8B%E7%99%BD%E7%BB%84%E6%95%B0%E6%8D%AE%E8%AF%86%E5%88%ABGBM%E7%BB%86%E8%83%9E%E8%A1%A8%E9%9D%A2%E6%A0%87%E5%BF%97"><span class="nav-number">3.0.5.</span> <span class="nav-text">整合转录组和蛋白组数据识别GBM细胞表面标志</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%A1%A8%E9%9D%A2%E5%9F%BA%E5%9B%A0%E7%BB%84%E8%9B%8B%E7%99%BD-%E8%9B%8B%E7%99%BD%E4%BA%A4%E8%81%94%E7%BD%91%E7%BB%9C%E5%88%86%E6%9E%90%E5%92%8C%E9%AB%98%E7%BD%AE%E4%BF%A1%E5%BA%A6GBM%E7%BB%86%E8%83%9E%E8%A1%A8%E9%9D%A2%E7%BB%84%E6%A0%87%E5%BF%97%E7%89%A9%E7%9A%84%E4%BC%98%E5%85%88%E7%BA%A7"><span class="nav-number">3.0.6.</span> <span class="nav-text">表面基因组蛋白-蛋白交联网络分析和高置信度GBM细胞表面组标志物的优先级</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%AA%8C%E8%AF%81%E9%AB%98%E7%BD%AE%E4%BF%A1%E5%BA%A6GBM%E8%A1%A8%E9%9D%A2%E7%BB%84%E5%9F%BA%E5%9B%A0%E5%92%8C%E7%94%9F%E5%AD%98%E8%A1%A8%E8%BE%BE%E7%9A%84%E7%9B%B8%E5%85%B3%E5%88%86%E6%9E%90"><span class="nav-number">3.0.7.</span> <span class="nav-text">验证高置信度GBM表面组基因和生存表达的相关分析</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#CD44%E7%9A%84%E5%85%B1%E8%A1%A8%E8%BE%BE%E7%BD%91%E7%BB%9C"><span class="nav-number">3.0.8.</span> <span class="nav-text">CD44的共表达网络</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Conclusion"><span class="nav-number">4.</span> <span class="nav-text">Conclusion</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Methods"><span class="nav-number">5.</span> <span class="nav-text">Methods</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Data"><span class="nav-number">5.0.1.</span> <span class="nav-text">Data</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%B7%AE%E5%BC%82%E5%9F%BA%E5%9B%A0%E5%88%86%E6%9E%90"><span class="nav-number">5.0.2.</span> <span class="nav-text">差异基因分析</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8A%9F%E8%83%BD%E5%AF%8C%E9%9B%86"><span class="nav-number">5.0.3.</span> <span class="nav-text">功能富集</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%86%E5%88%ABhub%E5%9F%BA%E5%9B%A0"><span class="nav-number">5.0.4.</span> <span class="nav-text">识别hub基因</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#CD44%E5%85%B1%E8%A1%A8%E8%BE%BE%E5%88%86%E6%9E%90"><span class="nav-number">5.0.5.</span> <span class="nav-text">CD44共表达分析</span></a></li></ol></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Clearc352"
+      src="/images/avatar1.jpg">
+  <p class="site-author-name" itemprop="name">Clearc352</p>
+  <div class="site-description" itemprop="description">Love that will never die</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/yourname" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;yourname" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:yourname@gmail.com" title="E-Mail → mailto:yourname@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Clearc352</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a>
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script size="300" alpha="0.6" zIndex="-1" src="/lib/canvas-ribbon/canvas-ribbon.js"></script>
+  <script src="/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+<script src="/js/bookmark.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
