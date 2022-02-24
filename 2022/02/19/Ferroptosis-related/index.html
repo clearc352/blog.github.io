@@ -39,7 +39,7 @@
 <meta property="og:image" content="http://example.com/2022/02/19/Ferroptosis-related/CNS-27-973-g005.jpg">
 <meta property="og:image" content="http://example.com/2022/02/19/Ferroptosis-related/CNS-27-973-s007.jpg">
 <meta property="article:published_time" content="2022-02-19T02:07:59.000Z">
-<meta property="article:modified_time" content="2022-02-20T05:26:57.928Z">
+<meta property="article:modified_time" content="2022-02-24T03:13:58.000Z">
 <meta property="article:author" content="Clearc352">
 <meta property="article:tag" content="literature">
 <meta name="twitter:card" content="summary">
@@ -211,7 +211,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2022-02-20 13:26:57" itemprop="dateModified" datetime="2022-02-20T13:26:57+08:00">2022-02-20</time>
+                <time title="Modified: 2022-02-24 11:13:58" itemprop="dateModified" datetime="2022-02-24T11:13:58+08:00">2022-02-24</time>
               </span>
 
           
@@ -235,10 +235,10 @@
 <h2 id="Result"><a href="#Result" class="headerlink" title="Result"></a>Result</h2><p>图一总结了数据分析的管道流程图。数据集和分析方法见Method。</p>
 <p><img src="/2022/02/19/Ferroptosis-related/CNS-27-973-g001.jpg" alt="图1"></p>
 <h4 id="一-REMBERANDT-和TCGA队列中FRGs的分布情况。"><a href="#一-REMBERANDT-和TCGA队列中FRGs的分布情况。" class="headerlink" title="一.REMBERANDT 和TCGA队列中FRGs的分布情况。"></a>一.REMBERANDT 和TCGA队列中FRGs的分布情况。</h4><p>我们从REMBERANDT 队列和TCGA队列（验证集）中分别描述FRGs分布情况。</p>
-<p>一方面，在REMBERANDT队列中，除了ALOX12,ALOX15外，FRGs在GBM,LGG和NON-GROUP中具有显著的表达差异（图2A）。同时，PCA分析显示，基于FRGs的差异表达可以很好地区分以上三个组（图2B）。另一方面，利用TCGA队列也可以很好地验证FGRs的区分效果。我们发现，在大约45.15的脑胶质瘤患者中展示FRGs的top20突变，TP53突变具有最高的比例（42%），而其他的19个突变比率在0~2%之间。同时，CNV（拷贝数变异）分析显示，HSPB1拥有最显著的拷贝数扩增，9个FGRs：AKR1C2, AKR1C1, AKR1C3, ZEB1, ALOX5, CISD1, NCOA4, AIFM2, and GOT1拥有最广泛的拷贝数缺失（图2D）。59个FGRs在CNV的位置和突变频率如图2E所示。这些结果表明，FGRs可以区分不同级别的脑胶质瘤。</p>
+<p>一方面，在REMBERANDT队列中，除了ALOX12,ALOX15外，FRGs在GBM,LGG和NON-GROUP中具有显著的表达差异（图2A）。同时，PCA分析显示，基于FRGs的差异表达可以很好地区分以上三个组（图2B）。另一方面，利用TCGA队列也可以很好地验证FGRs的区分效果。我们发现，在大约45.15的脑胶质瘤患者中展示FRGs的top20突变，TP53突变具有最高的比例（42%），而其他的19个突变比率在0~2%之间。同时，CNV（拷贝数变异）分析显示，HSPB1拥有最显著的拷贝数扩增，9个FGRs：AKR1C2, AKR1C1, AKR1C3, ZEB1, ALOX5, CISD1, NCOA4, AIFM2, and GOT1拥有最广泛的拷贝数缺失（图2D）。59个FGRs在CNV的位置和突变频率如图2E所示。这些结果表明，FGRs在不同级别的脑胶质瘤中发生了显著的差异表达和突变。</p>
 <p><img src="/2022/02/19/Ferroptosis-related/CNS-27-973-g006.jpg" alt="图2"></p>
 <h4 id="二-在REMBERANDT队列中构建FGRs相关的风险分数"><a href="#二-在REMBERANDT队列中构建FGRs相关的风险分数" class="headerlink" title="二.在REMBERANDT队列中构建FGRs相关的风险分数"></a>二.在REMBERANDT队列中构建FGRs相关的风险分数</h4><p>下一步，我们探索FGRs是否与脑胶质瘤患者的预后相关。如图3A所示，我们将FGRs分为五个类别，包括:铁离子代谢，油脂代谢，氧化剂代谢，能量代谢和其他类。值得注意的是，除了GCLC外，大多数关联氧化剂代谢的基因都是患者生存期的风险因子。此外，我们基于FGRs进行了无监督聚类。我们尝试构建聚类分析范围从2~5，发现聚类数为2可以很好地区分脑胶质瘤患者（图S2）。其中，簇1较簇2而言，展示了更好的预后（图3B）。</p>
-<p>为了更好地将FRGs运用于个体化的评估，我们使用风险分数构建了<strong>RSF</strong>模型。如图3D所示，簇1的风险分数小于簇2。使用COX回归分析表明，风险分数是一个和胶质瘤分级相似的独立的预测因子（图S3A）。如图3E所示，低风险分数的组中位生存期位41.9月，是一个很好的临床结果。此外，在不同等级的脑胶质瘤患者中，高风险分数的组显示更差的OS，分别在Ⅱ，Ⅲ，Ⅳ级胶质瘤中为75.3，15.3，12.5个月（图3F）。模型的ROC曲线展示了很好的预测效果，其1，2，5年的AUC曲线值分别为0.74，0.86和0.89（图3G）。</p>
+<p>为了更好地将FRGs运用于个体化的评估，我们使用风险分数构建了<strong>RSF</strong>模型。如图3D所示，簇1的风险分数小于簇2。使用COX回归分析表明，风险分数是一个和胶质瘤分级相似的独立的预测因子（图S3A）。如图3E所示，低风险分数的组中位生存期位41.9月，是一个很好的临床结果。根据风险分数的中位数，分为高低组。此外，在不同等级的脑胶质瘤患者中，高风险分数的组显示更差的OS，分别在Ⅱ，Ⅲ，Ⅳ级胶质瘤中为75.3，15.3，12.5个月（图3F）。模型的ROC曲线展示了很好的预测效果，其1，2，5年的AUC曲线值分别为0.74，0.86和0.89（图3G）。</p>
 <p><img src="/2022/02/19/Ferroptosis-related/CNS-27-973-s014.png" alt="图S2"></p>
 <p><img src="/2022/02/19/Ferroptosis-related/CNS-27-973-g007.jpg" alt="图3"></p>
 <h4 id="三-在CGGA和TCGA队列中验证FGRs相关风险分数"><a href="#三-在CGGA和TCGA队列中验证FGRs相关风险分数" class="headerlink" title="三.在CGGA和TCGA队列中验证FGRs相关风险分数"></a>三.在CGGA和TCGA队列中验证FGRs相关风险分数</h4><p>我们接下来在CGGA和TCGA队列中验证风险分数的预测效果。与REMBERANDT结果一致，风险分数在CGGA和TCGA队列中是独立的预后因子。除此之外，高风险分数的患者在两个队列中显示了差的中位生存期（图4A,G）。在不同等级的胶质瘤中，高风险组表现更短的OS（图4B,H）（除了CGGA-352 的Ⅱ和Ⅳ以及TCGA的Ⅳ级，具有较不显著的P值）。</p>
@@ -248,7 +248,7 @@
 <p><img src="/2022/02/19/Ferroptosis-related/CNS-27-973-s006.png" alt="图S5"></p>
 <p><img src="/2022/02/19/Ferroptosis-related/CNS-27-973-s016.jpg" alt="图S6"></p>
 <h4 id="四-利用REMBERANDT队列的风险分数评估脑胶质瘤的免疫治疗"><a href="#四-利用REMBERANDT队列的风险分数评估脑胶质瘤的免疫治疗" class="headerlink" title="四.利用REMBERANDT队列的风险分数评估脑胶质瘤的免疫治疗"></a>四.利用REMBERANDT队列的风险分数评估脑胶质瘤的免疫治疗</h4><p>先前已有报导表明铁死亡进程涉及肿瘤的免疫治疗，所以我们接下来想要探索是否可以通过生物信息学来研究铁死亡和脑胶质瘤免疫的关联。在高风险分数组中的免疫分析中，发现了大量先天免疫浸润细胞包括：天然杀手细胞，巨噬细胞，肥大细胞，MDSC，浆样树突细胞（图5A）。我们使用ssGSEA算法将免疫分数定义为23种类型免疫细胞，斯皮尔曼相关分析表明定义的类别与高分数风险组具有很强的相关性（图5B）。</p>
-<p>癌症的免疫循环是一个关键的评价趋化因子系统和免疫调节器生物学功能指标。在高风险组中，免疫循环被激活上调的步骤有：释放癌细胞抗原（step1），癌症抗原的呈递（step2），免疫细胞的招募（step4）（CD4 T，TH1，Th22，巨噬细胞，单核细胞，嗜中性粒细胞，嗜碱细胞，NK和B细胞的招募）和T细胞识别癌细胞（step6）（图5C）。令我们震惊的一个结果是，杀死癌细胞（step7）在高风险组中弱于低风险组，这可能是由于PD-L1的高表达导致的（图5D）。除此之外，我们分析了高风险组与ICB相关通路的关系。我们发现，除系统性红斑狼疮外，高风险组患者与ICB相关的阳性特征具有强的正相关性（图5E）。总之，这些数据表明，与FGRs相关的风险分数可以很好的预测脑胶质瘤中的免疫治疗。</p>
+<p>癌症的免疫循环是一个关键的评价趋化因子系统和免疫调节器生物学功能指标。在高风险组中，免疫循环被激活上调的步骤有：释放癌细胞抗原（step1），癌症抗原的呈递（step2），免疫细胞的招募（step4）（CD4 T，TH1，Th22，巨噬细胞，单核细胞，嗜中性粒细胞，嗜碱细胞，NK和B细胞的招募）和T细胞识别癌细胞（step6）（图5C）。令我们震惊的一个结果是，杀死癌细胞（step7）在高风险组中弱于低风险组，这可能是由于PD-L1的高表达导致的（图5D）。除此之外，我们分析了高风险组与ICB（免疫检查点阻断）相关通路的关系。我们发现，除系统性红斑狼疮外，高风险组患者与ICB相关的阳性特征具有强的正相关性（图5E）。总之，这些数据表明，与FGRs相关的风险分数可以很好的预测脑胶质瘤中的免疫治疗。</p>
 <p><img src="/2022/02/19/Ferroptosis-related/CNS-27-973-g003.jpg" alt="图5"></p>
 <h4 id="五-在TCGA和CGGA队列中通过风险分数验证脑胶质瘤的免疫治疗"><a href="#五-在TCGA和CGGA队列中通过风险分数验证脑胶质瘤的免疫治疗" class="headerlink" title="五.在TCGA和CGGA队列中通过风险分数验证脑胶质瘤的免疫治疗"></a>五.在TCGA和CGGA队列中通过风险分数验证脑胶质瘤的免疫治疗</h4><p>接下来，我们通过TCGA和CGGA队列验证脑胶质瘤中的免疫治疗。我们证实，免疫分数和风险分数具有很强的正相关性（图6A,D,G）。在免疫循环方面，在高风险组中，我们证实了释放癌细胞抗原（step1）和免疫细胞的招募（step4）（CD4 T，TH1，Th22，巨噬细胞，单核细胞，嗜中性粒细胞，嗜碱细胞，NK和B细胞的招募）（图6B,H,E）。除此之外，在TCGA和CGGA队列中，高风险组患者表现出高表达PD-L1（图6C,F,I）。有趣的是，在高风险组中，我们也找到了与脑胶质瘤预后相关的免疫学指标（PD-1,CTLA4,IDO-1）（图6C,F,I）。与训练集一致，验证集中的高风险分数组与ICB相关特征呈正相关。除此之外，我们还在TCGA队列中分析了与ICB治疗相关的肿瘤突变负荷（TMB），免疫原性突变，DNA甲基化干性指数（mDNAsi）和RNA甲基化干性指数（mRNAsi）其中。除mRNAsi在低风险分数组表达高外，其他都在高风险分数组表达更高（图S8A-D）。总之，这些结果再次证实了风险分数在胶质瘤免疫治疗方面的关键作用。</p>
 <p><img src="/2022/02/19/Ferroptosis-related/CNS-27-973-g005.jpg" alt="图6"></p>
