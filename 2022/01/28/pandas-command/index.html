@@ -21,12 +21,12 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"flat"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="这篇保存一些pandas常用的命令，字符串获取的方法，以及字典列表的一些实用方法 Pandas1.pandas读取123456789101112131415161718192021222324import pandas as pdfrom io import StringIO ##读取csvpd.read_csv(&amp;#x27;data&#x2F;data.csv&amp;#x27;)##传入字符串data &#x3D; (&amp;">
+  <meta name="description" content="这篇保存一些pandas常用的命令，字符串获取的方法，以及字典列表的一些实用方法 Pandas 1.pandas读取 123456789101112131415161718192021222324import pandas as pdfrom io import StringIO ##读取csvpd.read_csv(&amp;#x27;data&#x2F;data.csv&amp;#x27;)##传入字符串data">
 <meta property="og:type" content="article">
 <meta property="og:title" content="python笔记">
 <meta property="og:url" content="http://example.com/2022/01/28/pandas-command/index.html">
 <meta property="og:site_name" content="CleaC Blog">
-<meta property="og:description" content="这篇保存一些pandas常用的命令，字符串获取的方法，以及字典列表的一些实用方法 Pandas1.pandas读取123456789101112131415161718192021222324import pandas as pdfrom io import StringIO ##读取csvpd.read_csv(&amp;#x27;data&#x2F;data.csv&amp;#x27;)##传入字符串data &#x3D; (&amp;">
+<meta property="og:description" content="这篇保存一些pandas常用的命令，字符串获取的方法，以及字典列表的一些实用方法 Pandas 1.pandas读取 123456789101112131415161718192021222324import pandas as pdfrom io import StringIO ##读取csvpd.read_csv(&amp;#x27;data&#x2F;data.csv&amp;#x27;)##传入字符串data">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2022-01-28T00:02:28.000Z">
 <meta property="article:modified_time" content="2022-01-28T12:10:35.566Z">
@@ -209,129 +209,130 @@
 
       
         <p>这篇保存一些pandas常用的命令，字符串获取的方法，以及字典列表的一些实用方法</p>
-<h2 id="Pandas"><a href="#Pandas" class="headerlink" title="Pandas"></a>Pandas</h2><h4 id="1-pandas读取"><a href="#1-pandas读取" class="headerlink" title="1.pandas读取"></a>1.pandas读取</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"><span class="keyword">from</span> io <span class="keyword">import</span> StringIO </span><br><span class="line"><span class="comment">##读取csv</span></span><br><span class="line">pd.read_csv(<span class="string">&#x27;data/data.csv&#x27;</span>)</span><br><span class="line"><span class="comment">##传入字符串</span></span><br><span class="line">data = (<span class="string">&#x27;col1,col2,col3\n&#x27;</span>  </span><br><span class="line">        <span class="string">&#x27;a,b,1\n&#x27;</span>  </span><br><span class="line">        <span class="string">&#x27;a,b,2\n&#x27;</span>  </span><br><span class="line">        <span class="string">&#x27;c,d,3&#x27;</span>)  </span><br><span class="line">pd.read_csv(StringIO(data))  </span><br><span class="line"><span class="comment">##分隔符，表头以及列名</span></span><br><span class="line">sep=<span class="string">&#x27;\t&#x27;</span>，header=<span class="number">0</span>/<span class="literal">None</span> <span class="comment">##0为第一行，None为无</span></span><br><span class="line">pd.read_csv(data,names=[<span class="string">&#x27;列1&#x27;</span>,<span class="string">&#x27;列2&#x27;</span>],header=<span class="number">0</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">##指定索引列</span></span><br><span class="line">pd.read_csv(data, index_col=<span class="literal">False</span>) <span class="comment"># 不再使用首列作为索引  </span></span><br><span class="line">pd.read_csv(data, index_col=<span class="number">0</span>) <span class="comment"># 第几列是索引  </span></span><br><span class="line">pd.read_csv(data, index_col=<span class="string">&#x27;年份&#x27;</span>) <span class="comment"># 指定列名  </span></span><br><span class="line">pd.read_csv(data, index_col=[<span class="string">&#x27;a&#x27;</span>,<span class="string">&#x27;b&#x27;</span>]) <span class="comment"># 多个索引  </span></span><br><span class="line"></span><br><span class="line"><span class="comment">##dtype可以指定各数据列的数据类型</span></span><br><span class="line">pd.read_csv(data, dtype=np.float64) <span class="comment"># 所有数据均为此数据类型  </span></span><br><span class="line">pd.read_csv(data, dtype=&#123;<span class="string">&#x27;c1&#x27;</span>:np.float64, <span class="string">&#x27;c2&#x27;</span>: <span class="built_in">str</span>&#125;) <span class="comment"># 指定字段的类型  </span></span><br><span class="line">pd.read_csv(data, dtype=[datetime, datetime, <span class="built_in">str</span>, <span class="built_in">float</span>]) <span class="comment"># 依次指定 </span></span><br></pre></td></tr></table></figure>
-
+<h2 id="pandas">Pandas</h2>
+<h4 id="pandas读取">1.pandas读取</h4>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"><span class="keyword">from</span> io <span class="keyword">import</span> StringIO </span><br><span class="line"><span class="comment">##读取csv</span></span><br><span class="line">pd.read_csv(<span class="string">&#x27;data/data.csv&#x27;</span>)</span><br><span class="line"><span class="comment">##传入字符串</span></span><br><span class="line">data = (<span class="string">&#x27;col1,col2,col3\n&#x27;</span>  </span><br><span class="line">        <span class="string">&#x27;a,b,1\n&#x27;</span>  </span><br><span class="line">        <span class="string">&#x27;a,b,2\n&#x27;</span>  </span><br><span class="line">        <span class="string">&#x27;c,d,3&#x27;</span>)  </span><br><span class="line">pd.read_csv(StringIO(data))  </span><br><span class="line"><span class="comment">##分隔符，表头以及列名</span></span><br><span class="line">sep=<span class="string">&#x27;\t&#x27;</span>，header=<span class="number">0</span>/<span class="literal">None</span> <span class="comment">##0为第一行，None为无</span></span><br><span class="line">pd.read_csv(data,names=[<span class="string">&#x27;列1&#x27;</span>,<span class="string">&#x27;列2&#x27;</span>],header=<span class="number">0</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">##指定索引列</span></span><br><span class="line">pd.read_csv(data, index_col=<span class="literal">False</span>) <span class="comment"># 不再使用首列作为索引  </span></span><br><span class="line">pd.read_csv(data, index_col=<span class="number">0</span>) <span class="comment"># 第几列是索引  </span></span><br><span class="line">pd.read_csv(data, index_col=<span class="string">&#x27;年份&#x27;</span>) <span class="comment"># 指定列名  </span></span><br><span class="line">pd.read_csv(data, index_col=[<span class="string">&#x27;a&#x27;</span>,<span class="string">&#x27;b&#x27;</span>]) <span class="comment"># 多个索引  </span></span><br><span class="line"></span><br><span class="line"><span class="comment">##dtype可以指定各数据列的数据类型</span></span><br><span class="line">pd.read_csv(data, dtype=np.float64) <span class="comment"># 所有数据均为此数据类型  </span></span><br><span class="line">pd.read_csv(data, dtype=&#123;<span class="string">&#x27;c1&#x27;</span>:np.float64, <span class="string">&#x27;c2&#x27;</span>: <span class="built_in">str</span>&#125;) <span class="comment"># 指定字段的类型  </span></span><br><span class="line">pd.read_csv(data, dtype=[datetime, datetime, <span class="built_in">str</span>, <span class="built_in">float</span>]) <span class="comment"># 依次指定 </span></span><br></pre></td></tr></table></figure>
 <span id="more"></span>
-
-<h4 id="2-pandas创建"><a href="#2-pandas创建" class="headerlink" title="2.pandas创建"></a>2.pandas创建</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">##字典嵌套列表创建</span></span><br><span class="line">data = &#123;<span class="string">&#x27;Name&#x27;</span>:[<span class="string">&#x27;Tom&#x27;</span>, <span class="string">&#x27;Jack&#x27;</span>, <span class="string">&#x27;Steve&#x27;</span>, <span class="string">&#x27;Ricky&#x27;</span>],<span class="string">&#x27;Age&#x27;</span>:[<span class="number">28</span>,<span class="number">34</span>,<span class="number">29</span>,<span class="number">42</span>]&#125;</span><br><span class="line">df = pd.DataFrame(data, index=[<span class="string">&#x27;rank1&#x27;</span>,<span class="string">&#x27;rank2&#x27;</span>,<span class="string">&#x27;rank3&#x27;</span>,<span class="string">&#x27;rank4&#x27;</span>]) <span class="comment">##index为行标签</span></span><br><span class="line"></span><br><span class="line"><span class="comment">##列表嵌套字典创建DataFrame对象</span></span><br><span class="line">data = [&#123;<span class="string">&#x27;a&#x27;</span>: <span class="number">1</span>, <span class="string">&#x27;b&#x27;</span>: <span class="number">2</span>&#125;,&#123;<span class="string">&#x27;a&#x27;</span>: <span class="number">5</span>, <span class="string">&#x27;b&#x27;</span>: <span class="number">10</span>, <span class="string">&#x27;c&#x27;</span>: <span class="number">20</span>&#125;]</span><br><span class="line">df = pd.DataFrame(data)</span><br><span class="line"></span><br><span class="line"><span class="comment">## Series创建DataFrame对象</span></span><br><span class="line"><span class="comment">####Series是一种类似于一维数组的对象，它由一组数据（各种NumPy数据类型）以及一组与之相关的数据标签（即索引）组成。</span></span><br><span class="line">d = &#123;<span class="string">&#x27;one&#x27;</span> : pd.Series([<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>], index=[<span class="string">&#x27;a&#x27;</span>, <span class="string">&#x27;b&#x27;</span>, <span class="string">&#x27;c&#x27;</span>]),</span><br><span class="line">   <span class="string">&#x27;two&#x27;</span> : pd.Series([<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>], index=[<span class="string">&#x27;a&#x27;</span>, <span class="string">&#x27;b&#x27;</span>, <span class="string">&#x27;c&#x27;</span>, <span class="string">&#x27;d&#x27;</span>])&#125;</span><br><span class="line">df = pd.DataFrame(d)</span><br></pre></td></tr></table></figure>
-
-<h4 id="3-pandas列索引操作"><a href="#3-pandas列索引操作" class="headerlink" title="3.pandas列索引操作"></a>3.pandas列索引操作</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">##列索引</span></span><br><span class="line">df[<span class="string">&#x27;列名&#x27;</span>]</span><br><span class="line"><span class="comment">#将已经存在的数据列做相加运算</span></span><br><span class="line">df[<span class="string">&#x27;four&#x27;</span>]=df[<span class="string">&#x27;one&#x27;</span>]+df[<span class="string">&#x27;three&#x27;</span>]</span><br><span class="line"><span class="comment">##insert 方法</span></span><br><span class="line"><span class="comment">#注意是column参数</span></span><br><span class="line"><span class="comment">#数值1代表插入到columns列表的索引位置</span></span><br><span class="line">df.insert(<span class="number">1</span>,column=<span class="string">&#x27;score&#x27;</span>,value=[<span class="number">91</span>,<span class="number">90</span>,<span class="number">75</span>])</span><br><span class="line"><span class="comment">##列索引删除列</span></span><br><span class="line"><span class="comment">#使用del删除</span></span><br><span class="line"><span class="keyword">del</span> df[<span class="string">&#x27;one&#x27;</span>]</span><br><span class="line"><span class="built_in">print</span>(df)</span><br><span class="line"><span class="comment">#使用pop方法删除</span></span><br><span class="line">df.pop(<span class="string">&#x27;two&#x27;</span>)</span><br></pre></td></tr></table></figure>
-
-<h4 id="4-pandas行索引操作"><a href="#4-pandas行索引操作" class="headerlink" title="4.pandas行索引操作"></a>4.pandas行索引操作</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">##可以将行标签传递给 loc 函数，来选取数据</span></span><br><span class="line">df.loc[<span class="string">&#x27;b&#x27;</span>]</span><br><span class="line"><span class="comment">#############loc 允许接两个参数分别是行和列，参数之间需要使用“逗号”隔开，但该函数只能接收标签索引</span></span><br><span class="line"><span class="comment">##整数索引选取</span></span><br><span class="line">df.iloc[<span class="number">2</span>]</span><br><span class="line"><span class="comment">#############iloc 允许接受两个参数分别是行和列，参数之间使用“逗号”隔开，但该函数只能接收整数索引</span></span><br><span class="line"><span class="comment">##添加数据行</span></span><br><span class="line"><span class="comment">##使用append() 函数，可以将新的数据行添加到 DataFrame 中，该函数会在行末追加数据行</span></span><br><span class="line">df = df.append(df2)</span><br><span class="line"><span class="comment">##删除数据行</span></span><br><span class="line"><span class="comment">##使用行索引标签，从 DataFrame 中删除某一行数据。如果索引标签存在重复，那么它们将被一起删除</span></span><br><span class="line">df = df.drop(<span class="number">0</span>)</span><br></pre></td></tr></table></figure>
-
+<h4 id="pandas创建">2.pandas创建</h4>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">##字典嵌套列表创建</span></span><br><span class="line">data = &#123;<span class="string">&#x27;Name&#x27;</span>:[<span class="string">&#x27;Tom&#x27;</span>, <span class="string">&#x27;Jack&#x27;</span>, <span class="string">&#x27;Steve&#x27;</span>, <span class="string">&#x27;Ricky&#x27;</span>],<span class="string">&#x27;Age&#x27;</span>:[<span class="number">28</span>,<span class="number">34</span>,<span class="number">29</span>,<span class="number">42</span>]&#125;</span><br><span class="line">df = pd.DataFrame(data, index=[<span class="string">&#x27;rank1&#x27;</span>,<span class="string">&#x27;rank2&#x27;</span>,<span class="string">&#x27;rank3&#x27;</span>,<span class="string">&#x27;rank4&#x27;</span>]) <span class="comment">##index为行标签</span></span><br><span class="line"></span><br><span class="line"><span class="comment">##列表嵌套字典创建DataFrame对象</span></span><br><span class="line">data = [&#123;<span class="string">&#x27;a&#x27;</span>: <span class="number">1</span>, <span class="string">&#x27;b&#x27;</span>: <span class="number">2</span>&#125;,&#123;<span class="string">&#x27;a&#x27;</span>: <span class="number">5</span>, <span class="string">&#x27;b&#x27;</span>: <span class="number">10</span>, <span class="string">&#x27;c&#x27;</span>: <span class="number">20</span>&#125;]</span><br><span class="line">df = pd.DataFrame(data)</span><br><span class="line"></span><br><span class="line"><span class="comment">## Series创建DataFrame对象</span></span><br><span class="line"><span class="comment">####Series是一种类似于一维数组的对象，它由一组数据（各种NumPy数据类型）以及一组与之相关的数据标签（即索引）组成。</span></span><br><span class="line">d = &#123;<span class="string">&#x27;one&#x27;</span> : pd.Series([<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>], index=[<span class="string">&#x27;a&#x27;</span>, <span class="string">&#x27;b&#x27;</span>, <span class="string">&#x27;c&#x27;</span>]),</span><br><span class="line">   <span class="string">&#x27;two&#x27;</span> : pd.Series([<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>], index=[<span class="string">&#x27;a&#x27;</span>, <span class="string">&#x27;b&#x27;</span>, <span class="string">&#x27;c&#x27;</span>, <span class="string">&#x27;d&#x27;</span>])&#125;</span><br><span class="line">df = pd.DataFrame(d)</span><br></pre></td></tr></table></figure>
+<h4 id="pandas列索引操作">3.pandas列索引操作</h4>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">##列索引</span></span><br><span class="line">df[<span class="string">&#x27;列名&#x27;</span>]</span><br><span class="line"><span class="comment">#将已经存在的数据列做相加运算</span></span><br><span class="line">df[<span class="string">&#x27;four&#x27;</span>]=df[<span class="string">&#x27;one&#x27;</span>]+df[<span class="string">&#x27;three&#x27;</span>]</span><br><span class="line"><span class="comment">##insert 方法</span></span><br><span class="line"><span class="comment">#注意是column参数</span></span><br><span class="line"><span class="comment">#数值1代表插入到columns列表的索引位置</span></span><br><span class="line">df.insert(<span class="number">1</span>,column=<span class="string">&#x27;score&#x27;</span>,value=[<span class="number">91</span>,<span class="number">90</span>,<span class="number">75</span>])</span><br><span class="line"><span class="comment">##列索引删除列</span></span><br><span class="line"><span class="comment">#使用del删除</span></span><br><span class="line"><span class="keyword">del</span> df[<span class="string">&#x27;one&#x27;</span>]</span><br><span class="line"><span class="built_in">print</span>(df)</span><br><span class="line"><span class="comment">#使用pop方法删除</span></span><br><span class="line">df.pop(<span class="string">&#x27;two&#x27;</span>)</span><br></pre></td></tr></table></figure>
+<h4 id="pandas行索引操作">4.pandas行索引操作</h4>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">##可以将行标签传递给 loc 函数，来选取数据</span></span><br><span class="line">df.loc[<span class="string">&#x27;b&#x27;</span>]</span><br><span class="line"><span class="comment">#############loc 允许接两个参数分别是行和列，参数之间需要使用“逗号”隔开，但该函数只能接收标签索引</span></span><br><span class="line"><span class="comment">##整数索引选取</span></span><br><span class="line">df.iloc[<span class="number">2</span>]</span><br><span class="line"><span class="comment">#############iloc 允许接受两个参数分别是行和列，参数之间使用“逗号”隔开，但该函数只能接收整数索引</span></span><br><span class="line"><span class="comment">##添加数据行</span></span><br><span class="line"><span class="comment">##使用append() 函数，可以将新的数据行添加到 DataFrame 中，该函数会在行末追加数据行</span></span><br><span class="line">df = df.append(df2)</span><br><span class="line"><span class="comment">##删除数据行</span></span><br><span class="line"><span class="comment">##使用行索引标签，从 DataFrame 中删除某一行数据。如果索引标签存在重复，那么它们将被一起删除</span></span><br><span class="line">df = df.drop(<span class="number">0</span>)</span><br></pre></td></tr></table></figure>
 <table>
 <thead>
-<tr>
+<tr class="header">
 <th><strong>名称</strong></th>
 <th>属性&amp;方法描述</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr class="odd">
 <td>T</td>
 <td>行和列转置。</td>
 </tr>
-<tr>
+<tr class="even">
 <td>axes</td>
 <td>返回一个仅以行轴标签和列轴标签为成员的列表。</td>
 </tr>
-<tr>
+<tr class="odd">
 <td>dtypes</td>
 <td>返回每列数据的数据类型。</td>
 </tr>
-<tr>
+<tr class="even">
 <td>empty</td>
 <td>DataFrame中没有数据或者任意坐标轴的长度为0，则返回True。</td>
 </tr>
-<tr>
+<tr class="odd">
 <td>ndim</td>
 <td>轴的数量，也指数组的维数。</td>
 </tr>
-<tr>
+<tr class="even">
 <td>shape</td>
 <td>返回一个元组，表示了 DataFrame 维度。</td>
 </tr>
-<tr>
+<tr class="odd">
 <td>size</td>
 <td>DataFrame中的元素数量。</td>
 </tr>
-<tr>
+<tr class="even">
 <td>values</td>
 <td>使用 numpy 数组表示 DataFrame 中的元素值。</td>
 </tr>
-<tr>
+<tr class="odd">
 <td>head()</td>
 <td>返回前 n 行数据。</td>
 </tr>
-<tr>
+<tr class="even">
 <td>tail()</td>
 <td>返回后 n 行数据。</td>
 </tr>
-<tr>
+<tr class="odd">
 <td>shift()</td>
 <td>将行或列移动指定的步幅长度</td>
 </tr>
-</tbody></table>
-<h2 id="String"><a href="#String" class="headerlink" title="String"></a>String</h2><h4 id="1-通用类"><a href="#1-通用类" class="headerlink" title="1.通用类"></a>1.通用类</h4><ul>
-<li>replace(old, new [, max])，把 将字符串中的 old 替换成 new, max 为可选参数，若指定 max ，则替换 max 次</li>
+</tbody>
+</table>
+<h2 id="string">String</h2>
+<h4 id="通用类">1.通用类</h4>
+<ul>
+<li>replace(old, new [, max])，把 将字符串中的 old 替换成 new, max
+为可选参数，若指定 max ，则替换 max 次</li>
 </ul>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">double_str = <span class="string">&quot;my name is kele kele&quot;</span></span><br><span class="line">double_str.replace(<span class="string">&quot;kele&quot;</span>, <span class="string">&quot;xuebi&quot;</span>)</span><br><span class="line"><span class="string">&#x27;my name is xuebi xuebi&#x27;</span></span><br><span class="line">double_str.replace(<span class="string">&quot;kele&quot;</span>, <span class="string">&quot;xuebi&quot;</span>, <span class="number">1</span>)</span><br><span class="line"><span class="string">&#x27;my name is xuebi xuebi&#x27;</span></span><br></pre></td></tr></table></figure>
-
 <ul>
-<li>split(str=””, num=string.count(str))，以 str 为分隔符截取字符串，默认为所有的空字符，包括空格、换行<code>\n</code>、制表符<code>\t</code>等。若指定 num ，则截取出 num+1 个子字符串，返回包含所有字符串的列表。</li>
+<li>split(str="", num=string.count(str))，以 str
+为分隔符截取字符串，默认为所有的空字符，包括空格、换行<code>\n</code>、制表符<code>\t</code>等。若指定
+num ，则截取出 num+1 个子字符串，返回包含所有字符串的列表。</li>
 </ul>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 用法一：不指定 num ，截取所有</span></span><br><span class="line">double_str = <span class="string">&quot;mynameiskelekelea&quot;</span></span><br><span class="line">double_str.split(<span class="string">&quot;e&quot;</span>)</span><br><span class="line">[<span class="string">&#x27;mynam&#x27;</span>, <span class="string">&#x27;isk&#x27;</span>, <span class="string">&#x27;l&#x27;</span>, <span class="string">&#x27;k&#x27;</span>, <span class="string">&#x27;l&#x27;</span>, <span class="string">&#x27;a&#x27;</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment"># 用法二：指定 num ，截取 num 次</span></span><br><span class="line">double_str.split(<span class="string">&quot;e&quot;</span>, <span class="number">1</span>)</span><br><span class="line">[<span class="string">&#x27;mynam&#x27;</span>, <span class="string">&#x27;iskelekelea&#x27;</span>]</span><br></pre></td></tr></table></figure>
-
 <ul>
-<li>splitlines([keepends])，按照行(‘’, ‘’, ‘)分隔，返回一个包含各行作为元素的列表，参数 keepends 默认为 False，不包含换行符，如果为 True，则保留换行符。</li>
+<li>splitlines([keepends])，按照行('', '',
+')分隔，返回一个包含各行作为元素的列表，参数 keepends 默认为
+False，不包含换行符，如果为 True，则保留换行符。</li>
 </ul>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 用法一：不指定 keepends，默认为 False</span></span><br><span class="line">double_str = <span class="string">&quot;my name\n</span></span><br><span class="line"><span class="string">is ke\r</span></span><br><span class="line"><span class="string">le \r\n&quot;</span></span><br><span class="line">double_str.splitlines()</span><br><span class="line">[<span class="string">&#x27;my name&#x27;</span>, <span class="string">&#x27;is ke&#x27;</span>, <span class="string">&#x27;le&#x27;</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment"># 用法一：指定 keepends 为 True, 保留切割符</span></span><br><span class="line">double_str.splitlines(<span class="literal">True</span>)</span><br><span class="line">[<span class="string">&#x27;my name\n&#x27;</span>, <span class="string">&#x27;is ke\r&#x27;</span>, <span class="string">&#x27;le\r\n&#x27;</span>]</span><br></pre></td></tr></table></figure>
-
 <ul>
-<li>find(str, beg=0, end=len(string))，检测 str 是否包含在字符串中，若指定 beg 和 end ，则在指定范围内检测，若包含则返回第一次出现的索引值，否则返回 -1。</li>
+<li>find(str, beg=0, end=len(string))，检测 str
+是否包含在字符串中，若指定 beg 和 end
+，则在指定范围内检测，若包含则返回第一次出现的索引值，否则返回 -1。</li>
 </ul>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">double_str = <span class="string">&quot;my name is kele&quot;</span></span><br><span class="line">double_str.find(<span class="string">&quot;h&quot;</span>)</span><br><span class="line">-<span class="number">1</span></span><br><span class="line">double_str.find(<span class="string">&quot;e&quot;</span>)</span><br><span class="line"><span class="number">6</span></span><br><span class="line"><span class="comment"># 指定范围</span></span><br><span class="line">double_str.find(<span class="string">&quot;i&quot;</span>,<span class="number">0</span>,<span class="number">5</span>)</span><br><span class="line">-<span class="number">1</span></span><br></pre></td></tr></table></figure>
-
 <ul>
-<li><p>rfind 与find类似，从右边开始找，返回最后一次出现的索引值</p>
-</li>
-<li><p>index(str, beg=0, end=len(string))，与 find() 函数类似，但如果 str 不在字符串中会报错</p>
-</li>
-<li><p>rindex与index类似，从右边找</p>
-</li>
-<li><p>count(str, beg= 0,end=len(string)），返回 str 在 string 中出现的次数，若指定 beg 或者 end 参数，则返回在指定范围内 str 出现的次数。</p>
-</li>
+<li><p>rfind 与find类似，从右边开始找，返回最后一次出现的索引值</p></li>
+<li><p>index(str, beg=0, end=len(string))，与 find() 函数类似，但如果
+str 不在字符串中会报错</p></li>
+<li><p>rindex与index类似，从右边找</p></li>
+<li><p>count(str, beg= 0,end=len(string)），返回 str 在 string
+中出现的次数，若指定 beg 或者 end 参数，则返回在指定范围内 str
+出现的次数。</p></li>
 </ul>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">double_str = <span class="string">&quot;my name is kele&quot;</span></span><br><span class="line">double_str.count(<span class="string">&quot;h&quot;</span>)</span><br><span class="line"><span class="number">0</span></span><br><span class="line"><span class="comment"># 指定范围</span></span><br><span class="line">double_str.count(<span class="string">&quot;e&quot;</span>, <span class="number">0</span>, <span class="number">7</span>)</span><br></pre></td></tr></table></figure>
-
 <ul>
 <li>lstrip([chars])，只处理字符串句首的空格或指定字符，其他位置忽略。</li>
 </ul>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 处理句首空格</span></span><br><span class="line">double_str = <span class="string">&quot;  句首 有两个空格&quot;</span></span><br><span class="line">double_str.lstrip()</span><br><span class="line"><span class="string">&#x27;句首 有两个空格&#x27;</span></span><br><span class="line"><span class="comment"># 处理句首指定字符</span></span><br><span class="line">double_str = <span class="string">&quot;句首句首有一个空格&quot;</span></span><br><span class="line">double_str.lstrip(<span class="string">&quot;句首&quot;</span>)</span><br><span class="line"><span class="string">&#x27;有一个空格&#x27;</span></span><br></pre></td></tr></table></figure>
-
 <ul>
-<li><p>rstrip([chars])，处理字符串末尾的空格或指定字符，其他位置忽略.。</p>
-</li>
-<li><p>strip([chars])， 处理字符串两端的空格或指定字符，可视为 lstrip() 和 rstrip() 的效果叠加。</p>
-</li>
+<li><p>rstrip([chars])，处理字符串末尾的空格或指定字符，其他位置忽略.。</p></li>
+<li><p>strip([chars])， 处理字符串两端的空格或指定字符，可视为 lstrip()
+和 rstrip() 的效果叠加。</p></li>
 </ul>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 处理两端的指定字符</span></span><br><span class="line">double_str = <span class="string">&quot;你好有一个 空格你好&quot;</span></span><br><span class="line">double_str.strip(<span class="string">&quot;你好&quot;</span>)</span><br><span class="line"><span class="string">&#x27;有一个 空格&#x27;</span></span><br></pre></td></tr></table></figure>
-
 <ul>
-<li>center(width, fillchar)，fillchar 为填充的字符，默认使用空格填充，返回指定宽度 width、原字符串居中、使用 fillchar 填充后的字符串。</li>
+<li>center(width, fillchar)，fillchar
+为填充的字符，默认使用空格填充，返回指定宽度 width、原字符串居中、使用
+fillchar 填充后的字符串。</li>
 </ul>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 指定填充字符 【*】</span></span><br><span class="line">double_str.center(<span class="number">20</span>, <span class="string">&quot;*&quot;</span>)</span><br><span class="line"><span class="string">&#x27;***我想通过两侧填充来让自己变强***&#x27;</span></span><br></pre></td></tr></table></figure>
-
 <ul>
-<li><p>ljust,右侧填充</p>
-</li>
-<li><p>rjust,左侧填充</p>
-</li>
-<li><p>join(seq)，以指定字符串作为拼接字符，将 seq 中所有的元素(必须是字符串类型)，拼接为一个新的字符串。如果拼接对象不是字符会报错。</p>
-</li>
+<li><p>ljust,右侧填充</p></li>
+<li><p>rjust,左侧填充</p></li>
+<li><p>join(seq)，以指定字符串作为拼接字符，将 seq
+中所有的元素(必须是字符串类型)，拼接为一个新的字符串。如果拼接对象不是字符会报错。</p></li>
 </ul>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 用法一：不指定拼接字符，默认使用空字符</span></span><br><span class="line">seq_list =[<span class="string">&quot;我想&quot;</span>, <span class="string">&quot;合并&quot;</span>, <span class="string">&quot;自己&quot;</span>]</span><br><span class="line"><span class="string">&quot;&quot;</span>.join(seq_list)</span><br><span class="line"><span class="string">&#x27;我想合并自己&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 用法二：指定拼接字符【***】</span></span><br><span class="line"><span class="string">&quot;***&quot;</span>.join(seq_list)</span><br><span class="line"><span class="string">&#x27;我想***合并***自己&#x27;</span></span><br></pre></td></tr></table></figure>
-
-<h4 id="2-单词类"><a href="#2-单词类" class="headerlink" title="2.单词类"></a>2.单词类</h4><ul>
+<h4 id="单词类">2.单词类</h4>
+<ul>
 <li>capitalize()，将字符串的首字母转换为大写。</li>
 <li>title()，将字符串中所有单词的首字母转换为大写。</li>
 <li>upper()，将字符串中的小写字母全部转换为大写。</li>
@@ -340,55 +341,71 @@
 <li>max(str)，返回字符串 str 中最大的字母。</li>
 <li>min(str)，返回字符串 str 中最小的字母。</li>
 </ul>
-<h4 id="3-判断类"><a href="#3-判断类" class="headerlink" title="3.判断类"></a>3.判断类</h4><ul>
-<li>startswith(substr, beg=0,end=len(string))，判断字符串是否是以指定子字符串 substr 开头，是则返回 True，否则返回 False。若指定 beg 和 end 值，则在指定范围内判断。</li>
+<h4 id="判断类">3.判断类</h4>
+<ul>
+<li>startswith(substr,
+beg=0,end=len(string))，判断字符串是否是以指定子字符串 substr
+开头，是则返回 True，否则返回 False。若指定 beg 和 end
+值，则在指定范围内判断。</li>
 </ul>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">double_str = <span class="string">&quot;my name is kele&quot;</span></span><br><span class="line">double_str.startswith(<span class="string">&quot;my&quot;</span>)</span><br><span class="line"><span class="literal">True</span></span><br></pre></td></tr></table></figure>
-
 <ul>
-<li>endswith(suffix, beg=0, end=len(string))，判断字符串是否以指定子字符串 suffix 结束，是则返回 True，否则返回 False。若指定 beg 和 end 值，则在指定范围内判断。</li>
+<li>endswith(suffix, beg=0,
+end=len(string))，判断字符串是否以指定子字符串 suffix 结束，是则返回
+True，否则返回 False。若指定 beg 和 end 值，则在指定范围内判断。</li>
 </ul>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">用法一：不指定范围</span><br><span class="line">double_str = <span class="string">&quot;my name is kele&quot;</span></span><br><span class="line">double_str.endswith(<span class="string">&quot;kele&quot;</span>)</span><br><span class="line"><span class="literal">True</span></span><br><span class="line">double_str.endswith(<span class="string">&quot;xuebi&quot;</span>)</span><br><span class="line"><span class="literal">False</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 用法二：指定范围</span></span><br><span class="line">double_str.endswith(<span class="string">&quot;kele&quot;</span>, <span class="number">0</span>, <span class="number">6</span>)</span><br><span class="line"><span class="literal">False</span></span><br></pre></td></tr></table></figure>
-
 <ul>
-<li><p>isdigit()，判断字符串是否只包含数字，是则返回 True， 否则返回 False。</p>
-</li>
-<li><p>isalnum()，判断字符串是否至少有一个字符并且只包含字母、数字或字母和数字，是则返回 True，否则返回 False。</p>
-</li>
-<li><p>isalpha()，判断字符串是否至少有一个字符，并且全为字母，是则返回 True， 否则返回 False，<strong>中文也被视为字母字符</strong>。</p>
-</li>
-<li><p>islower()，判断字符串是否至少包含一个字母，并且字母全为小写，是则返回 True，否则返回 False。</p>
-</li>
-<li><p>isupper()，判断字符串是否至少包含一个字母，并且字母全为大写，是则返回 True，否则返回 False。</p>
-</li>
-<li><p>istitle()，判断字符串中所有英文单词的首字母是全为大写，其他字母全为小写，是则返回 True，否则返回 False。</p>
-</li>
-<li><p>isnumeric()，判断字符串是否只包含数字，是则返回 True，否则返回 False。数字可以是： Unicode 数字，全角数字（双字节），罗马数字，汉字数字。</p>
-</li>
-<li><p>isdecimal()，判断字符串是否只包含十进制数字，是则返回 True，否则返回 False。</p>
-</li>
-<li><p>isspace()，判断字符串是否只包含空白字符，是则返回 True，否则返回 False。</p>
-</li>
+<li><p>isdigit()，判断字符串是否只包含数字，是则返回 True， 否则返回
+False。</p></li>
+<li><p>isalnum()，判断字符串是否至少有一个字符并且只包含字母、数字或字母和数字，是则返回
+True，否则返回 False。</p></li>
+<li><p>isalpha()，判断字符串是否至少有一个字符，并且全为字母，是则返回
+True， 否则返回 False，<strong>中文也被视为字母字符</strong>。</p></li>
+<li><p>islower()，判断字符串是否至少包含一个字母，并且字母全为小写，是则返回
+True，否则返回 False。</p></li>
+<li><p>isupper()，判断字符串是否至少包含一个字母，并且字母全为大写，是则返回
+True，否则返回 False。</p></li>
+<li><p>istitle()，判断字符串中所有英文单词的首字母是全为大写，其他字母全为小写，是则返回
+True，否则返回 False。</p></li>
+<li><p>isnumeric()，判断字符串是否只包含数字，是则返回 True，否则返回
+False。数字可以是： Unicode
+数字，全角数字（双字节），罗马数字，汉字数字。</p></li>
+<li><p>isdecimal()，判断字符串是否只包含十进制数字，是则返回
+True，否则返回 False。</p></li>
+<li><p>isspace()，判断字符串是否只包含空白字符，是则返回 True，否则返回
+False。</p></li>
 </ul>
-<h4 id="4-编码类"><a href="#4-编码类" class="headerlink" title="4.编码类"></a>4.编码类</h4><ul>
-<li>encode(encoding=’UTF-8’，errors=’strict’)，以 encoding 指定的编码格式编码字符串，默认为utf-8，如果出错默认报一个ValueError 的异常，除非 errors 指定的是 ignore 或者 replace。</li>
+<h4 id="编码类">4.编码类</h4>
+<ul>
+<li>encode(encoding='UTF-8'，errors='strict')，以 encoding
+指定的编码格式编码字符串，默认为utf-8，如果出错默认报一个ValueError
+的异常，除非 errors 指定的是 ignore 或者 replace。</li>
 </ul>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">##utf8</span></span><br><span class="line">double_str = <span class="string">&quot;utf-8编码&quot;</span></span><br><span class="line">double_str.encode()</span><br><span class="line"><span class="string">b&#x27;utf-8\xe7\xbc\x96\xe7\xa0\x81&#x27;</span></span><br><span class="line"><span class="comment">##gbk</span></span><br><span class="line">double_str = <span class="string">&quot;gbk编码&quot;</span></span><br><span class="line">double_str.encode(encoding=<span class="string">&quot;gbk&quot;</span>)</span><br><span class="line"><span class="string">b&#x27;gbk\xb1\xe0\xc2\xeb&#x27;</span></span><br></pre></td></tr></table></figure>
-
 <ul>
-<li>bytes.decode(encoding=”utf-8”， errors=”strict”)，处理使用指定编码格式编码后的字符串，其中 bytes可通过字符串编码 str.encode() 来获取。</li>
+<li>bytes.decode(encoding="utf-8"，
+errors="strict")，处理使用指定编码格式编码后的字符串，其中
+bytes可通过字符串编码 str.encode() 来获取。</li>
 </ul>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">double_str = &quot;utf-8编码&quot;</span><br><span class="line">utf8_encode = double_str.encode()</span><br><span class="line">utf8_encode.decode()</span><br><span class="line">&#x27;utf-8编码&#x27;</span><br><span class="line"></span><br><span class="line">double_str = &quot;gbk编码&quot;</span><br><span class="line">gbk_encode = double_str.encode(&quot;gbk&quot;)</span><br><span class="line">gbk_encode.decode(&quot;gbk&quot;)</span><br><span class="line">&#x27;gbk编码&#x27;</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="Dictionary"><a href="#Dictionary" class="headerlink" title="Dictionary"></a>Dictionary</h2><p><em>之后再填</em></p>
-<h2 id="Reference-article"><a href="#Reference-article" class="headerlink" title="Reference article"></a>Reference article</h2><p><em><a target="_blank" rel="noopener" href="https://markdown.com.cn/" title="最好的markdown教程">Markdown语法</a>。</em></p>
-<p><em><a target="_blank" rel="noopener" href="https://www.51cto.com/article/675042.html">用Pandas读取CSV，看这篇就够了</a></em></p>
-<p><em><a target="_blank" rel="noopener" href="https://www.coder.work/article/3121591">python - 从字符串创建DataFrame</a></em></p>
-<p><em><a target="_blank" rel="noopener" href="http://c.biancheng.net/pandas/dataframe.html">Pandas DataFrame入门教程（图解版）</a></em></p>
-<p><em><a target="_blank" rel="noopener" href="https://kelepython.readthedocs.io/zh/latest/c01/c01_01.html">一文搞定 Python 字符串操作（上）</a></em></p>
-<p><em><a target="_blank" rel="noopener" href="https://kelepython.readthedocs.io/zh/latest/c01/c01_02.html">一文搞定 Python 字符串操作（下）</a></em></p>
+<h2 id="dictionary">Dictionary</h2>
+<p><em>之后再填</em></p>
+<h2 id="reference-article">Reference article</h2>
+<p><em><a target="_blank" rel="noopener" href="https://markdown.com.cn"
+title="最好的markdown教程">Markdown语法</a>。</em></p>
+<p><em><a
+target="_blank" rel="noopener" href="https://www.51cto.com/article/675042.html">用Pandas读取CSV，看这篇就够了</a></em></p>
+<p><em><a target="_blank" rel="noopener" href="https://www.coder.work/article/3121591">python -
+从字符串创建DataFrame</a></em></p>
+<p><em><a target="_blank" rel="noopener" href="http://c.biancheng.net/pandas/dataframe.html">Pandas
+DataFrame入门教程（图解版）</a></em></p>
+<p><em><a
+target="_blank" rel="noopener" href="https://kelepython.readthedocs.io/zh/latest/c01/c01_01.html">一文搞定
+Python 字符串操作（上）</a></em></p>
+<p><em><a
+target="_blank" rel="noopener" href="https://kelepython.readthedocs.io/zh/latest/c01/c01_02.html">一文搞定
+Python 字符串操作（下）</a></em></p>
 
     </div>
 
@@ -472,7 +489,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Pandas"><span class="nav-number">1.</span> <span class="nav-text">Pandas</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-pandas%E8%AF%BB%E5%8F%96"><span class="nav-number">1.0.1.</span> <span class="nav-text">1.pandas读取</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-pandas%E5%88%9B%E5%BB%BA"><span class="nav-number">1.0.2.</span> <span class="nav-text">2.pandas创建</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-pandas%E5%88%97%E7%B4%A2%E5%BC%95%E6%93%8D%E4%BD%9C"><span class="nav-number">1.0.3.</span> <span class="nav-text">3.pandas列索引操作</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-pandas%E8%A1%8C%E7%B4%A2%E5%BC%95%E6%93%8D%E4%BD%9C"><span class="nav-number">1.0.4.</span> <span class="nav-text">4.pandas行索引操作</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#String"><span class="nav-number">2.</span> <span class="nav-text">String</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-%E9%80%9A%E7%94%A8%E7%B1%BB"><span class="nav-number">2.0.1.</span> <span class="nav-text">1.通用类</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-%E5%8D%95%E8%AF%8D%E7%B1%BB"><span class="nav-number">2.0.2.</span> <span class="nav-text">2.单词类</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-%E5%88%A4%E6%96%AD%E7%B1%BB"><span class="nav-number">2.0.3.</span> <span class="nav-text">3.判断类</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-%E7%BC%96%E7%A0%81%E7%B1%BB"><span class="nav-number">2.0.4.</span> <span class="nav-text">4.编码类</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Dictionary"><span class="nav-number">3.</span> <span class="nav-text">Dictionary</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Reference-article"><span class="nav-number">4.</span> <span class="nav-text">Reference article</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#pandas"><span class="nav-number">1.</span> <span class="nav-text">Pandas</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#pandas%E8%AF%BB%E5%8F%96"><span class="nav-number">1.0.1.</span> <span class="nav-text">1.pandas读取</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#pandas%E5%88%9B%E5%BB%BA"><span class="nav-number">1.0.2.</span> <span class="nav-text">2.pandas创建</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#pandas%E5%88%97%E7%B4%A2%E5%BC%95%E6%93%8D%E4%BD%9C"><span class="nav-number">1.0.3.</span> <span class="nav-text">3.pandas列索引操作</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#pandas%E8%A1%8C%E7%B4%A2%E5%BC%95%E6%93%8D%E4%BD%9C"><span class="nav-number">1.0.4.</span> <span class="nav-text">4.pandas行索引操作</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#string"><span class="nav-number">2.</span> <span class="nav-text">String</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%80%9A%E7%94%A8%E7%B1%BB"><span class="nav-number">2.0.1.</span> <span class="nav-text">1.通用类</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8D%95%E8%AF%8D%E7%B1%BB"><span class="nav-number">2.0.2.</span> <span class="nav-text">2.单词类</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%88%A4%E6%96%AD%E7%B1%BB"><span class="nav-number">2.0.3.</span> <span class="nav-text">3.判断类</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%BC%96%E7%A0%81%E7%B1%BB"><span class="nav-number">2.0.4.</span> <span class="nav-text">4.编码类</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#dictionary"><span class="nav-number">3.</span> <span class="nav-text">Dictionary</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#reference-article"><span class="nav-number">4.</span> <span class="nav-text">Reference article</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -488,14 +505,14 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-count">6</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -592,6 +609,61 @@
 
 
   
+
+  
+      
+
+<script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+    
 
   
 

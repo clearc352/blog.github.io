@@ -21,12 +21,12 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"flat"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="最近遇到一个很有意思的事情。因为毒液2没有在中国上映，有不忍心看电影院手机直拍版，就一直没看。最近在电报里搞到了一份线上流媒体版MTK，自带五国字幕，但是没有中文。自己英语水平太差了，没办法看不太地道。遂在网上找到了枪版的中英双语字幕。 本来想可以快乐看电影了，但突然发现这两个版本的字幕时间轴不一样。把原版字幕提取出来稍微看了一下，每一个大段的时间轴都是不匹配的。所以想把这两个字幕做一个匹配，就算">
+  <meta name="description" content="最近遇到一个很有意思的事情。因为毒液2没有在中国上映，有不忍心看电影院手机直拍版，就一直没看。最近在电报里搞到了一份线上流媒体版MTK，自带五国字幕，但是没有中文。自己英语水平太差了，没办法看不太地道。遂在网上找到了枪版的中英双语字幕。 本来想可以快乐看电影了，但突然发现这两个版本的字幕时间轴不一样。把原版字幕提取出来稍微看了一下，每一个大段的时间轴都是不匹配的。所以想把这两个字幕做一个匹配，就">
 <meta property="og:type" content="article">
 <meta property="og:title" content="用python匹配字幕">
 <meta property="og:url" content="http://example.com/2022/01/10/Subtitle-matching/index.html">
 <meta property="og:site_name" content="CleaC Blog">
-<meta property="og:description" content="最近遇到一个很有意思的事情。因为毒液2没有在中国上映，有不忍心看电影院手机直拍版，就一直没看。最近在电报里搞到了一份线上流媒体版MTK，自带五国字幕，但是没有中文。自己英语水平太差了，没办法看不太地道。遂在网上找到了枪版的中英双语字幕。 本来想可以快乐看电影了，但突然发现这两个版本的字幕时间轴不一样。把原版字幕提取出来稍微看了一下，每一个大段的时间轴都是不匹配的。所以想把这两个字幕做一个匹配，就算">
+<meta property="og:description" content="最近遇到一个很有意思的事情。因为毒液2没有在中国上映，有不忍心看电影院手机直拍版，就一直没看。最近在电报里搞到了一份线上流媒体版MTK，自带五国字幕，但是没有中文。自己英语水平太差了，没办法看不太地道。遂在网上找到了枪版的中英双语字幕。 本来想可以快乐看电影了，但突然发现这两个版本的字幕时间轴不一样。把原版字幕提取出来稍微看了一下，每一个大段的时间轴都是不匹配的。所以想把这两个字幕做一个匹配，就">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://example.com/2022/01/10/Subtitle-matching/image-english.png">
 <meta property="og:image" content="http://example.com/2022/01/10/Subtitle-matching/image-20220110214743883.png">
@@ -220,59 +220,54 @@
         <p>最近遇到一个很有意思的事情。因为毒液2没有在中国上映，有不忍心看电影院手机直拍版，就一直没看。最近在电报里搞到了一份线上流媒体版MTK，自带五国字幕，但是没有中文。自己英语水平太差了，没办法看不太地道。遂在网上找到了枪版的中英双语字幕。</p>
 <p>本来想可以快乐看电影了，但突然发现这两个版本的字幕时间轴不一样。把原版字幕提取出来稍微看了一下，每一个大段的时间轴都是不匹配的。所以想把这两个字幕做一个匹配，就算只能能匹配上大部分字幕，自己的英语应该也是够用的。</p>
 <p>来看一下这两个字幕文件</p>
-<p><img src="/2022/01/10/Subtitle-matching/image-english.png" alt="英文"></p>
-<p><img src="/2022/01/10/Subtitle-matching/image-20220110214743883.png" alt="中英字幕"></p>
+<figure>
+<img src="image-english.png" alt="英文" />
+<figcaption aria-hidden="true">英文</figcaption>
+</figure>
+<figure>
+<img src="image-20220110214743883.png" alt="中英字幕" />
+<figcaption aria-hidden="true">中英字幕</figcaption>
+</figure>
 <p><em>中英字幕包含一些字幕头已经被我删掉了</em></p>
 <span id="more"></span>
-
-<h3 id="1-数据分析"><a href="#1-数据分析" class="headerlink" title="1.数据分析"></a>1.数据分析</h3><p>可以发现，这些字幕文件的内容都具有一定的规律。英文字幕都是四行一个单元，而中英字幕里前面的各个属性具有一定的长度，很容易可以删掉。</p>
+<h3 id="数据分析">1.数据分析</h3>
+<p>可以发现，这些字幕文件的内容都具有一定的规律。英文字幕都是四行一个单元，而中英字幕里前面的各个属性具有一定的长度，很容易可以删掉。</p>
 <p>在提取字幕后，因为对于我的需求而言，并不需要100%完美匹配所有的字幕，所以我首先到的是用字典来匹配，利用中英文字幕构建字典，英文作为key，判断英文字幕中的英语部分是否和key匹配，匹配则加入。</p>
-<h3 id="2-数据处理"><a href="#2-数据处理" class="headerlink" title="2.数据处理"></a>2.数据处理</h3><p>在python中，把字幕文件作为DataFrame读入</p>
+<h3 id="数据处理">2.数据处理</h3>
+<p>在python中，把字幕文件作为DataFrame读入</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line">eng_ass = pd.read_csv(<span class="string">&quot;Venom.Let.There.Be.Carnage.2021.1080p.AMZN.WEB-DL.DDP5.1.H.264-alfaHD_track3_eng.srt&quot;</span>,sep=<span class="string">&quot;\t&quot;</span>)</span><br><span class="line">chi_ass = pd.read_csv(<span class="string">&quot;Venom.Let.There.Be.Carnage.2021.1080p.WEBRip-C1NEM4.ass&quot;</span>,sep=<span class="string">&quot;\t&quot;</span>)</span><br></pre></td></tr></table></figure>
-
 <p><em>查看eng_ass</em></p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">	1</span><br><span class="line">0	00:01:25,586 --&gt; 00:01:27,421</span><br><span class="line">1	Lights out!</span><br><span class="line">2	2</span><br><span class="line">3	00:01:28,589 --&gt; 00:01:31,058</span><br><span class="line">4	Cletus, are you there?</span><br><span class="line">5	3</span><br><span class="line">6	00:01:31,192 --&gt; 00:01:33,494</span><br></pre></td></tr></table></figure>
-
 <p><em>查看chi_ass</em></p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">	Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text</span><br><span class="line"><span class="number">0</span>	Dialogue: <span class="number">0</span>,<span class="number">0</span>:01:<span class="number">24.40</span>,<span class="number">0</span>:01:<span class="number">25.93</span>,Default,,<span class="number">000.</span>..</span><br><span class="line"><span class="number">1</span>	Dialogue: <span class="number">0</span>,<span class="number">0</span>:01:<span class="number">27.11</span>,<span class="number">0</span>:01:<span class="number">29.51</span>,Default,,<span class="number">000.</span>..</span><br><span class="line"><span class="number">2</span>	Dialogue: <span class="number">0</span>,<span class="number">0</span>:01:<span class="number">29.65</span>,<span class="number">0</span>:01:<span class="number">31.75</span>,Default,,<span class="number">000.</span>..</span><br></pre></td></tr></table></figure>
-
 <p><em>由于太长了所以看不到后面的字幕</em></p>
 <p>接下来构建<strong>关于中英字幕的字典</strong></p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">dirt_china = &#123;&#125;</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(chi_ass)):</span><br><span class="line">    dirt_china[<span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> chi_ass.iloc[i])[<span class="number">59</span>:][(<span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> chi_ass.iloc[i])[<span class="number">59</span>:].find(<span class="string">&quot;&#125;&quot;</span>)+<span class="number">1</span>):]] = <span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> chi_ass.iloc[i])[<span class="number">59</span>:]</span><br></pre></td></tr></table></figure>
-
 <p><em>dirt_china</em></p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&#123;&#x27;Lights out!&#x27;: &#x27;熄灯！\\N&#123;\\ren&#125;Lights out!&#x27;,</span><br><span class="line"> &#x27;Cletus, are you there?&#x27;: &#x27;克莱图斯，你在吗？\\N&#123;\\ren&#125;Cletus, are you there?&#x27;,</span><br><span class="line"> &#x27;My angel.&#x27;: &#x27;我的天使\\N&#123;\\ren&#125;My angel.&#x27;,</span><br><span class="line"> &#x27;This is for you.&#x27;: &#x27;这个给你\\N&#123;\\ren&#125;This is for you.&#x27;,</span><br><span class="line"> &#x27;What did the doctor say?&#x27;: &#x27;医生怎么说？\\N&#123;\\ren&#125;What did the doctor say?&#x27;,</span><br><span class="line"> &#x27;He said the mutations are advancing.&#x27;: &#x27;他说基因突变正在恶化\\N&#123;\\ren&#125;He said the mutations are advancing.&#x27;,</span><br><span class="line"> &#x27;My powers are too strong.&#x27;: &#x27;我的力量太强大了\\N&#123;\\ren&#125;My powers are too strong.&#x27;,</span><br><span class="line"> &quot;Cletus, I&#x27;m scared.&quot;: &quot;克莱图斯，我很害怕\\N&#123;\\ren&#125;Cletus, I&#x27;m scared.&quot;,</span><br></pre></td></tr></table></figure>
-
 <p>之后进行匹配后发现，英文字幕中有些英语句子是分段的，类似于</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">I love you,ok</span><br></pre></td></tr></table></figure>
-
 <p>会变成</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">I love you,</span><br></pre></td></tr></table></figure>
-
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ok</span><br></pre></td></tr></table></figure>
-
 <p>但这在字典中我们的key是连续的，所以要将这部分的字幕组合到一行</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">###多行合并一行</span></span><br><span class="line">i = <span class="number">1</span></span><br><span class="line"><span class="keyword">while</span> i &lt; <span class="built_in">len</span>(eng_ass):</span><br><span class="line">    <span class="keyword">if</span> <span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> eng_ass.iloc[i-<span class="number">1</span>])[<span class="number">0</span>].isalpha():</span><br><span class="line">        <span class="keyword">if</span> <span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> eng_ass.iloc[i])[<span class="number">0</span>].isalpha():</span><br><span class="line">            eng_ass.iloc[i-<span class="number">1</span>] = <span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> eng_ass.iloc[i-<span class="number">1</span>]) + <span class="string">&quot; &quot;</span>+<span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> eng_ass.iloc[i])</span><br><span class="line">            eng_ass.iloc[i] = <span class="string">&quot;buxuyaodehang&quot;</span></span><br><span class="line">    i += <span class="number">1</span></span><br><span class="line"><span class="comment">##保存之后手动去除&quot;buxuyaodehang&quot;</span></span><br><span class="line">eng_ass.to_csv(<span class="string">&quot;eng_ass_temp.txt&quot;</span>,index=<span class="literal">False</span>)</span><br></pre></td></tr></table></figure>
-
-<p>由于个人能力有限，无法加入空行，所以添加了空行内容为”buxuyaodehang”，在记事本用替换成空白即可去掉</p>
+<p>由于个人能力有限，无法加入空行，所以添加了空行内容为"buxuyaodehang"，在记事本用替换成空白即可去掉</p>
 <p>接下来读入并且匹配行</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">####匹配行</span></span><br><span class="line">eng_ass = pd.read_csv(<span class="string">&quot;eng_ass_temp.txt&quot;</span>,sep=<span class="string">&quot;\t&quot;</span>)</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(eng_ass)):</span><br><span class="line">    <span class="keyword">if</span> <span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> eng_ass.iloc[i]) <span class="keyword">in</span> dirt_china:</span><br><span class="line">        eng_ass.iloc[i] = dirt_china[<span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> eng_ass.iloc[i])]</span><br></pre></td></tr></table></figure>
-
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">0	00:01:25,586 --&gt; 00:01:27,421</span><br><span class="line">1	熄灯！\N&#123;\ren&#125;Lights out!</span><br><span class="line">2	2</span><br><span class="line">3	00:01:28,589 --&gt; 00:01:31,058</span><br><span class="line">4	克莱图斯，你在吗？\N&#123;\ren&#125;Cletus, are you there?</span><br><span class="line">5	3</span><br><span class="line">6	00:01:31,192 --&gt; 00:01:33,494</span><br><span class="line">7	我的天使\N&#123;\ren&#125;My angel.</span><br></pre></td></tr></table></figure>
-
 <p>字幕已经匹配上去了，但是由于字幕软件需要识别四个一组的行块，所以需要加入空行</p>
 <p>同时，由于读入问题，显示时间的行整体的类型为字符型</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&quot;00:01:31,192 --&gt; 00:01:33,494&quot;</span><br></pre></td></tr></table></figure>
-
 <p>解决两个问题</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">###缺少空行，在数字前面添加一串字符串，后用替换剔除,还要替换引号</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">pdinsert</span>(<span class="params">df,i,df_add</span>):</span></span><br><span class="line">    df1 = df.iloc[:i,:]</span><br><span class="line">    df2 = df.iloc[i:,:]</span><br><span class="line">    df_new = pd.concat([df1,df_add,df2],ignore_index=<span class="literal">True</span>)</span><br><span class="line">    <span class="keyword">return</span> df_new</span><br><span class="line">df_add = pd.DataFrame(&#123;<span class="string">&#x27;1&#x27;</span>:[<span class="string">&#x27;ddxyl&#x27;</span>]&#125;)</span><br><span class="line">i=<span class="number">0</span></span><br><span class="line"><span class="keyword">while</span> i &lt; <span class="number">6653</span>:</span><br><span class="line">    <span class="keyword">if</span> <span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> eng_ass.iloc[i]).isdigit():</span><br><span class="line">        eng_ass = pdinsert(eng_ass,i,df_add)</span><br><span class="line">        i +=<span class="number">2</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        i +=<span class="number">1</span></span><br><span class="line"><span class="comment">#######报错无所谓，已经加上了</span></span><br></pre></td></tr></table></figure>
-
 <p>运行代码过程中最后会报错，但是没有关系，已经匹配上了</p>
 <p>得到结果</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">0	00:01:25,586 --&gt; 00:01:27,421</span><br><span class="line">1	熄灯！\N&#123;\ren&#125;Lights out!</span><br><span class="line">2	ddxyl</span><br><span class="line">3	2</span><br><span class="line">4	00:01:28,589 --&gt; 00:01:31,058</span><br><span class="line">5	克莱图斯，你在吗？\N&#123;\ren&#125;Cletus, are you there?</span><br><span class="line">6	ddxyl</span><br><span class="line">7	3</span><br><span class="line">8	00:01:31,192 --&gt; 00:01:33,494</span><br><span class="line">9	我的天使\N&#123;\ren&#125;My angel.</span><br><span class="line">10	ddxyl</span><br></pre></td></tr></table></figure>
-
-<p>只需要把字符串”ddxyl”替换为空白即可正常使用</p>
-<h3 id="3-总结"><a href="#3-总结" class="headerlink" title="3.总结"></a>3.总结</h3><p>总之这个结果已经是可以用的了，在这个过程中我学到了一些关于字符串提取的方法，后续在下一篇文章详细讲讲是怎么提取相应的字符串的。以后也可能会写一些关于python pandas包的笔记总结等。</p>
+<p>只需要把字符串"ddxyl"替换为空白即可正常使用</p>
+<h3 id="总结">3.总结</h3>
+<p>总之这个结果已经是可以用的了，在这个过程中我学到了一些关于字符串提取的方法，后续在下一篇文章详细讲讲是怎么提取相应的字符串的。以后也可能会写一些关于python
+pandas包的笔记总结等。</p>
 
     </div>
 
@@ -353,7 +348,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90"><span class="nav-number">1.</span> <span class="nav-text">1.数据分析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86"><span class="nav-number">2.</span> <span class="nav-text">2.数据处理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E6%80%BB%E7%BB%93"><span class="nav-number">3.</span> <span class="nav-text">3.总结</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90"><span class="nav-number">1.</span> <span class="nav-text">1.数据分析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86"><span class="nav-number">2.</span> <span class="nav-text">2.数据处理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%80%BB%E7%BB%93"><span class="nav-number">3.</span> <span class="nav-text">3.总结</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -369,14 +364,14 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-count">6</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -473,6 +468,61 @@
 
 
   
+
+  
+      
+
+<script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+    
 
   
 
