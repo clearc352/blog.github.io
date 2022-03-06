@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>通过新的检测平台证实胶质瘤循环细胞及其相关簇为诊断标志物</title>
+    <url>/2022/03/02/CTC-novel-platform/</url>
+    <content><![CDATA[<h2 id="abstract">Abstract</h2>
+<p>        在本研究中，我们通过上皮肿瘤细胞的大小构建了了一个新的隔离方法，该方法通过使用生物相容性二烯烯聚合物膜携带在高流速下直径8㎛的气孔富集CTC。</p>
+<span id="more"></span>
+<h2 id="background">Background</h2>
+<p>        弥漫性胶质瘤是全球中枢神经系统肿瘤相关死亡的主要原因。作为一种非倾害性且便利的生物标记物，循环肿瘤细胞（CTC）和他的簇在肿瘤诊断方面展示了很大的可行性。但由于其隔离和识别仍具有挑战性，所以限制进一步的临床应用。因此，迫切需要一个可以对CTC及其簇进行有效识别的平台。</p>
+<h2 id="result">Result</h2>
+<p>        为了测试装置捕获的效率，我们在U87和U251中加入健康人的血液样本。在U87细胞系浓聚物中每5ml加入5，10，20，50，100和150个细胞，其捕获效率分别为86.0%，87.0%，86.5%，86.0%，91.3%，92.9%。在U251细胞系中也可以观测到同样的结果（图1A-C）。</p>
+<figure>
+<img src="CTM2-11-e318-g001——ac.jpg" alt="图1A-C" />
+<figcaption aria-hidden="true">图1A-C</figcaption>
+</figure>
+<p>        接下来，我们探究了在胶质瘤CTC上运用该方法的可行性。将他们的数据使用Wright's染色（一种被认可的方法），发现其并不能从其他脑肿瘤中区分胶质瘤的CTC。这表明，这种基于肿瘤特征的方法不能确定CTC的区域，限制了其诊断的价值（图4A-C）。然而，
+靶向GBM来源的CTC的高度特定的识别方法如STEAM染色法（基于CTC和WBC的差异基因表达量的抗体混合物），由于健康细胞表达一些包含的标志物，将会导致假阳性的风险和高的背景水平（？）。因此，我们结合STEAM染色和一系列关键的CTC恶性特征，这种改良的STEAM法可以在小鼠实验和健康样本中显著地减少背景水平（图1D-F,2A-B,4D），并且较Wright's染色而言，更具有敏感性（图2C）。</p>
+<p><img src="CTM2-11-e318-g004A-C.jpg" alt="图4A-C" /> <img
+src="CTM2-11-e318-g001d-f.jpg" alt="图1D-F" /> <img
+src="CTM2-11-e318-g002a-c.jpg" alt="图2A-C" /> <img
+src="CTM2-11-e318-g004d.jpg" alt="图4D" /></p>
+<p>        接下来，我们通过临床测试来校验上述平台在胶质瘤应用中的可行性。对于42例弥漫性原发胶质瘤患者，大约85.7%（36/42）检测出CTC，显著高于之前的研究（图2D）。对于继发性胶质瘤患者，有7/8（87.5%）检测出CTCs超过阈值（图2D）。为了进一步研究我们的平台对于不同诊断的可行性，我们使用20例良性肿瘤和8例脑转移瘤患者的临床数据。我们发现在胶质瘤中STEAM阳性CTC的水平显著高于上述提到到的脑肿瘤(P&lt;0.0001)（图2E）。并且ROC曲线显示了我们的平台预测在胶质瘤CTC中的价值。</p>
+<figure>
+<img src="CTM2-11-e318-g002d-e.jpg" alt="图2D-E" />
+<figcaption aria-hidden="true">图2D-E</figcaption>
+</figure>
+<p>        与之前的结果相反，在五个胶质瘤亚型中，我们在星形细胞瘤发现高水平的CTC，而在少突胶质细胞瘤中则是低水平的CTC（图2G-I,4E）。这一结果显示了使用CTC预测肿瘤病理亚型具有很大的潜力。在大规模队列中验证之后，这可以使诊断更加精确。</p>
+<p><img src="CTM2-11-e318-g002g-i.jpg" alt="图2G-I" /> <img
+src="CTM2-11-e318-g004e.jpg" alt="图4E" /></p>
+<p>        接着，我们证实是否CTC簇在胶质瘤中具有某些固有性质。与出现比例极低的CTC-CTC簇相比，CTC-WBC簇发生地更加频繁（图3A，4F-G）。这是第一次报道在胶质瘤患者中出现大量的CTC-WBC簇。先前的研究中有报道CTC可以与中性粒细胞结合进入细胞循环的进程，强调CTC’s通过在非肿瘤细胞建立稳定的根基（？）从而可以在失巢凋亡和免疫检测中逃离的能力。我们发现大约有33.3（14/42）的原发性胶质瘤患者有CTC-WBC簇（图3B）。在继发性患者中，这一比例增长到了75%（6/8）（图3B）。表明CTC-WBC簇可以帮助监测追踪继发性胶质瘤。然而，在区分不同肿瘤亚型方面，其并没有统计的显著性（图3C）。之后，我们对一例血液样本进行Wright&amp;Giemsa染色，显示CTC通过中性粒细胞与WBCs相关联，这与之前的研究结果一致。</p>
+<p><img src="CTM2-11-e318-g003a-d.jpg" alt="图3A-C" /> <img
+src="CTM2-11-e318-g004g-f.jpg" alt="图4F-G" /></p>
+<p>        接下来，我们进一步研究CTC与患者临床特征的相关性。我们的数据表明，CTC的表达水平与IDH状态以及差的预后相关（P&lt;0.05）（图3E）。有趣的是，我们观察到在切除肿瘤后的两周，CTC和CTC簇显著增长。这表明切除可能促使CTC进入循环（图3F）。此外，手术后的CTC和CTC-WBC簇的表达水平与P53突变的相关程度大于IDH（P&lt;0.05）（图3G）。这些结果表明，更高水平的CTC和CTC簇并不是良好的预测因子。
+<img src="CTM2-11-e318-g003e-g.jpg" alt="图3E-G" /></p>
+<h2 id="conclusion">Conclusion</h2>
+<p>        总之，我们提出了一个新的有效的平台用于检测胶质瘤中的CTC及CTC簇，并且该平台（较以前的方法）还具有更高的敏感性和特异性。我们证实STEAM阳性CTC对胶质瘤而言是一种高度特异性的诊断标志物。在某些情况，较之活检与MRI，具有更高的优越性。我们的结果使液体活检在临床应用方面更具有新的希望。在大队列验证后，CTC可以在病理学亚型和分子诊断方面进一步发挥作用。</p>
+<p>        尽管先前的研究表明，CTC-WBC簇具有亲瘤效应，但是其在胶质瘤中的作用仍是未知的。因此我们需要与之相关的研究来理解和评估其的临床作用。</p>
+<p>        我们的结果大大拓展了循环肿瘤细胞及其簇在临床方面的应用，这可能可以连接CTC的理论研究与临床实践的应用。</p>
+<p><em>Reference:Identifying circulating glioma cells and their clusters
+as diagnostic markers by a novel detection platform</em></p>
+]]></content>
+      <tags>
+        <tag>literature</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>脑胶质瘤铁死亡相关基因标记预测预后和免疫治疗</title>
+    <url>/2022/02/19/Ferroptosis-related/</url>
+    <content><![CDATA[<h2 id="abstract">Abstract</h2>
+<p>脑胶质瘤是一种具有高侵袭性的脑肿瘤，高侵袭性使得患者的预后和治疗效果不佳。细胞死亡在癌症的治疗中具有好的前景。铁死亡，一种最近发现的调控细胞死亡类型，可以被诱导杀死脑胶质瘤细胞。然而，在脑胶质瘤中预测铁死亡相关基因的预后仍然难以捉摸。</p>
+<span id="more"></span>
+<h2 id="introduction">Introduction</h2>
+<p>脑胶质瘤仍然是最流行的原发性恶性中枢神经系统肿瘤。根据世界卫生组织分级，可以分为四个等级。其中Ⅱ，Ⅲ级为低级别胶质瘤（LGG），Ⅳ级为胶质母细胞瘤（GBM）。GBM患者常伴随着不良的预后。GBM具有很高的倾袭性，其中位生存期只有16个月，而LGG患者的生存期在1~15年不等。在现有的治疗方案下，胶质瘤仍具有很高的治疗抗性和复发率。先前的研究已经发现了一些分子标志物，如IDH（异柠檬酸脱氢酶）状态，1p/19q共缺失等等可以运用在分子病理的诊断，治疗以及预后的评估。然而，目前为止许多脑胶质瘤的分子标志物在临床实践上收效甚微。因此，我们需要探索新兴的分子标志物用于预测脑胶质瘤的预后。</p>
+<p>细胞死亡是一个关键的事件，参与恶性转变和肿瘤转移的过程。铁死亡是一种新发现的细胞程序性死亡的模式。通常，铁死亡细胞表现出线粒体的异常（大小和凝聚膜），铁-依赖致死脂质过氧化物的积累和一组基因表达比如GPX4,ASCL4,AIFM2等。也有一些已经被证实的铁死亡抑制剂（如铁抑素-1，利普司他-1）和诱导铁死亡复合物（如RSL3）。其中需要注意的是，对于一些癌细胞，一些靶向传统细胞死亡过程的化合物可以有效治疗。这表明铁死亡在脑胶质瘤的治疗上，具有很大的前景。</p>
+<p>除了上述之外，铁死亡细胞也伴随着促炎性细胞激素的释放。事实上，不同于凋亡，由于损伤相关分子模式，铁死亡似乎更具有免疫原性，这反而又会加剧炎症反应。特别的，T细胞介导的铁死亡能够发挥强效的抗肿瘤作用，这可以直接证明铁死亡与免疫之间的关系。然而，在脑胶质瘤中对于铁死亡和免疫之间一个全面综合的分析还没有被很好地描绘。</p>
+<p>这里，我们旨在利用铁死亡相关基因（FRGs）标志，预测脑胶质瘤的预后和免疫治疗。</p>
+<h2 id="result">Result</h2>
+<p>图一总结了数据分析的管道流程图。数据集和分析方法见Method。</p>
+<figure>
+<img src="CNS-27-973-g001.jpg" alt="图1" />
+<figcaption aria-hidden="true">图1</figcaption>
+</figure>
+<h4 id="一.remberandt-和tcga队列中frgs的分布情况">一.REMBERANDT
+和TCGA队列中FRGs的分布情况。</h4>
+<p>我们从REMBERANDT 队列和TCGA队列（验证集）中分别描述FRGs分布情况。</p>
+<p>一方面，在REMBERANDT队列中，除了ALOX12,ALOX15外，FRGs在GBM,LGG和NON-GROUP中具有显著的表达差异（图2A）。同时，PCA分析显示，基于FRGs的差异表达可以很好地区分以上三个组（图2B）。另一方面，利用TCGA队列也可以很好地验证FGRs的区分效果。我们发现，在大约45.15的脑胶质瘤患者中展示FRGs的top20突变，TP53突变具有最高的比例（42%），而其他的19个突变比率在0~2%之间。同时，CNV（拷贝数变异）分析显示，HSPB1拥有最显著的拷贝数扩增，9个FGRs：AKR1C2,
+AKR1C1, AKR1C3, ZEB1, ALOX5, CISD1, NCOA4, AIFM2, and
+GOT1拥有最广泛的拷贝数缺失（图2D）。59个FGRs在CNV的位置和突变频率如图2E所示。这些结果表明，FGRs在不同级别的脑胶质瘤中发生了显著的差异表达和突变。</p>
+<figure>
+<img src="CNS-27-973-g006.jpg" alt="图2" />
+<figcaption aria-hidden="true">图2</figcaption>
+</figure>
+<h4
+id="二.在remberandt队列中构建fgrs相关的风险分数">二.在REMBERANDT队列中构建FGRs相关的风险分数</h4>
+<p>下一步，我们探索FGRs是否与脑胶质瘤患者的预后相关。如图3A所示，我们将FGRs分为五个类别，包括:铁离子代谢，油脂代谢，氧化剂代谢，能量代谢和其他类。值得注意的是，除了GCLC外，大多数关联氧化剂代谢的基因都是患者生存期的风险因子。此外，我们基于FGRs进行了无监督聚类。我们尝试构建聚类分析范围从2~5，发现聚类数为2可以很好地区分脑胶质瘤患者（图S2）。其中，簇1较簇2而言，展示了更好的预后（图3B）。</p>
+<p>为了更好地将FRGs运用于个体化的评估，我们使用风险分数构建了<strong>RSF</strong>模型。如图3D所示，簇1的风险分数小于簇2。使用COX回归分析表明，风险分数是一个和胶质瘤分级相似的独立的预测因子（图S3A）。如图3E所示，低风险分数的组中位生存期位41.9月，是一个很好的临床结果。根据风险分数的中位数，分为高低组。此外，在不同等级的脑胶质瘤患者中，高风险分数的组显示更差的OS，分别在Ⅱ，Ⅲ，Ⅳ级胶质瘤中为75.3，15.3，12.5个月（图3F）。模型的ROC曲线展示了很好的预测效果，其1，2，5年的AUC曲线值分别为0.74，0.86和0.89（图3G）。</p>
+<figure>
+<img src="CNS-27-973-s014.png" alt="图S2" />
+<figcaption aria-hidden="true">图S2</figcaption>
+</figure>
+<figure>
+<img src="CNS-27-973-g007.jpg" alt="图3" />
+<figcaption aria-hidden="true">图3</figcaption>
+</figure>
+<h4
+id="三.在cgga和tcga队列中验证fgrs相关风险分数">三.在CGGA和TCGA队列中验证FGRs相关风险分数</h4>
+<p>我们接下来在CGGA和TCGA队列中验证风险分数的预测效果。与REMBERANDT结果一致，风险分数在CGGA和TCGA队列中是独立的预后因子。除此之外，高风险分数的患者在两个队列中显示了差的中位生存期（图4A,G）。在不同等级的胶质瘤中，高风险组表现更短的OS（图4B,H）（除了CGGA-352
+的Ⅱ和Ⅳ以及TCGA的Ⅳ级，具有较不显著的P值）。</p>
+<p>除此之外，我们还在CGGA队列中分析风险分数在病理等级，IDH状态和1p/19q共缺失状态情况。有趣的是，我们的结果表明，Ⅳ级，IDH野生型和不伴随1p/19q共缺失的患者具有高的风险分数（图4D-F,J-I）。在CGGA-693队列中，通过整合风险指数，病理等级，IDH状态和1p/19q共缺失状态建立了诺谟图模型（图S5A）。我们发现这个模型在CGGA队列中可以很好地预测患者1，3，5年的OS。在CGGA-693队列中，对比分析基于WHO分级（AUC1，3，5年：0.77，0.78，0.78），加入风险分数的诺谟图模型拥有更好地预测值（AUC1,3,5年：0.81，0.84，0.83）（图S6A-C）。在CGGA-325中也可以观察到相同的结果（除1年生存期没有统计学意义）（图S6D-F）。</p>
+<p>总之，这些数据证实了风险分数在脑胶质瘤中具有重要的预测作用。</p>
+<figure>
+<img src="CNS-27-973-g004.jpg" alt="图4" />
+<figcaption aria-hidden="true">图4</figcaption>
+</figure>
+<figure>
+<img src="CNS-27-973-s006.png" alt="图S5" />
+<figcaption aria-hidden="true">图S5</figcaption>
+</figure>
+<figure>
+<img src="CNS-27-973-s016.jpg" alt="图S6" />
+<figcaption aria-hidden="true">图S6</figcaption>
+</figure>
+<h4
+id="四.利用remberandt队列的风险分数评估脑胶质瘤的免疫治疗">四.利用REMBERANDT队列的风险分数评估脑胶质瘤的免疫治疗</h4>
+<p>先前已有报导表明铁死亡进程涉及肿瘤的免疫治疗，所以我们接下来想要探索是否可以通过生物信息学来研究铁死亡和脑胶质瘤免疫的关联。在高风险分数组中的免疫分析中，发现了大量先天免疫浸润细胞包括：天然杀手细胞，巨噬细胞，肥大细胞，MDSC，浆样树突细胞（图5A）。我们使用ssGSEA算法将免疫分数定义为23种类型免疫细胞，斯皮尔曼相关分析表明定义的类别与高分数风险组具有很强的相关性（图5B）。</p>
+<p>癌症的免疫循环是一个关键的评价趋化因子系统和免疫调节器生物学功能指标。在高风险组中，免疫循环被激活上调的步骤有：释放癌细胞抗原（step1），癌症抗原的呈递（step2），免疫细胞的招募（step4）（CD4
+T，TH1，Th22，巨噬细胞，单核细胞，嗜中性粒细胞，嗜碱细胞，NK和B细胞的招募）和T细胞识别癌细胞（step6）（图5C）。令我们震惊的一个结果是，杀死癌细胞（step7）在高风险组中弱于低风险组，这可能是由于PD-L1的高表达导致的（图5D）。除此之外，我们分析了高风险组与ICB（免疫检查点阻断）相关通路的关系。我们发现，除系统性红斑狼疮外，高风险组患者与ICB相关的阳性特征具有强的正相关性（图5E）。总之，这些数据表明，与FGRs相关的风险分数可以很好的预测脑胶质瘤中的免疫治疗。</p>
+<figure>
+<img src="CNS-27-973-g003.jpg" alt="图5" />
+<figcaption aria-hidden="true">图5</figcaption>
+</figure>
+<h4
+id="五.在tcga和cgga队列中通过风险分数验证脑胶质瘤的免疫治疗">五.在TCGA和CGGA队列中通过风险分数验证脑胶质瘤的免疫治疗</h4>
+<p>接下来，我们通过TCGA和CGGA队列验证脑胶质瘤中的免疫治疗。我们证实，免疫分数和风险分数具有正相关性（图6A,D,G）。在免疫循环方面，在高风险组中，我们证实了释放癌细胞抗原（step1）和免疫细胞的招募（step4）（CD4
+T，TH1，Th22，巨噬细胞，单核细胞，嗜中性粒细胞，嗜碱细胞，NK和B细胞的招募）（图6B,H,E）。除此之外，在TCGA和CGGA队列中，高风险组患者表现出高表达PD-L1（图6C,F,I）。有趣的是，在高风险组中，我们也找到了与脑胶质瘤预后相关的免疫学指标（PD-1,CTLA4,IDO-1）（图6C,F,I）。与训练集一致，验证集中的高风险分数组与ICB相关特征呈正相关。除此之外，我们还在TCGA队列中分析了与ICB治疗相关的肿瘤突变负荷（TMB），免疫原性突变，DNA甲基化干性指数（mDNAsi）和RNA甲基化干性指数（mRNAsi）其中。除mRNAsi在低风险分数组表达高外，其他都在高风险分数组表达更高（图S8A-D）。总之，这些结果再次证实了风险分数在胶质瘤免疫治疗方面的关键作用。</p>
+<figure>
+<img src="CNS-27-973-g005.jpg" alt="图6" />
+<figcaption aria-hidden="true">图6</figcaption>
+</figure>
+<figure>
+<img src="CNS-27-973-s007.jpg" alt="图S8" />
+<figcaption aria-hidden="true">图S8</figcaption>
+</figure>
+<h2 id="conclusion">Conclusion</h2>
+<p>我们探究了一种新的FRGs相关的风险分数用于预测脑胶质瘤患者的预后和免疫治疗。</p>
+<h2 id="method">Method</h2>
+<h4 id="data">Data</h4>
+<ol type="1">
+<li>GEO数据:GSE108474-REMBRANDT</li>
+<li>TCGA数据:TCGA-LGG,TCGA-GBM</li>
+<li>CGGA 数据:CGGA-693,CGGA-325</li>
+</ol>
+<p>其中，GEO-REMBRANDT数据为训练集，TCGA数据和CGGA数据为验证集。REMBRANDT从CEL文件转换为表达谱文件，TCGA/CGGA数据集从FPKM转换为TPM。</p>
+<h4 id="unsupervised-clustering">Unsupervised clustering</h4>
+<p>铁死亡进程涉及中断氧化剂代谢的功能障碍，铁代谢，脂质代谢，能力代谢和其他未分类因子。根据先前已有的文章，我们选择了60个FRGs，但是由于NOX1在REMBRANDT数据集样本中表达很低，所以选择了59个用于聚类。</p>
+<p>选用R包Consensu Cluster Plus，通过k-means进行无监督聚类。</p>
+<h4 id="degs">DEGs</h4>
+<p>用R包limma进行差异基因的分析，挑选差异基因阈值为调整后P值&lt;0.05和log2FC&gt;2。</p>
+<h4 id="immune-checkpoint-blockage">Immune checkpoint blockage</h4>
+<p>用于预测免疫检查点阻断反应的基因集来自Mariathasan and his
+colleagues。Hallmark，KEGG，GO基因集从Molecular
+Signatures数据库下载，其中分析使用R包GSVA。</p>
+<h4 id="tumor-immune-microenvironment-time">Tumor immune
+microenvironment (TIME)</h4>
+<p>免疫微环境的特征包括免疫细胞浸润，抗肿瘤免疫循环的激活和免疫检查点的表达。我们从Charoentong研究中获取667个免疫调节器相关细胞。抗癌免疫周期的激活包括七个步骤，包括癌细胞抗原的释放（步骤1）、癌抗原呈递（步骤2）、启动和激活（步骤3）、免疫细胞向肿瘤的运输（步骤4）、免疫细胞向肿瘤的浸润（步骤5），T细胞识别癌细胞（步骤6）和杀死癌细胞（步骤7）。我们从Xu的研究中获取免疫检查点L1,
+PD‐1, CTLA‐4, 和IDO‐1。</p>
+<h4 id="the-risk-score-based-on-frgs-by-random-survival-forest-rsf">The
+risk score based on FRGs by random survival forest (RSF)</h4>
+<p>RSF模型是一种树状集成模型，可以适用于随机森林用于右删失的数据和生存分析。使用上述提到的59个FRGs在REMBRANDT构建RSF。在R包randomForestSRC中使用rfsrc函数生成基于FRGs的RSF。</p>
+<p><em>Reference：Ferroptosis‐related gene signature predicts prognosis
+and immunotherapy in glioma</em></p>
+]]></content>
+      <tags>
+        <tag>literature</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>黄金分割法+斐波那契数列法求单峰函数极小值点</title>
+    <url>/2022/03/04/GlodenCut/</url>
+    <content><![CDATA[<p>使用黄金分割法求极小值点。</p>
+<p>前提：函数在所求区间为单峰函数，即存在唯一极小值点。 <span id="more"></span></p>
+<h2 id="初步构思">初步构思</h2>
+<p>单峰函数：</p>
+<p><img src="单峰函数2.png" /> 可以使用对称压缩区间的方法，满足： <span
+class="math display">\[a_1 - a_0 = b_0 - b_1 =
+\rho*(b_0-a_0)\]</span></p>
+<p>其中： <span class="math display">\[\rho &lt; \frac {1}
+{2}\]</span></p>
+<p>做上述处理后，可以得到点<span
+class="math inline">\(a_1\)</span>和<span
+class="math inline">\(b_1\)</span></p>
+<p><img src="图1.png" /></p>
+<p>然后比较<span class="math inline">\(f(a_1)\)</span>与<span
+class="math inline">\(f(b_1)\)</span>的函数值大小</p>
+<p>if <span class="math inline">\(f(a_1) &lt; f(b_1)\)</span> :</p>
+<p>则函数的最小值落在区间<span
+class="math display">\[[a_0,b_1]\]</span></p>
+<p>重复上述的操作，可压缩出在一定精度区间范围内最小值点的值</p>
+<h2 id="黄金分割法">黄金分割法</h2>
+<p>我们可以找到一个合适的<span
+class="math inline">\(\rho\)</span>值，使得每次迭代只要计算一次目标函数的值。如图所示，这样的<span
+class="math inline">\(\rho\)</span>满足<span
+class="math display">\[\rho(b_1-a_0)=b_1-b_2\]</span> <img
+src="图2.png" /></p>
+<p>设区间<span
+class="math inline">\([a_0,b_0]\)</span>为1，如图所示可得式子：<span
+class="math display">\[\rho(1-\rho)=1-2\rho\]</span></p>
+<p>要求<span class="math inline">\(\rho&lt;\frac {1}
+{2}\)</span>,解的<span class="math display">\[\rho=\frac {3-\sqrt 5 }
+{2}\]</span></p>
+<p>此时，注意到<span class="math display">\[1-\rho= \frac {\sqrt 5-1 }
+{2}\]</span></p>
+<p>故有<span class="math display">\[\frac {\rho} {1-\rho}=\frac {3-\sqrt
+5 } {\sqrt 5-1}=\frac {\sqrt 5-1 } {2}=\frac {\sqrt 1-\rho }
+{1}\]</span></p>
+<p><span class="math display">\[\frac {\rho} {1-\rho}=\frac {\sqrt
+1-\rho } {1}\]</span></p>
+<p>以<span class="math inline">\(\frac
+{\rho}{1-\rho}\)</span>的比例划分区间，可以<strong>使得短区间与长区间之间的壁纸等于长区间与整个区间长度的比值</strong></p>
+<p>同时，在第N步的压缩后，极小值所在的区间长度为<span
+class="math display">\[(1-\rho)^N \approx 0.61803)^N\]</span></p>
+<p>以此可以估计迭代的次数</p>
+<h2 id="斐波那契数列法">斐波那契数列法</h2>
+<p>在黄金分割法中，<span
+class="math inline">\(\rho\)</span>的值在迭代过程中是固定的，如果迭代过程中动态调整<span
+class="math inline">\(\rho\)</span>的的值，如图所示，可得</p>
+<p><img src="图3.png" /></p>
+<p><span
+class="math display">\[\rho_k+1(1-\rho_k)=1-2\rho_k\]</span></p>
+<p>即<span class="math display">\[\rho_{k+1} = 1- \frac {\rho_k }
+{1-\rho_k}\tag{1}\]</span></p>
+<p>其总压缩比则变为<span
+class="math display">\[(1-\rho_1)(1-\rho_2)...(1-\rho_n)\]</span></p>
+<p><strong>则我们的优化目标为使得总压缩比越小，其效率越高</strong></p>
+<h3 id="引入斐波那契数列">引入斐波那契数列</h3>
+<p>对于斐波那契数列，令<span
+class="math inline">\(F_{-1}=0\)</span>,<span
+class="math inline">\(F_0=1\)</span>,有：</p>
+<p><span class="math display">\[F_{k+1} = F_k + F_{k-1}\]</span></p>
+]]></content>
+      <tags>
+        <tag>一维线性搜索</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>IDH2022</title>
+    <url>/2022/03/06/IDH2022/</url>
+    <content><![CDATA[
+]]></content>
+      <tags>
+        <tag>literature</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>用python匹配字幕</title>
+    <url>/2022/01/10/Subtitle-matching/</url>
+    <content><![CDATA[<p>最近遇到一个很有意思的事情。因为毒液2没有在中国上映，有不忍心看电影院手机直拍版，就一直没看。最近在电报里搞到了一份线上流媒体版MTK，自带五国字幕，但是没有中文。自己英语水平太差了，没办法看不太地道。遂在网上找到了枪版的中英双语字幕。</p>
+<p>本来想可以快乐看电影了，但突然发现这两个版本的字幕时间轴不一样。把原版字幕提取出来稍微看了一下，每一个大段的时间轴都是不匹配的。所以想把这两个字幕做一个匹配，就算只能能匹配上大部分字幕，自己的英语应该也是够用的。</p>
+<p>来看一下这两个字幕文件</p>
+<figure>
+<img src="image-english.png" alt="英文" />
+<figcaption aria-hidden="true">英文</figcaption>
+</figure>
+<figure>
+<img src="image-20220110214743883.png" alt="中英字幕" />
+<figcaption aria-hidden="true">中英字幕</figcaption>
+</figure>
+<p><em>中英字幕包含一些字幕头已经被我删掉了</em></p>
+<span id="more"></span>
+<h3 id="数据分析">1.数据分析</h3>
+<p>可以发现，这些字幕文件的内容都具有一定的规律。英文字幕都是四行一个单元，而中英字幕里前面的各个属性具有一定的长度，很容易可以删掉。</p>
+<p>在提取字幕后，因为对于我的需求而言，并不需要100%完美匹配所有的字幕，所以我首先到的是用字典来匹配，利用中英文字幕构建字典，英文作为key，判断英文字幕中的英语部分是否和key匹配，匹配则加入。</p>
+<h3 id="数据处理">2.数据处理</h3>
+<p>在python中，把字幕文件作为DataFrame读入</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line">eng_ass = pd.read_csv(<span class="string">&quot;Venom.Let.There.Be.Carnage.2021.1080p.AMZN.WEB-DL.DDP5.1.H.264-alfaHD_track3_eng.srt&quot;</span>,sep=<span class="string">&quot;\t&quot;</span>)</span><br><span class="line">chi_ass = pd.read_csv(<span class="string">&quot;Venom.Let.There.Be.Carnage.2021.1080p.WEBRip-C1NEM4.ass&quot;</span>,sep=<span class="string">&quot;\t&quot;</span>)</span><br></pre></td></tr></table></figure>
+<p><em>查看eng_ass</em></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">	1</span><br><span class="line">0	00:01:25,586 --&gt; 00:01:27,421</span><br><span class="line">1	Lights out!</span><br><span class="line">2	2</span><br><span class="line">3	00:01:28,589 --&gt; 00:01:31,058</span><br><span class="line">4	Cletus, are you there?</span><br><span class="line">5	3</span><br><span class="line">6	00:01:31,192 --&gt; 00:01:33,494</span><br></pre></td></tr></table></figure>
+<p><em>查看chi_ass</em></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">	Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text</span><br><span class="line"><span class="number">0</span>	Dialogue: <span class="number">0</span>,<span class="number">0</span>:01:<span class="number">24.40</span>,<span class="number">0</span>:01:<span class="number">25.93</span>,Default,,<span class="number">000.</span>..</span><br><span class="line"><span class="number">1</span>	Dialogue: <span class="number">0</span>,<span class="number">0</span>:01:<span class="number">27.11</span>,<span class="number">0</span>:01:<span class="number">29.51</span>,Default,,<span class="number">000.</span>..</span><br><span class="line"><span class="number">2</span>	Dialogue: <span class="number">0</span>,<span class="number">0</span>:01:<span class="number">29.65</span>,<span class="number">0</span>:01:<span class="number">31.75</span>,Default,,<span class="number">000.</span>..</span><br></pre></td></tr></table></figure>
+<p><em>由于太长了所以看不到后面的字幕</em></p>
+<p>接下来构建<strong>关于中英字幕的字典</strong></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">dirt_china = &#123;&#125;</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(chi_ass)):</span><br><span class="line">    dirt_china[<span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> chi_ass.iloc[i])[<span class="number">59</span>:][(<span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> chi_ass.iloc[i])[<span class="number">59</span>:].find(<span class="string">&quot;&#125;&quot;</span>)+<span class="number">1</span>):]] = <span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> chi_ass.iloc[i])[<span class="number">59</span>:]</span><br></pre></td></tr></table></figure>
+<p><em>dirt_china</em></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;&#x27;Lights out!&#x27;: &#x27;熄灯！\\N&#123;\\ren&#125;Lights out!&#x27;,</span><br><span class="line"> &#x27;Cletus, are you there?&#x27;: &#x27;克莱图斯，你在吗？\\N&#123;\\ren&#125;Cletus, are you there?&#x27;,</span><br><span class="line"> &#x27;My angel.&#x27;: &#x27;我的天使\\N&#123;\\ren&#125;My angel.&#x27;,</span><br><span class="line"> &#x27;This is for you.&#x27;: &#x27;这个给你\\N&#123;\\ren&#125;This is for you.&#x27;,</span><br><span class="line"> &#x27;What did the doctor say?&#x27;: &#x27;医生怎么说？\\N&#123;\\ren&#125;What did the doctor say?&#x27;,</span><br><span class="line"> &#x27;He said the mutations are advancing.&#x27;: &#x27;他说基因突变正在恶化\\N&#123;\\ren&#125;He said the mutations are advancing.&#x27;,</span><br><span class="line"> &#x27;My powers are too strong.&#x27;: &#x27;我的力量太强大了\\N&#123;\\ren&#125;My powers are too strong.&#x27;,</span><br><span class="line"> &quot;Cletus, I&#x27;m scared.&quot;: &quot;克莱图斯，我很害怕\\N&#123;\\ren&#125;Cletus, I&#x27;m scared.&quot;,</span><br></pre></td></tr></table></figure>
+<p>之后进行匹配后发现，英文字幕中有些英语句子是分段的，类似于</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">I love you,ok</span><br></pre></td></tr></table></figure>
+<p>会变成</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">I love you,</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ok</span><br></pre></td></tr></table></figure>
+<p>但这在字典中我们的key是连续的，所以要将这部分的字幕组合到一行</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">###多行合并一行</span></span><br><span class="line">i = <span class="number">1</span></span><br><span class="line"><span class="keyword">while</span> i &lt; <span class="built_in">len</span>(eng_ass):</span><br><span class="line">    <span class="keyword">if</span> <span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> eng_ass.iloc[i-<span class="number">1</span>])[<span class="number">0</span>].isalpha():</span><br><span class="line">        <span class="keyword">if</span> <span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> eng_ass.iloc[i])[<span class="number">0</span>].isalpha():</span><br><span class="line">            eng_ass.iloc[i-<span class="number">1</span>] = <span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> eng_ass.iloc[i-<span class="number">1</span>]) + <span class="string">&quot; &quot;</span>+<span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> eng_ass.iloc[i])</span><br><span class="line">            eng_ass.iloc[i] = <span class="string">&quot;buxuyaodehang&quot;</span></span><br><span class="line">    i += <span class="number">1</span></span><br><span class="line"><span class="comment">##保存之后手动去除&quot;buxuyaodehang&quot;</span></span><br><span class="line">eng_ass.to_csv(<span class="string">&quot;eng_ass_temp.txt&quot;</span>,index=<span class="literal">False</span>)</span><br></pre></td></tr></table></figure>
+<p>由于个人能力有限，无法加入空行，所以添加了空行内容为"buxuyaodehang"，在记事本用替换成空白即可去掉</p>
+<p>接下来读入并且匹配行</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">####匹配行</span></span><br><span class="line">eng_ass = pd.read_csv(<span class="string">&quot;eng_ass_temp.txt&quot;</span>,sep=<span class="string">&quot;\t&quot;</span>)</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(eng_ass)):</span><br><span class="line">    <span class="keyword">if</span> <span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> eng_ass.iloc[i]) <span class="keyword">in</span> dirt_china:</span><br><span class="line">        eng_ass.iloc[i] = dirt_china[<span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> eng_ass.iloc[i])]</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">0	00:01:25,586 --&gt; 00:01:27,421</span><br><span class="line">1	熄灯！\N&#123;\ren&#125;Lights out!</span><br><span class="line">2	2</span><br><span class="line">3	00:01:28,589 --&gt; 00:01:31,058</span><br><span class="line">4	克莱图斯，你在吗？\N&#123;\ren&#125;Cletus, are you there?</span><br><span class="line">5	3</span><br><span class="line">6	00:01:31,192 --&gt; 00:01:33,494</span><br><span class="line">7	我的天使\N&#123;\ren&#125;My angel.</span><br></pre></td></tr></table></figure>
+<p>字幕已经匹配上去了，但是由于字幕软件需要识别四个一组的行块，所以需要加入空行</p>
+<p>同时，由于读入问题，显示时间的行整体的类型为字符型</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&quot;00:01:31,192 --&gt; 00:01:33,494&quot;</span><br></pre></td></tr></table></figure>
+<p>解决两个问题</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">###缺少空行，在数字前面添加一串字符串，后用替换剔除,还要替换引号</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">pdinsert</span>(<span class="params">df,i,df_add</span>):</span></span><br><span class="line">    df1 = df.iloc[:i,:]</span><br><span class="line">    df2 = df.iloc[i:,:]</span><br><span class="line">    df_new = pd.concat([df1,df_add,df2],ignore_index=<span class="literal">True</span>)</span><br><span class="line">    <span class="keyword">return</span> df_new</span><br><span class="line">df_add = pd.DataFrame(&#123;<span class="string">&#x27;1&#x27;</span>:[<span class="string">&#x27;ddxyl&#x27;</span>]&#125;)</span><br><span class="line">i=<span class="number">0</span></span><br><span class="line"><span class="keyword">while</span> i &lt; <span class="number">6653</span>:</span><br><span class="line">    <span class="keyword">if</span> <span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> eng_ass.iloc[i]).isdigit():</span><br><span class="line">        eng_ass = pdinsert(eng_ass,i,df_add)</span><br><span class="line">        i +=<span class="number">2</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        i +=<span class="number">1</span></span><br><span class="line"><span class="comment">#######报错无所谓，已经加上了</span></span><br></pre></td></tr></table></figure>
+<p>运行代码过程中最后会报错，但是没有关系，已经匹配上了</p>
+<p>得到结果</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">0	00:01:25,586 --&gt; 00:01:27,421</span><br><span class="line">1	熄灯！\N&#123;\ren&#125;Lights out!</span><br><span class="line">2	ddxyl</span><br><span class="line">3	2</span><br><span class="line">4	00:01:28,589 --&gt; 00:01:31,058</span><br><span class="line">5	克莱图斯，你在吗？\N&#123;\ren&#125;Cletus, are you there?</span><br><span class="line">6	ddxyl</span><br><span class="line">7	3</span><br><span class="line">8	00:01:31,192 --&gt; 00:01:33,494</span><br><span class="line">9	我的天使\N&#123;\ren&#125;My angel.</span><br><span class="line">10	ddxyl</span><br></pre></td></tr></table></figure>
+<p>只需要把字符串"ddxyl"替换为空白即可正常使用</p>
+<h3 id="总结">3.总结</h3>
+<p>总之这个结果已经是可以用的了，在这个过程中我学到了一些关于字符串提取的方法，后续在下一篇文章详细讲讲是怎么提取相应的字符串的。以后也可能会写一些关于python
+pandas包的笔记总结等。</p>
+]]></content>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>整合RNA和蛋白质组学数据识别多形性胶质母细胞瘤表面组特征</title>
+    <url>/2022/02/07/literature-1/</url>
+    <content><![CDATA[<h2 id="abstract">Abstract</h2>
+<p>本文目的是发掘GBM相关的表面组基因以及识别关键的具有发展潜力的细胞表面基因作为GBM分子标志物用于治疗。主要利用TCGA
+GBM
+RNA-Seq数据以及GTEx正常脑皮层数据识别在GBM中显著失调的表面组基因，本文还综合分析了转录组学，蛋白组学数据来区分具有高置信度的GBM表面组特征。</p>
+<span id="more"></span>
+<h2 id="background">Background</h2>
+<p>多形性胶质母细胞瘤（GBM）是最常见的且致死率高的成人中枢神经系统肿瘤。尽管近些年已经开发了很多治疗方法，但是该疾病的中位生存期依旧较差。GBM患者的平均生存时间期望只有个月且五年内的生存期低于3%。目前标准的GBM治疗方案通常是在最大程度上安全的手术切除的基础上，伴随着放化疗的治疗。然而该病具有高复发率和其肿瘤内很高的异质性导致治疗的预后很差。因此，需要开发更好且有效的治疗方案。</p>
+<p>替莫挫胺是最常用的口服脱氧核糖核酸烷化（DNA-alkylating）药物，常用于在临床上GBM的化疗。常见的联合替莫挫胺和放射线疗法的标准化的Stupp治疗方案常用于治疗GBM。其他的GBM治疗方案有例如VEGF靶向的单克隆抗体贝伐单抗治疗、脱氧核糖核酸烷化药物或者检查点抑制剂治疗等。</p>
+<p>细胞表面蛋白质或表面基因组是一个整合和转运细胞内外关键信号级联的信息阀门。同时，表面基因组也在肿瘤发生的支持和侵袭的关键进展中起重要作用。事实上，异常的表面基因组表达和活性常在许多癌症类型中观察到。因此，表面基因组在癌症的治疗靶向或生物分子标志物中具有很大的潜力。最近的一项研究表明，56%的细胞表面蛋白在GBM中具有不同的表达并且在血浆以及脑脊液中也可以观察到这一现象，表明表面组蛋白具有成为生物标志物的潜力。质谱仪分析显示，表面基因组在患癌脑细胞系中平均大小大于其他（部位）类型癌症。因此，GBM表面组基因可能是我们理解GBM发病机制和药物反应的关键，靶向这些基因可能解开GBM治疗中潜在“可药性”阶段。</p>
+<p>目前，一个全面综合的GBM表面基因组图谱概述还没有完全定义。因此，本文旨在使用TCGA(GBM)和GTEx（normal
+brain）数据库的数据分析GBM表面组基因表达图谱的特征。由于TCGA正常脑组织样本较少，所以本文在两个数据库整合和完成了差异基因表达分析。为了进一步获得具有高置信度的GBM表面基因标志，我们使用PPI
+hub基因分析整合了GBM转录组和细胞表面蛋白质组的特征。总而言之，我们识别出了在GBM上调的表面组基因包括CD44,PTPRJ和HLA-DRA，这些基因在未来研究GBM发病机制的生物相关性可能有重要作用。</p>
+<h2 id="result">Result</h2>
+<h4 id="tcga和gtex患者的特征">TCGA和GTEx患者的特征</h4>
+<p>如表所示，对TCGA数据分别进行性别，治疗年龄以及治疗效果进行分组。</p>
+<figure>
+<img src="T1.png" alt="Table1" />
+<figcaption aria-hidden="true">Table1</figcaption>
+</figure>
+<h4 id="识别gbm的差异表达基因">识别GBM的差异表达基因</h4>
+<p>图1显示差异基因分析流程。由于大多数GBM病例都发现于大脑的幕上区域，文章仅选取了GTE中RNA-Seq表达谱中的皮质，正面皮质以及前刺铰接皮层。图2.A显示利用t-SNE分析反映了GBM肿瘤和正常脑组织read
+count
+值的方向性。图2.A清晰地显示了表达谱中正常脑组织和肿瘤中表达模式的不同。最终，RNA表达数据中18021个基因有13548个基因通过了质控。通过设置差异基因的阈值（具体阈值见Methods），在GBM中找到了2381个DEGs，其中有648个基因上调，1733个基因下调（见图2.B）。</p>
+<figure>
+<img src="12885_2021_8591_Fig1_HTML.jpg" alt="F1" />
+<figcaption aria-hidden="true">F1</figcaption>
+</figure>
+<figure>
+<img src="12885_2021_8591_Fig2_HTML.jpg" alt="F2" />
+<figcaption aria-hidden="true">F2</figcaption>
+</figure>
+<h4 id="对degs的功能富集和分类">对DEGs的功能富集和分类</h4>
+<p>对上述结果找到的差异基因进行GO和KEGG的功能富集。对于上调/下调的差异基因，GO富集显示差异基因与细胞表面和膜相关蛋白相关联；KEGG富集显示，上调基因主要涉及癌症传播和细胞黏附相关的通路，下调基因主要涉及神经活性配体-受体交互和主要细胞信号传导相关的通路。（图S1.ALL）</p>
+<figure>
+<img src="S1.png" alt="FS1" />
+<figcaption aria-hidden="true">FS1</figcaption>
+</figure>
+<h4
+id="识别gbm细胞表面抗原的候选分子">识别GBM细胞表面抗原的候选分子</h4>
+<p>Bausch-Fluck, Cunha. and
+Lee.等人的研究通过不同的研究方法，已经获得了表面组差异基因的基因列表。对他们基因列表取交集，得到了395个共同表面组差异基因，其中有124个上调基因，271个下调基因（图S2.A）。根据Almén等人的研究，表面组可以分为以下五个亚型：受体型，运输型，酶型，混杂型和未定义型。将图A中的结果根据亚型分类，可以发现42.8%的GBM差异表达基因属于受体亚型（图S2.B）。KEGG分析<strong>GBM-富集</strong>表面蛋白识别到与免疫防御和传播相关的通路；而<strong>GBM-缺乏</strong>细胞表面基因富集到与神经活性韧带交互和主要信号传导相关通路（图S3.ALL）。这一结果与之前所做的差异基因富集相类似，表明表面基因组在控制GBM细胞活动中起到重要作用。</p>
+<figure>
+<img src="S2.png" alt="FS2" />
+<figcaption aria-hidden="true">FS2</figcaption>
+</figure>
+<figure>
+<img src="S3.png" alt="FS3" />
+<figcaption aria-hidden="true">FS3</figcaption>
+</figure>
+<h4
+id="整合转录组和蛋白组数据识别gbm细胞表面标志">整合转录组和蛋白组数据识别GBM细胞表面标志</h4>
+<p>目前为止，我们已经</p>
+<p>（i）使用转录组数据在GBM分类了所有DEGs。</p>
+<p>（ii）在GBM中找到了<strong>细胞表面</strong>差异表达基因。</p>
+<p>即使转录组分析基因提供了十分有效的信息用于发现的生物标志物，为了进一步深入探究生物标志物的可靠性，我们决定添加一层新的分析用于筛选具有<strong>更高置信度</strong>的GBM细胞表面标志。所以我们整合了上述的转录组数据和公开数据集中可访问的蛋白组数据。该整合分析可以用于细胞表面基因的预测和消除由于转录/翻译后产生的在mRNA和蛋白表达水平的差异（不一致）。因此，我们下载了大量公开数据集提供的大量的GBM组织和细胞系的质谱分析数据。我们假定GBM组织和细胞系拥有不同细胞表面库，并且我们因此可以对两者进行分层。</p>
+<p>对五个<strong>细胞系</strong>样本的质谱分析显示了EGFR,CD44,PTPRJ,SLC1A5,F2R和TSPAN6蛋白的上调，而该结果与图F.3转录组结果一致。对于组织样本，我们只找到一个可访问的研究（Polisetty等），使用其数据找到了10个交叠基因：MRC2,
+FCGR3A, HLA-DRA, CD44, CD74, MSR1, CD163, EGFR, ITGB2,
+PTPRZ1（图F.3）。其中只有PTPRZ1基因表达上调，其余基因都为下调。以上，共有14个转录组，组织和细胞交叠基因。值得注意的是，质谱分析蛋白可能会由于蛋白溶解/隔离或其他内在变化影响质谱分析仪器对蛋白的敏感性和探测的能力。因此这些限制可能会导致预测结果的偏差。</p>
+<figure>
+<img src="12885_2021_8591_Fig3_HTML.jpg" alt="F3" />
+<figcaption aria-hidden="true">F3</figcaption>
+</figure>
+<h4
+id="表面基因组蛋白-蛋白交联网络分析和高置信度gbm细胞表面组标志物的优先级">表面基因组蛋白-蛋白交联网络分析和高置信度GBM细胞表面组标志物的优先级</h4>
+<p>接下来，我们进一步使用蛋白-蛋白交联（PPI）网络分析GBM-富集细胞表面标志物。通过该分析可以帮助我们更好地理解细胞表面基因在DEGs和其他基因中的交互作用。图F.4A展示了包含1321个节点和1767条边界的PPI交联网络，该交联网络基于许多已经被验证的特征包括功能实验，共表达分析，文本挖掘，相邻区域，基因融合和数据库。我们识别出87个簇基因模式并且最相关的簇拥有超过30个交互作用的基因包括VCAM1,
+EGFR, TGFBR1, CD44, NGFR, ITGB2, DCC, PTPRJ, ANBCA1, HLA-DRA, CCR5 and
+CSF1R等。我们将之前得到的14个交叠基因与和PPI网络中至少20个交互边界的基因交叠，得到6个具有高置信度GBM表面组标志基因（图F.4B）。（这里需要强调，这里我们的数据整合了迄今为止的大量样本。）单细胞RNA测序已经证实GBM微环境内不同细胞间的共表达和相互作用驱动GBM细胞的致癌性（发生）。该研究还将GBM微环境进一步分层为巨噬细胞，少突细胞，T细胞和恶性细胞。上述得到的6个高置信基因中，只有EGFR与恶性细胞强相关，其他基因则与巨噬细胞具有强相关性。</p>
+<figure>
+<img src="12885_2021_8591_Fig4_HTML.jpg" alt="F4" />
+<figcaption aria-hidden="true">F4</figcaption>
+</figure>
+<h4
+id="验证高置信度gbm表面组基因和生存表达的相关分析">验证高置信度GBM表面组基因和生存表达的相关分析</h4>
+<p>利用上述得到的6个差异基因，我们根据单个基因表达进行生存分析，发现6个基因的总体生存期与预后均在统计学上无意义。对数据分析，我们发现该临床数据的生存时间端点<strong>不适合</strong>总体生存期而更适合使用无进展生存期来表征。使用无进展生存期后，我们发现CD44,PTPRJ和HLA-DRA的高低表达具有统计学意义。</p>
+<p>接下来对所有的6个基因进行生存分析，无论时OS还是DFS均无统计学意义。对CD44,PTPRJ和HLA-DRA的生存分析表明，仅在DFS上，CD44,PTPRJ和HLA-DRA的高表达与较差的预后相关。</p>
+<h4 id="cd44的共表达网络">CD44的共表达网络</h4>
+<p>OMICS研究表明，CD44在许多类型的癌症中都有过表达的现象。基于我们上述的分析，CD44在转录组和蛋白组扮演者重要角色，同时其高表达也表征更差的预后。除此之外，单细胞测序也证实CD44被富集在GBM间叶样细胞中，以及在原位异种移植的免疫缺陷小鼠中可以富集到。因此我们使用转录组数据构建CD44共表达网络进行分析。如图F.5A所示，筛选皮尔森相关系数大于0.75的边界构建CD44共表达分析网络。共有27个基因与CD44关联，具有极高相关性的基因有ELK3,
+CLIC4, GALNT2,
+TNC,和VIM。如图F.5B所示，所有的CD44共表达簇在GBM中具有高表达量（相对于正常脑组织）。结果表明CD44可能支持GBM的病理发生。</p>
+<figure>
+<img src="12885_2021_8591_Fig5_HTML.jpg" alt="F5" />
+<figcaption aria-hidden="true">F5</figcaption>
+</figure>
+<h2 id="conclusion">Conclusion</h2>
+<p>总之，我们使用RNA-seq数据识别了GBM表面组基因。通过一体化multi-OMICS策略，我们得到了6个GBM表面富集基因，并且这些基因在GBM发展中起重要作用。另外的，更深入的研究这些基因可能得到潜在的GBM诊断/预后标志物或GBM的治疗方案。</p>
+<h2 id="methods">Methods</h2>
+<h4 id="data">Data</h4>
+<p>本文分析使用了TCGA-GBM和GTEx normal brain <strong>read count</strong>
+数据。最终，使用了来自TCGA的166个GBM样本和408个来自GTEx的正常脑组织数据。RNA-seq数据在预处理阶段涉及数据过滤和数据标准化。标准化所有数据集采用log2-counts
+per
+million。不可靠以及错误数据采用方差过滤（小于15）和低丰度（小于4）删除。</p>
+<h4 id="差异基因分析">差异基因分析</h4>
+<p>差异分析采用NetworkAnalyst进行分析。NetworkAnalyst平台基于R包limma寻找差异基因。本文研究设置基因调整p值（adjusted
+p-value）小于0.05并且log2 fold change |2|。</p>
+<h4 id="功能富集">功能富集</h4>
+<p>在DAVID 进行KEGG和GO的通路富集。</p>
+<h4 id="识别hub基因">识别hub基因</h4>
+<p>利用IMEx 相互作用组学数据库对DEGs进行PPI分析。</p>
+<h4 id="cd44共表达分析">CD44共表达分析</h4>
+<p>将原始的read counts文件存储为“.expression”文件在Graphia
+Prefessional平台进行共表达分析。在Graphia
+Prefessional处理之后，构建成对的皮尔森相关矩阵，进行每个基因表达谱基因与基因间的比较。将皮尔森相关系数大于0.7（r&gt;0.7）存储为".pearson"文件，根据用户定义的r&gt;0.75，构建图形网络。</p>
+]]></content>
+      <tags>
+        <tag>literature</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python笔记</title>
+    <url>/2022/01/28/pandas-command/</url>
+    <content><![CDATA[<p>这篇保存一些pandas常用的命令，字符串获取的方法，以及字典列表的一些实用方法</p>
+<h2 id="pandas">Pandas</h2>
+<h4 id="pandas读取">1.pandas读取</h4>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"><span class="keyword">from</span> io <span class="keyword">import</span> StringIO </span><br><span class="line"><span class="comment">##读取csv</span></span><br><span class="line">pd.read_csv(<span class="string">&#x27;data/data.csv&#x27;</span>)</span><br><span class="line"><span class="comment">##传入字符串</span></span><br><span class="line">data = (<span class="string">&#x27;col1,col2,col3\n&#x27;</span>  </span><br><span class="line">        <span class="string">&#x27;a,b,1\n&#x27;</span>  </span><br><span class="line">        <span class="string">&#x27;a,b,2\n&#x27;</span>  </span><br><span class="line">        <span class="string">&#x27;c,d,3&#x27;</span>)  </span><br><span class="line">pd.read_csv(StringIO(data))  </span><br><span class="line"><span class="comment">##分隔符，表头以及列名</span></span><br><span class="line">sep=<span class="string">&#x27;\t&#x27;</span>，header=<span class="number">0</span>/<span class="literal">None</span> <span class="comment">##0为第一行，None为无</span></span><br><span class="line">pd.read_csv(data,names=[<span class="string">&#x27;列1&#x27;</span>,<span class="string">&#x27;列2&#x27;</span>],header=<span class="number">0</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">##指定索引列</span></span><br><span class="line">pd.read_csv(data, index_col=<span class="literal">False</span>) <span class="comment"># 不再使用首列作为索引  </span></span><br><span class="line">pd.read_csv(data, index_col=<span class="number">0</span>) <span class="comment"># 第几列是索引  </span></span><br><span class="line">pd.read_csv(data, index_col=<span class="string">&#x27;年份&#x27;</span>) <span class="comment"># 指定列名  </span></span><br><span class="line">pd.read_csv(data, index_col=[<span class="string">&#x27;a&#x27;</span>,<span class="string">&#x27;b&#x27;</span>]) <span class="comment"># 多个索引  </span></span><br><span class="line"></span><br><span class="line"><span class="comment">##dtype可以指定各数据列的数据类型</span></span><br><span class="line">pd.read_csv(data, dtype=np.float64) <span class="comment"># 所有数据均为此数据类型  </span></span><br><span class="line">pd.read_csv(data, dtype=&#123;<span class="string">&#x27;c1&#x27;</span>:np.float64, <span class="string">&#x27;c2&#x27;</span>: <span class="built_in">str</span>&#125;) <span class="comment"># 指定字段的类型  </span></span><br><span class="line">pd.read_csv(data, dtype=[datetime, datetime, <span class="built_in">str</span>, <span class="built_in">float</span>]) <span class="comment"># 依次指定 </span></span><br></pre></td></tr></table></figure>
+<span id="more"></span>
+<h4 id="pandas创建">2.pandas创建</h4>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">##字典嵌套列表创建</span></span><br><span class="line">data = &#123;<span class="string">&#x27;Name&#x27;</span>:[<span class="string">&#x27;Tom&#x27;</span>, <span class="string">&#x27;Jack&#x27;</span>, <span class="string">&#x27;Steve&#x27;</span>, <span class="string">&#x27;Ricky&#x27;</span>],<span class="string">&#x27;Age&#x27;</span>:[<span class="number">28</span>,<span class="number">34</span>,<span class="number">29</span>,<span class="number">42</span>]&#125;</span><br><span class="line">df = pd.DataFrame(data, index=[<span class="string">&#x27;rank1&#x27;</span>,<span class="string">&#x27;rank2&#x27;</span>,<span class="string">&#x27;rank3&#x27;</span>,<span class="string">&#x27;rank4&#x27;</span>]) <span class="comment">##index为行标签</span></span><br><span class="line"></span><br><span class="line"><span class="comment">##列表嵌套字典创建DataFrame对象</span></span><br><span class="line">data = [&#123;<span class="string">&#x27;a&#x27;</span>: <span class="number">1</span>, <span class="string">&#x27;b&#x27;</span>: <span class="number">2</span>&#125;,&#123;<span class="string">&#x27;a&#x27;</span>: <span class="number">5</span>, <span class="string">&#x27;b&#x27;</span>: <span class="number">10</span>, <span class="string">&#x27;c&#x27;</span>: <span class="number">20</span>&#125;]</span><br><span class="line">df = pd.DataFrame(data)</span><br><span class="line"></span><br><span class="line"><span class="comment">## Series创建DataFrame对象</span></span><br><span class="line"><span class="comment">####Series是一种类似于一维数组的对象，它由一组数据（各种NumPy数据类型）以及一组与之相关的数据标签（即索引）组成。</span></span><br><span class="line">d = &#123;<span class="string">&#x27;one&#x27;</span> : pd.Series([<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>], index=[<span class="string">&#x27;a&#x27;</span>, <span class="string">&#x27;b&#x27;</span>, <span class="string">&#x27;c&#x27;</span>]),</span><br><span class="line">   <span class="string">&#x27;two&#x27;</span> : pd.Series([<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>], index=[<span class="string">&#x27;a&#x27;</span>, <span class="string">&#x27;b&#x27;</span>, <span class="string">&#x27;c&#x27;</span>, <span class="string">&#x27;d&#x27;</span>])&#125;</span><br><span class="line">df = pd.DataFrame(d)</span><br></pre></td></tr></table></figure>
+<h4 id="pandas列索引操作">3.pandas列索引操作</h4>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">##列索引</span></span><br><span class="line">df[<span class="string">&#x27;列名&#x27;</span>]</span><br><span class="line"><span class="comment">#将已经存在的数据列做相加运算</span></span><br><span class="line">df[<span class="string">&#x27;four&#x27;</span>]=df[<span class="string">&#x27;one&#x27;</span>]+df[<span class="string">&#x27;three&#x27;</span>]</span><br><span class="line"><span class="comment">##insert 方法</span></span><br><span class="line"><span class="comment">#注意是column参数</span></span><br><span class="line"><span class="comment">#数值1代表插入到columns列表的索引位置</span></span><br><span class="line">df.insert(<span class="number">1</span>,column=<span class="string">&#x27;score&#x27;</span>,value=[<span class="number">91</span>,<span class="number">90</span>,<span class="number">75</span>])</span><br><span class="line"><span class="comment">##列索引删除列</span></span><br><span class="line"><span class="comment">#使用del删除</span></span><br><span class="line"><span class="keyword">del</span> df[<span class="string">&#x27;one&#x27;</span>]</span><br><span class="line"><span class="built_in">print</span>(df)</span><br><span class="line"><span class="comment">#使用pop方法删除</span></span><br><span class="line">df.pop(<span class="string">&#x27;two&#x27;</span>)</span><br></pre></td></tr></table></figure>
+<h4 id="pandas行索引操作">4.pandas行索引操作</h4>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">##可以将行标签传递给 loc 函数，来选取数据</span></span><br><span class="line">df.loc[<span class="string">&#x27;b&#x27;</span>]</span><br><span class="line"><span class="comment">#############loc 允许接两个参数分别是行和列，参数之间需要使用“逗号”隔开，但该函数只能接收标签索引</span></span><br><span class="line"><span class="comment">##整数索引选取</span></span><br><span class="line">df.iloc[<span class="number">2</span>]</span><br><span class="line"><span class="comment">#############iloc 允许接受两个参数分别是行和列，参数之间使用“逗号”隔开，但该函数只能接收整数索引</span></span><br><span class="line"><span class="comment">##添加数据行</span></span><br><span class="line"><span class="comment">##使用append() 函数，可以将新的数据行添加到 DataFrame 中，该函数会在行末追加数据行</span></span><br><span class="line">df = df.append(df2)</span><br><span class="line"><span class="comment">##删除数据行</span></span><br><span class="line"><span class="comment">##使用行索引标签，从 DataFrame 中删除某一行数据。如果索引标签存在重复，那么它们将被一起删除</span></span><br><span class="line">df = df.drop(<span class="number">0</span>)</span><br></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr class="header">
+<th><strong>名称</strong></th>
+<th>属性&amp;方法描述</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>T</td>
+<td>行和列转置。</td>
+</tr>
+<tr class="even">
+<td>axes</td>
+<td>返回一个仅以行轴标签和列轴标签为成员的列表。</td>
+</tr>
+<tr class="odd">
+<td>dtypes</td>
+<td>返回每列数据的数据类型。</td>
+</tr>
+<tr class="even">
+<td>empty</td>
+<td>DataFrame中没有数据或者任意坐标轴的长度为0，则返回True。</td>
+</tr>
+<tr class="odd">
+<td>ndim</td>
+<td>轴的数量，也指数组的维数。</td>
+</tr>
+<tr class="even">
+<td>shape</td>
+<td>返回一个元组，表示了 DataFrame 维度。</td>
+</tr>
+<tr class="odd">
+<td>size</td>
+<td>DataFrame中的元素数量。</td>
+</tr>
+<tr class="even">
+<td>values</td>
+<td>使用 numpy 数组表示 DataFrame 中的元素值。</td>
+</tr>
+<tr class="odd">
+<td>head()</td>
+<td>返回前 n 行数据。</td>
+</tr>
+<tr class="even">
+<td>tail()</td>
+<td>返回后 n 行数据。</td>
+</tr>
+<tr class="odd">
+<td>shift()</td>
+<td>将行或列移动指定的步幅长度</td>
+</tr>
+</tbody>
+</table>
+<h2 id="string">String</h2>
+<h4 id="通用类">1.通用类</h4>
+<ul>
+<li>replace(old, new [, max])，把 将字符串中的 old 替换成 new, max
+为可选参数，若指定 max ，则替换 max 次</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">double_str = <span class="string">&quot;my name is kele kele&quot;</span></span><br><span class="line">double_str.replace(<span class="string">&quot;kele&quot;</span>, <span class="string">&quot;xuebi&quot;</span>)</span><br><span class="line"><span class="string">&#x27;my name is xuebi xuebi&#x27;</span></span><br><span class="line">double_str.replace(<span class="string">&quot;kele&quot;</span>, <span class="string">&quot;xuebi&quot;</span>, <span class="number">1</span>)</span><br><span class="line"><span class="string">&#x27;my name is xuebi xuebi&#x27;</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>split(str="", num=string.count(str))，以 str
+为分隔符截取字符串，默认为所有的空字符，包括空格、换行<code>\n</code>、制表符<code>\t</code>等。若指定
+num ，则截取出 num+1 个子字符串，返回包含所有字符串的列表。</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 用法一：不指定 num ，截取所有</span></span><br><span class="line">double_str = <span class="string">&quot;mynameiskelekelea&quot;</span></span><br><span class="line">double_str.split(<span class="string">&quot;e&quot;</span>)</span><br><span class="line">[<span class="string">&#x27;mynam&#x27;</span>, <span class="string">&#x27;isk&#x27;</span>, <span class="string">&#x27;l&#x27;</span>, <span class="string">&#x27;k&#x27;</span>, <span class="string">&#x27;l&#x27;</span>, <span class="string">&#x27;a&#x27;</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment"># 用法二：指定 num ，截取 num 次</span></span><br><span class="line">double_str.split(<span class="string">&quot;e&quot;</span>, <span class="number">1</span>)</span><br><span class="line">[<span class="string">&#x27;mynam&#x27;</span>, <span class="string">&#x27;iskelekelea&#x27;</span>]</span><br></pre></td></tr></table></figure>
+<ul>
+<li>splitlines([keepends])，按照行('', '',
+')分隔，返回一个包含各行作为元素的列表，参数 keepends 默认为
+False，不包含换行符，如果为 True，则保留换行符。</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 用法一：不指定 keepends，默认为 False</span></span><br><span class="line">double_str = <span class="string">&quot;my name\n</span></span><br><span class="line"><span class="string">is ke\r</span></span><br><span class="line"><span class="string">le \r\n&quot;</span></span><br><span class="line">double_str.splitlines()</span><br><span class="line">[<span class="string">&#x27;my name&#x27;</span>, <span class="string">&#x27;is ke&#x27;</span>, <span class="string">&#x27;le&#x27;</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment"># 用法一：指定 keepends 为 True, 保留切割符</span></span><br><span class="line">double_str.splitlines(<span class="literal">True</span>)</span><br><span class="line">[<span class="string">&#x27;my name\n&#x27;</span>, <span class="string">&#x27;is ke\r&#x27;</span>, <span class="string">&#x27;le\r\n&#x27;</span>]</span><br></pre></td></tr></table></figure>
+<ul>
+<li>find(str, beg=0, end=len(string))，检测 str
+是否包含在字符串中，若指定 beg 和 end
+，则在指定范围内检测，若包含则返回第一次出现的索引值，否则返回 -1。</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">double_str = <span class="string">&quot;my name is kele&quot;</span></span><br><span class="line">double_str.find(<span class="string">&quot;h&quot;</span>)</span><br><span class="line">-<span class="number">1</span></span><br><span class="line">double_str.find(<span class="string">&quot;e&quot;</span>)</span><br><span class="line"><span class="number">6</span></span><br><span class="line"><span class="comment"># 指定范围</span></span><br><span class="line">double_str.find(<span class="string">&quot;i&quot;</span>,<span class="number">0</span>,<span class="number">5</span>)</span><br><span class="line">-<span class="number">1</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li><p>rfind 与find类似，从右边开始找，返回最后一次出现的索引值</p></li>
+<li><p>index(str, beg=0, end=len(string))，与 find() 函数类似，但如果
+str 不在字符串中会报错</p></li>
+<li><p>rindex与index类似，从右边找</p></li>
+<li><p>count(str, beg= 0,end=len(string)），返回 str 在 string
+中出现的次数，若指定 beg 或者 end 参数，则返回在指定范围内 str
+出现的次数。</p></li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">double_str = <span class="string">&quot;my name is kele&quot;</span></span><br><span class="line">double_str.count(<span class="string">&quot;h&quot;</span>)</span><br><span class="line"><span class="number">0</span></span><br><span class="line"><span class="comment"># 指定范围</span></span><br><span class="line">double_str.count(<span class="string">&quot;e&quot;</span>, <span class="number">0</span>, <span class="number">7</span>)</span><br></pre></td></tr></table></figure>
+<ul>
+<li>lstrip([chars])，只处理字符串句首的空格或指定字符，其他位置忽略。</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 处理句首空格</span></span><br><span class="line">double_str = <span class="string">&quot;  句首 有两个空格&quot;</span></span><br><span class="line">double_str.lstrip()</span><br><span class="line"><span class="string">&#x27;句首 有两个空格&#x27;</span></span><br><span class="line"><span class="comment"># 处理句首指定字符</span></span><br><span class="line">double_str = <span class="string">&quot;句首句首有一个空格&quot;</span></span><br><span class="line">double_str.lstrip(<span class="string">&quot;句首&quot;</span>)</span><br><span class="line"><span class="string">&#x27;有一个空格&#x27;</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li><p>rstrip([chars])，处理字符串末尾的空格或指定字符，其他位置忽略.。</p></li>
+<li><p>strip([chars])， 处理字符串两端的空格或指定字符，可视为 lstrip()
+和 rstrip() 的效果叠加。</p></li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 处理两端的指定字符</span></span><br><span class="line">double_str = <span class="string">&quot;你好有一个 空格你好&quot;</span></span><br><span class="line">double_str.strip(<span class="string">&quot;你好&quot;</span>)</span><br><span class="line"><span class="string">&#x27;有一个 空格&#x27;</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>center(width, fillchar)，fillchar
+为填充的字符，默认使用空格填充，返回指定宽度 width、原字符串居中、使用
+fillchar 填充后的字符串。</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 指定填充字符 【*】</span></span><br><span class="line">double_str.center(<span class="number">20</span>, <span class="string">&quot;*&quot;</span>)</span><br><span class="line"><span class="string">&#x27;***我想通过两侧填充来让自己变强***&#x27;</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li><p>ljust,右侧填充</p></li>
+<li><p>rjust,左侧填充</p></li>
+<li><p>join(seq)，以指定字符串作为拼接字符，将 seq
+中所有的元素(必须是字符串类型)，拼接为一个新的字符串。如果拼接对象不是字符会报错。</p></li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 用法一：不指定拼接字符，默认使用空字符</span></span><br><span class="line">seq_list =[<span class="string">&quot;我想&quot;</span>, <span class="string">&quot;合并&quot;</span>, <span class="string">&quot;自己&quot;</span>]</span><br><span class="line"><span class="string">&quot;&quot;</span>.join(seq_list)</span><br><span class="line"><span class="string">&#x27;我想合并自己&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 用法二：指定拼接字符【***】</span></span><br><span class="line"><span class="string">&quot;***&quot;</span>.join(seq_list)</span><br><span class="line"><span class="string">&#x27;我想***合并***自己&#x27;</span></span><br></pre></td></tr></table></figure>
+<h4 id="单词类">2.单词类</h4>
+<ul>
+<li>capitalize()，将字符串的首字母转换为大写。</li>
+<li>title()，将字符串中所有单词的首字母转换为大写。</li>
+<li>upper()，将字符串中的小写字母全部转换为大写。</li>
+<li>lower()，将字符串中所有大写字母转换为小写。</li>
+<li>swapcase()，将字符串中的大写字母转换为小写，小写字母转换为大写。</li>
+<li>max(str)，返回字符串 str 中最大的字母。</li>
+<li>min(str)，返回字符串 str 中最小的字母。</li>
+</ul>
+<h4 id="判断类">3.判断类</h4>
+<ul>
+<li>startswith(substr,
+beg=0,end=len(string))，判断字符串是否是以指定子字符串 substr
+开头，是则返回 True，否则返回 False。若指定 beg 和 end
+值，则在指定范围内判断。</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">double_str = <span class="string">&quot;my name is kele&quot;</span></span><br><span class="line">double_str.startswith(<span class="string">&quot;my&quot;</span>)</span><br><span class="line"><span class="literal">True</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>endswith(suffix, beg=0,
+end=len(string))，判断字符串是否以指定子字符串 suffix 结束，是则返回
+True，否则返回 False。若指定 beg 和 end 值，则在指定范围内判断。</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">用法一：不指定范围</span><br><span class="line">double_str = <span class="string">&quot;my name is kele&quot;</span></span><br><span class="line">double_str.endswith(<span class="string">&quot;kele&quot;</span>)</span><br><span class="line"><span class="literal">True</span></span><br><span class="line">double_str.endswith(<span class="string">&quot;xuebi&quot;</span>)</span><br><span class="line"><span class="literal">False</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 用法二：指定范围</span></span><br><span class="line">double_str.endswith(<span class="string">&quot;kele&quot;</span>, <span class="number">0</span>, <span class="number">6</span>)</span><br><span class="line"><span class="literal">False</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li><p>isdigit()，判断字符串是否只包含数字，是则返回 True， 否则返回
+False。</p></li>
+<li><p>isalnum()，判断字符串是否至少有一个字符并且只包含字母、数字或字母和数字，是则返回
+True，否则返回 False。</p></li>
+<li><p>isalpha()，判断字符串是否至少有一个字符，并且全为字母，是则返回
+True， 否则返回 False，<strong>中文也被视为字母字符</strong>。</p></li>
+<li><p>islower()，判断字符串是否至少包含一个字母，并且字母全为小写，是则返回
+True，否则返回 False。</p></li>
+<li><p>isupper()，判断字符串是否至少包含一个字母，并且字母全为大写，是则返回
+True，否则返回 False。</p></li>
+<li><p>istitle()，判断字符串中所有英文单词的首字母是全为大写，其他字母全为小写，是则返回
+True，否则返回 False。</p></li>
+<li><p>isnumeric()，判断字符串是否只包含数字，是则返回 True，否则返回
+False。数字可以是： Unicode
+数字，全角数字（双字节），罗马数字，汉字数字。</p></li>
+<li><p>isdecimal()，判断字符串是否只包含十进制数字，是则返回
+True，否则返回 False。</p></li>
+<li><p>isspace()，判断字符串是否只包含空白字符，是则返回 True，否则返回
+False。</p></li>
+</ul>
+<h4 id="编码类">4.编码类</h4>
+<ul>
+<li>encode(encoding='UTF-8'，errors='strict')，以 encoding
+指定的编码格式编码字符串，默认为utf-8，如果出错默认报一个ValueError
+的异常，除非 errors 指定的是 ignore 或者 replace。</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">##utf8</span></span><br><span class="line">double_str = <span class="string">&quot;utf-8编码&quot;</span></span><br><span class="line">double_str.encode()</span><br><span class="line"><span class="string">b&#x27;utf-8\xe7\xbc\x96\xe7\xa0\x81&#x27;</span></span><br><span class="line"><span class="comment">##gbk</span></span><br><span class="line">double_str = <span class="string">&quot;gbk编码&quot;</span></span><br><span class="line">double_str.encode(encoding=<span class="string">&quot;gbk&quot;</span>)</span><br><span class="line"><span class="string">b&#x27;gbk\xb1\xe0\xc2\xeb&#x27;</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>bytes.decode(encoding="utf-8"，
+errors="strict")，处理使用指定编码格式编码后的字符串，其中
+bytes可通过字符串编码 str.encode() 来获取。</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">double_str = &quot;utf-8编码&quot;</span><br><span class="line">utf8_encode = double_str.encode()</span><br><span class="line">utf8_encode.decode()</span><br><span class="line">&#x27;utf-8编码&#x27;</span><br><span class="line"></span><br><span class="line">double_str = &quot;gbk编码&quot;</span><br><span class="line">gbk_encode = double_str.encode(&quot;gbk&quot;)</span><br><span class="line">gbk_encode.decode(&quot;gbk&quot;)</span><br><span class="line">&#x27;gbk编码&#x27;</span><br></pre></td></tr></table></figure>
+<h2 id="dictionary">Dictionary</h2>
+<p><em>之后再填</em></p>
+<h2 id="reference-article">Reference article</h2>
+<p><em><a href="https://markdown.com.cn"
+title="最好的markdown教程">Markdown语法</a>。</em></p>
+<p><em><a
+href="https://www.51cto.com/article/675042.html">用Pandas读取CSV，看这篇就够了</a></em></p>
+<p><em><a href="https://www.coder.work/article/3121591">python -
+从字符串创建DataFrame</a></em></p>
+<p><em><a href="http://c.biancheng.net/pandas/dataframe.html">Pandas
+DataFrame入门教程（图解版）</a></em></p>
+<p><em><a
+href="https://kelepython.readthedocs.io/zh/latest/c01/c01_01.html">一文搞定
+Python 字符串操作（上）</a></em></p>
+<p><em><a
+href="https://kelepython.readthedocs.io/zh/latest/c01/c01_02.html">一文搞定
+Python 字符串操作（下）</a></em></p>
+]]></content>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+</search>
