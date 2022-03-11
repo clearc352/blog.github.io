@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>2022.3.09</title>
-    <url>/2022/03/09/2022-3-09/</url>
+    <url>/2022-3-09.html</url>
     <content><![CDATA[<p>今天开始每天碎碎念一点东西。</p>
 <p>要好好规划一下接下来的专业课了。以后周三学分子生物学，周五学细胞生物学。戒戒戒网瘾！</p>
 <p>今天下午搞一搞评论系统和统计系统。然后可能再找一张背景图？看看搞多久。</p>
@@ -13,7 +13,7 @@
   </entry>
   <entry>
     <title>通过新的检测平台证实胶质瘤循环细胞及其相关簇为诊断标志物</title>
-    <url>/2022/03/02/CTC-novel-platform/</url>
+    <url>/CTC-novel-platform.html</url>
     <content><![CDATA[<h2 id="abstract">Abstract</h2>
 <p>        在本研究中，我们通过上皮肿瘤细胞的大小构建了了一个新的隔离方法，该方法通过使用生物相容性二烯烯聚合物膜携带在高流速下直径8㎛的气孔富集CTC。</p>
 <span id="more"></span>
@@ -52,7 +52,7 @@ as diagnostic markers by a novel detection platform</em></p>
   </entry>
   <entry>
     <title>脑胶质瘤铁死亡相关基因标记预测预后和免疫治疗</title>
-    <url>/2022/02/19/Ferroptosis-related/</url>
+    <url>/Ferroptosis-related.html</url>
     <content><![CDATA[<h2 id="abstract">Abstract</h2>
 <p>脑胶质瘤是一种具有高侵袭性的脑肿瘤，高侵袭性使得患者的预后和治疗效果不佳。细胞死亡在癌症的治疗中具有好的前景。铁死亡，一种最近发现的调控细胞死亡类型，可以被诱导杀死脑胶质瘤细胞。然而，在脑胶质瘤中预测铁死亡相关基因的预后仍然难以捉摸。</p>
 <span id="more"></span>
@@ -159,7 +159,7 @@ and immunotherapy in glioma</em></p>
   </entry>
   <entry>
     <title>黄金分割法+斐波那契数列法求单峰函数极小值点</title>
-    <url>/2022/03/04/GlodenCut/</url>
+    <url>/GlodenCut.html</url>
     <content><![CDATA[<p>使用黄金分割法求极小值点。</p>
 <p>前提：函数在所求区间为单峰函数，即存在唯一极小值点。 <span id="more"></span></p>
 <h2 id="初步构思">初步构思</h2>
@@ -209,7 +209,7 @@ and immunotherapy in glioma</em></p>
   </entry>
   <entry>
     <title>多中心研究IDH野生型分子胶质母细胞瘤(molecular glioblastoma)的生存情况</title>
-    <url>/2022/03/06/IDH2022/</url>
+    <url>/IDH2022.html</url>
     <content><![CDATA[<h2 id="abstract">Abstract</h2>
 <p>组织学上定义的胶质母细胞瘤（GBM）为否存在中央假栅栏坏死和微血管增生(histGBM)。根据2021年WHO中枢神经系统肿瘤分类手册将IDH野生型弥散性星型胶质瘤，包括任一的分子特征：1）TERTp突变，2）EGFR基因扩增，3）七号染色体获得与十号染色体缺失，且无论是否存在中央假栅栏坏死和微血管增生定义为分子GBM（molGBM）。本研究是为了探究histGBM与molGBM患者间的生存差异。</p>
 <span id="more"></span>
@@ -328,7 +328,7 @@ test）。在所有的队列中（包括molGBM和histGBM），三个分子对OS�
   </entry>
   <entry>
     <title>用python匹配字幕</title>
-    <url>/2022/01/10/Subtitle-matching/</url>
+    <url>/Subtitle-matching.html</url>
     <content><![CDATA[<p>最近遇到一个很有意思的事情。因为毒液2没有在中国上映，有不忍心看电影院手机直拍版，就一直没看。最近在电报里搞到了一份线上流媒体版MTK，自带五国字幕，但是没有中文。自己英语水平太差了，没办法看不太地道。遂在网上找到了枪版的中英双语字幕。</p>
 <p>本来想可以快乐看电影了，但突然发现这两个版本的字幕时间轴不一样。把原版字幕提取出来稍微看了一下，每一个大段的时间轴都是不匹配的。所以想把这两个字幕做一个匹配，就算只能能匹配上大部分字幕，自己的英语应该也是够用的。</p>
 <p>来看一下这两个字幕文件</p>
@@ -387,7 +387,7 @@ pandas包的笔记总结等。</p>
   </entry>
   <entry>
     <title>整合RNA和蛋白质组学数据识别多形性胶质母细胞瘤表面组特征</title>
-    <url>/2022/02/07/literature-1/</url>
+    <url>/literature-1.html</url>
     <content><![CDATA[<h2 id="abstract">Abstract</h2>
 <p>本文目的是发掘GBM相关的表面组基因以及识别关键的具有发展潜力的细胞表面基因作为GBM分子标志物用于治疗。主要利用TCGA
 GBM
@@ -493,7 +493,7 @@ Prefessional处理之后，构建成对的皮尔森相关矩阵，进行每个�
   </entry>
   <entry>
     <title>python笔记</title>
-    <url>/2022/01/28/pandas-command/</url>
+    <url>/pandas-command.html</url>
     <content><![CDATA[<p>这篇保存一些pandas常用的命令，字符串获取的方法，以及字典列表的一些实用方法</p>
 <h2 id="pandas">Pandas</h2>
 <h4 id="pandas读取">1.pandas读取</h4>
