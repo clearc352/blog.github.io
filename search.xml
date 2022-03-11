@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>2022.3.09</title>
-    <url>/2022-3-09/</url>
+    <url>/uncategorized/2022-3-09/</url>
     <content><![CDATA[<p>今天开始每天碎碎念一点东西。</p>
 <p>要好好规划一下接下来的专业课了。以后周三学分子生物学，周五学细胞生物学。戒戒戒网瘾！</p>
 <p>今天下午搞一搞评论系统和统计系统。然后可能再找一张背景图？看看搞多久。</p>
@@ -13,7 +13,7 @@
   </entry>
   <entry>
     <title>通过新的检测平台证实胶质瘤循环细胞及其相关簇为诊断标志物</title>
-    <url>/CTC-novel-platform/</url>
+    <url>/uncategorized/CTC-novel-platform/</url>
     <content><![CDATA[<h2 id="abstract">Abstract</h2>
 <p>        在本研究中，我们通过上皮肿瘤细胞的大小构建了了一个新的隔离方法，该方法通过使用生物相容性二烯烯聚合物膜携带在高流速下直径8㎛的气孔富集CTC。</p>
 <span id="more"></span>
@@ -22,23 +22,23 @@
 <h2 id="result">Result</h2>
 <p>        为了测试装置捕获的效率，我们在U87和U251中加入健康人的血液样本。在U87细胞系浓聚物中每5ml加入5，10，20，50，100和150个细胞，其捕获效率分别为86.0%，87.0%，86.5%，86.0%，91.3%，92.9%。在U251细胞系中也可以观测到同样的结果（图1A-C）。</p>
 <figure>
-<img src="/CTC-novel-platform/CTM2-11-e318-g001——ac.jpg" alt="图1A-C">
+<img src="/uncategorized/CTC-novel-platform/CTM2-11-e318-g001——ac.jpg" alt="图1A-C">
 <figcaption aria-hidden="true">图1A-C</figcaption>
 </figure>
 <p>        接下来，我们探究了在胶质瘤CTC上运用该方法的可行性。将他们的数据使用Wright's染色（一种被认可的方法），发现其并不能从其他脑肿瘤中区分胶质瘤的CTC。这表明，这种基于肿瘤特征的方法不能确定CTC的区域，限制了其诊断的价值（图4A-C）。然而，
 靶向GBM来源的CTC的高度特定的识别方法如STEAM染色法（基于CTC和WBC的差异基因表达量的抗体混合物），由于健康细胞表达一些包含的标志物，将会导致假阳性的风险和高的背景水平（？）。因此，我们结合STEAM染色和一系列关键的CTC恶性特征，这种改良的STEAM法可以在小鼠实验和健康样本中显著地减少背景水平（图1D-F,2A-B,4D），并且较Wright's染色而言，更具有敏感性（图2C）。</p>
-<p><img src="/CTC-novel-platform/CTM2-11-e318-g004A-C.jpg" alt="图4A-C"> <img src="/CTC-novel-platform/CTM2-11-e318-g001d-f.jpg" alt="图1D-F"> <img src="/CTC-novel-platform/CTM2-11-e318-g002a-c.jpg" alt="图2A-C"> <img src="/CTC-novel-platform/CTM2-11-e318-g004d.jpg" alt="图4D"></p>
+<p><img src="/uncategorized/CTC-novel-platform/CTM2-11-e318-g004A-C.jpg" alt="图4A-C"> <img src="/uncategorized/CTC-novel-platform/CTM2-11-e318-g001d-f.jpg" alt="图1D-F"> <img src="/uncategorized/CTC-novel-platform/CTM2-11-e318-g002a-c.jpg" alt="图2A-C"> <img src="/uncategorized/CTC-novel-platform/CTM2-11-e318-g004d.jpg" alt="图4D"></p>
 <p>        接下来，我们通过临床测试来校验上述平台在胶质瘤应用中的可行性。对于42例弥漫性原发胶质瘤患者，大约85.7%（36/42）检测出CTC，显著高于之前的研究（图2D）。对于继发性胶质瘤患者，有7/8（87.5%）检测出CTCs超过阈值（图2D）。为了进一步研究我们的平台对于不同诊断的可行性，我们使用20例良性肿瘤和8例脑转移瘤患者的临床数据。我们发现在胶质瘤中STEAM阳性CTC的水平显著高于上述提到到的脑肿瘤(P&lt;0.0001)（图2E）。并且ROC曲线显示了我们的平台预测在胶质瘤CTC中的价值。</p>
 <figure>
-<img src="/CTC-novel-platform/CTM2-11-e318-g002d-e.jpg" alt="图2D-E">
+<img src="/uncategorized/CTC-novel-platform/CTM2-11-e318-g002d-e.jpg" alt="图2D-E">
 <figcaption aria-hidden="true">图2D-E</figcaption>
 </figure>
 <p>        与之前的结果相反，在五个胶质瘤亚型中，我们在星形细胞瘤发现高水平的CTC，而在少突胶质细胞瘤中则是低水平的CTC（图2G-I,4E）。这一结果显示了使用CTC预测肿瘤病理亚型具有很大的潜力。在大规模队列中验证之后，这可以使诊断更加精确。</p>
-<p><img src="/CTC-novel-platform/CTM2-11-e318-g002g-i.jpg" alt="图2G-I"> <img src="/CTC-novel-platform/CTM2-11-e318-g004e.jpg" alt="图4E"></p>
+<p><img src="/uncategorized/CTC-novel-platform/CTM2-11-e318-g002g-i.jpg" alt="图2G-I"> <img src="/uncategorized/CTC-novel-platform/CTM2-11-e318-g004e.jpg" alt="图4E"></p>
 <p>        接着，我们证实是否CTC簇在胶质瘤中具有某些固有性质。与出现比例极低的CTC-CTC簇相比，CTC-WBC簇发生地更加频繁（图3A，4F-G）。这是第一次报道在胶质瘤患者中出现大量的CTC-WBC簇。先前的研究中有报道CTC可以与中性粒细胞结合进入细胞循环的进程，强调CTC’s通过在非肿瘤细胞建立稳定的根基（？）从而可以在失巢凋亡和免疫检测中逃离的能力。我们发现大约有33.3（14/42）的原发性胶质瘤患者有CTC-WBC簇（图3B）。在继发性患者中，这一比例增长到了75%（6/8）（图3B）。表明CTC-WBC簇可以帮助监测追踪继发性胶质瘤。然而，在区分不同肿瘤亚型方面，其并没有统计的显著性（图3C）。之后，我们对一例血液样本进行Wright&amp;Giemsa染色，显示CTC通过中性粒细胞与WBCs相关联，这与之前的研究结果一致。</p>
-<p><img src="/CTC-novel-platform/CTM2-11-e318-g003a-d.jpg" alt="图3A-C"> <img src="/CTC-novel-platform/CTM2-11-e318-g004g-f.jpg" alt="图4F-G"></p>
+<p><img src="/uncategorized/CTC-novel-platform/CTM2-11-e318-g003a-d.jpg" alt="图3A-C"> <img src="/uncategorized/CTC-novel-platform/CTM2-11-e318-g004g-f.jpg" alt="图4F-G"></p>
 <p>        接下来，我们进一步研究CTC与患者临床特征的相关性。我们的数据表明，CTC的表达水平与IDH状态以及差的预后相关（P&lt;0.05）（图3E）。有趣的是，我们观察到在切除肿瘤后的两周，CTC和CTC簇显著增长。这表明切除可能促使CTC进入循环（图3F）。此外，手术后的CTC和CTC-WBC簇的表达水平与P53突变的相关程度大于IDH（P&lt;0.05）（图3G）。这些结果表明，更高水平的CTC和CTC簇并不是良好的预测因子。
-<img src="/CTC-novel-platform/CTM2-11-e318-g003e-g.jpg" alt="图3E-G"></p>
+<img src="/uncategorized/CTC-novel-platform/CTM2-11-e318-g003e-g.jpg" alt="图3E-G"></p>
 <h2 id="conclusion">Conclusion</h2>
 <p>        总之，我们提出了一个新的有效的平台用于检测胶质瘤中的CTC及CTC簇，并且该平台（较以前的方法）还具有更高的敏感性和特异性。我们证实STEAM阳性CTC对胶质瘤而言是一种高度特异性的诊断标志物。在某些情况，较之活检与MRI，具有更高的优越性。我们的结果使液体活检在临床应用方面更具有新的希望。在大队列验证后，CTC可以在病理学亚型和分子诊断方面进一步发挥作用。</p>
 <p>        尽管先前的研究表明，CTC-WBC簇具有亲瘤效应，但是其在胶质瘤中的作用仍是未知的。因此我们需要与之相关的研究来理解和评估其的临床作用。</p>
@@ -52,7 +52,7 @@ as diagnostic markers by a novel detection platform</em></p>
   </entry>
   <entry>
     <title>脑胶质瘤铁死亡相关基因标记预测预后和免疫治疗</title>
-    <url>/Ferroptosis-related/</url>
+    <url>/uncategorized/Ferroptosis-related/</url>
     <content><![CDATA[<h2 id="abstract">Abstract</h2>
 <p>脑胶质瘤是一种具有高侵袭性的脑肿瘤，高侵袭性使得患者的预后和治疗效果不佳。细胞死亡在癌症的治疗中具有好的前景。铁死亡，一种最近发现的调控细胞死亡类型，可以被诱导杀死脑胶质瘤细胞。然而，在脑胶质瘤中预测铁死亡相关基因的预后仍然难以捉摸。</p>
 <span id="more"></span>
@@ -64,7 +64,7 @@ as diagnostic markers by a novel detection platform</em></p>
 <h2 id="result">Result</h2>
 <p>图一总结了数据分析的管道流程图。数据集和分析方法见Method。</p>
 <figure>
-<img src="/Ferroptosis-related/CNS-27-973-g001.jpg" alt="图1">
+<img src="/uncategorized/Ferroptosis-related/CNS-27-973-g001.jpg" alt="图1">
 <figcaption aria-hidden="true">图1</figcaption>
 </figure>
 <h4 id="一.remberandt-和tcga队列中frgs的分布情况">一.REMBERANDT
@@ -74,18 +74,18 @@ as diagnostic markers by a novel detection platform</em></p>
 AKR1C1, AKR1C3, ZEB1, ALOX5, CISD1, NCOA4, AIFM2, and
 GOT1拥有最广泛的拷贝数缺失（图2D）。59个FGRs在CNV的位置和突变频率如图2E所示。这些结果表明，FGRs在不同级别的脑胶质瘤中发生了显著的差异表达和突变。</p>
 <figure>
-<img src="/Ferroptosis-related/CNS-27-973-g006.jpg" alt="图2">
+<img src="/uncategorized/Ferroptosis-related/CNS-27-973-g006.jpg" alt="图2">
 <figcaption aria-hidden="true">图2</figcaption>
 </figure>
 <h4 id="二.在remberandt队列中构建fgrs相关的风险分数">二.在REMBERANDT队列中构建FGRs相关的风险分数</h4>
 <p>下一步，我们探索FGRs是否与脑胶质瘤患者的预后相关。如图3A所示，我们将FGRs分为五个类别，包括:铁离子代谢，油脂代谢，氧化剂代谢，能量代谢和其他类。值得注意的是，除了GCLC外，大多数关联氧化剂代谢的基因都是患者生存期的风险因子。此外，我们基于FGRs进行了无监督聚类。我们尝试构建聚类分析范围从2~5，发现聚类数为2可以很好地区分脑胶质瘤患者（图S2）。其中，簇1较簇2而言，展示了更好的预后（图3B）。</p>
 <p>为了更好地将FRGs运用于个体化的评估，我们使用风险分数构建了<strong>RSF</strong>模型。如图3D所示，簇1的风险分数小于簇2。使用COX回归分析表明，风险分数是一个和胶质瘤分级相似的独立的预测因子（图S3A）。如图3E所示，低风险分数的组中位生存期位41.9月，是一个很好的临床结果。根据风险分数的中位数，分为高低组。此外，在不同等级的脑胶质瘤患者中，高风险分数的组显示更差的OS，分别在Ⅱ，Ⅲ，Ⅳ级胶质瘤中为75.3，15.3，12.5个月（图3F）。模型的ROC曲线展示了很好的预测效果，其1，2，5年的AUC曲线值分别为0.74，0.86和0.89（图3G）。</p>
 <figure>
-<img src="/Ferroptosis-related/CNS-27-973-s014.png" alt="图S2">
+<img src="/uncategorized/Ferroptosis-related/CNS-27-973-s014.png" alt="图S2">
 <figcaption aria-hidden="true">图S2</figcaption>
 </figure>
 <figure>
-<img src="/Ferroptosis-related/CNS-27-973-g007.jpg" alt="图3">
+<img src="/uncategorized/Ferroptosis-related/CNS-27-973-g007.jpg" alt="图3">
 <figcaption aria-hidden="true">图3</figcaption>
 </figure>
 <h4 id="三.在cgga和tcga队列中验证fgrs相关风险分数">三.在CGGA和TCGA队列中验证FGRs相关风险分数</h4>
@@ -94,15 +94,15 @@ GOT1拥有最广泛的拷贝数缺失（图2D）。59个FGRs在CNV的位置和�
 <p>除此之外，我们还在CGGA队列中分析风险分数在病理等级，IDH状态和1p/19q共缺失状态情况。有趣的是，我们的结果表明，Ⅳ级，IDH野生型和不伴随1p/19q共缺失的患者具有高的风险分数（图4D-F,J-I）。在CGGA-693队列中，通过整合风险指数，病理等级，IDH状态和1p/19q共缺失状态建立了诺谟图模型（图S5A）。我们发现这个模型在CGGA队列中可以很好地预测患者1，3，5年的OS。在CGGA-693队列中，对比分析基于WHO分级（AUC1，3，5年：0.77，0.78，0.78），加入风险分数的诺谟图模型拥有更好地预测值（AUC1,3,5年：0.81，0.84，0.83）（图S6A-C）。在CGGA-325中也可以观察到相同的结果（除1年生存期没有统计学意义）（图S6D-F）。</p>
 <p>总之，这些数据证实了风险分数在脑胶质瘤中具有重要的预测作用。</p>
 <figure>
-<img src="/Ferroptosis-related/CNS-27-973-g004.jpg" alt="图4">
+<img src="/uncategorized/Ferroptosis-related/CNS-27-973-g004.jpg" alt="图4">
 <figcaption aria-hidden="true">图4</figcaption>
 </figure>
 <figure>
-<img src="/Ferroptosis-related/CNS-27-973-s006.png" alt="图S5">
+<img src="/uncategorized/Ferroptosis-related/CNS-27-973-s006.png" alt="图S5">
 <figcaption aria-hidden="true">图S5</figcaption>
 </figure>
 <figure>
-<img src="/Ferroptosis-related/CNS-27-973-s016.jpg" alt="图S6">
+<img src="/uncategorized/Ferroptosis-related/CNS-27-973-s016.jpg" alt="图S6">
 <figcaption aria-hidden="true">图S6</figcaption>
 </figure>
 <h4 id="四.利用remberandt队列的风险分数评估脑胶质瘤的免疫治疗">四.利用REMBERANDT队列的风险分数评估脑胶质瘤的免疫治疗</h4>
@@ -110,18 +110,18 @@ GOT1拥有最广泛的拷贝数缺失（图2D）。59个FGRs在CNV的位置和�
 <p>癌症的免疫循环是一个关键的评价趋化因子系统和免疫调节器生物学功能指标。在高风险组中，免疫循环被激活上调的步骤有：释放癌细胞抗原（step1），癌症抗原的呈递（step2），免疫细胞的招募（step4）（CD4
 T，TH1，Th22，巨噬细胞，单核细胞，嗜中性粒细胞，嗜碱细胞，NK和B细胞的招募）和T细胞识别癌细胞（step6）（图5C）。令我们震惊的一个结果是，杀死癌细胞（step7）在高风险组中弱于低风险组，这可能是由于PD-L1的高表达导致的（图5D）。除此之外，我们分析了高风险组与ICB（免疫检查点阻断）相关通路的关系。我们发现，除系统性红斑狼疮外，高风险组患者与ICB相关的阳性特征具有强的正相关性（图5E）。总之，这些数据表明，与FGRs相关的风险分数可以很好的预测脑胶质瘤中的免疫治疗。</p>
 <figure>
-<img src="/Ferroptosis-related/CNS-27-973-g003.jpg" alt="图5">
+<img src="/uncategorized/Ferroptosis-related/CNS-27-973-g003.jpg" alt="图5">
 <figcaption aria-hidden="true">图5</figcaption>
 </figure>
 <h4 id="五.在tcga和cgga队列中通过风险分数验证脑胶质瘤的免疫治疗">五.在TCGA和CGGA队列中通过风险分数验证脑胶质瘤的免疫治疗</h4>
 <p>接下来，我们通过TCGA和CGGA队列验证脑胶质瘤中的免疫治疗。我们证实，免疫分数和风险分数具有正相关性（图6A,D,G）。在免疫循环方面，在高风险组中，我们证实了释放癌细胞抗原（step1）和免疫细胞的招募（step4）（CD4
 T，TH1，Th22，巨噬细胞，单核细胞，嗜中性粒细胞，嗜碱细胞，NK和B细胞的招募）（图6B,H,E）。除此之外，在TCGA和CGGA队列中，高风险组患者表现出高表达PD-L1（图6C,F,I）。有趣的是，在高风险组中，我们也找到了与脑胶质瘤预后相关的免疫学指标（PD-1,CTLA4,IDO-1）（图6C,F,I）。与训练集一致，验证集中的高风险分数组与ICB相关特征呈正相关。除此之外，我们还在TCGA队列中分析了与ICB治疗相关的肿瘤突变负荷（TMB），免疫原性突变，DNA甲基化干性指数（mDNAsi）和RNA甲基化干性指数（mRNAsi）其中。除mRNAsi在低风险分数组表达高外，其他都在高风险分数组表达更高（图S8A-D）。总之，这些结果再次证实了风险分数在胶质瘤免疫治疗方面的关键作用。</p>
 <figure>
-<img src="/Ferroptosis-related/CNS-27-973-g005.jpg" alt="图6">
+<img src="/uncategorized/Ferroptosis-related/CNS-27-973-g005.jpg" alt="图6">
 <figcaption aria-hidden="true">图6</figcaption>
 </figure>
 <figure>
-<img src="/Ferroptosis-related/CNS-27-973-s007.jpg" alt="图S8">
+<img src="/uncategorized/Ferroptosis-related/CNS-27-973-s007.jpg" alt="图S8">
 <figcaption aria-hidden="true">图S8</figcaption>
 </figure>
 <h2 id="conclusion">Conclusion</h2>
@@ -159,23 +159,23 @@ and immunotherapy in glioma</em></p>
   </entry>
   <entry>
     <title>黄金分割法+斐波那契数列法求单峰函数极小值点</title>
-    <url>/GlodenCut/</url>
+    <url>/uncategorized/GlodenCut/</url>
     <content><![CDATA[<p>使用黄金分割法求极小值点。</p>
 <p>前提：函数在所求区间为单峰函数，即存在唯一极小值点。 <span id="more"></span></p>
 <h2 id="初步构思">初步构思</h2>
 <p>单峰函数：</p>
-<p><img src="/GlodenCut/单峰函数2.png"> 可以使用对称压缩区间的方法，满足： <span class="math display">\[a_1 - a_0 = b_0 - b_1 =
+<p><img src="/uncategorized/GlodenCut/单峰函数2.png"> 可以使用对称压缩区间的方法，满足： <span class="math display">\[a_1 - a_0 = b_0 - b_1 =
 \rho*(b_0-a_0)\]</span></p>
 <p>其中： <span class="math display">\[\rho &lt; \frac {1}
 {2}\]</span></p>
 <p>做上述处理后，可以得到点<span class="math inline">\(a_1\)</span>和<span class="math inline">\(b_1\)</span></p>
-<p><img src="/GlodenCut/图1.png"></p>
+<p><img src="/uncategorized/GlodenCut/图1.png"></p>
 <p>然后比较<span class="math inline">\(f(a_1)\)</span>与<span class="math inline">\(f(b_1)\)</span>的函数值大小</p>
 <p>if <span class="math inline">\(f(a_1) &lt; f(b_1)\)</span> :</p>
 <p>则函数的最小值落在区间<span class="math display">\[[a_0,b_1]\]</span></p>
 <p>重复上述的操作，可压缩出在一定精度区间范围内最小值点的值</p>
 <h2 id="黄金分割法">黄金分割法</h2>
-<p>我们可以找到一个合适的<span class="math inline">\(\rho\)</span>值，使得每次迭代只要计算一次目标函数的值。如图所示，这样的<span class="math inline">\(\rho\)</span>满足<span class="math display">\[\rho(b_1-a_0)=b_1-b_2\]</span> <img src="/GlodenCut/图2.png"></p>
+<p>我们可以找到一个合适的<span class="math inline">\(\rho\)</span>值，使得每次迭代只要计算一次目标函数的值。如图所示，这样的<span class="math inline">\(\rho\)</span>满足<span class="math display">\[\rho(b_1-a_0)=b_1-b_2\]</span> <img src="/uncategorized/GlodenCut/图2.png"></p>
 <p>设区间<span class="math inline">\([a_0,b_0]\)</span>为1，如图所示可得式子：<span class="math display">\[\rho(1-\rho)=1-2\rho\]</span></p>
 <p>要求<span class="math inline">\(\rho&lt;\frac {1}
 {2}\)</span>,解的<span class="math display">\[\rho=\frac {3-\sqrt 5 }
@@ -193,7 +193,7 @@ and immunotherapy in glioma</em></p>
 <p>以此可以估计迭代的次数</p>
 <h2 id="斐波那契数列法">斐波那契数列法</h2>
 <p>在黄金分割法中，<span class="math inline">\(\rho\)</span>的值在迭代过程中是固定的，如果迭代过程中动态调整<span class="math inline">\(\rho\)</span>的的值，如图所示，可得</p>
-<p><img src="/GlodenCut/图3.png"></p>
+<p><img src="/uncategorized/GlodenCut/图3.png"></p>
 <p><span class="math display">\[\rho_k+1(1-\rho_k)=1-2\rho_k\]</span></p>
 <p>即<span class="math display">\[\rho_{k+1} = 1- \frac {\rho_k }
 {1-\rho_k}\tag{1}\]</span></p>
@@ -208,67 +208,8 @@ and immunotherapy in glioma</em></p>
       </tags>
   </entry>
   <entry>
-    <title>用python匹配字幕</title>
-    <url>/Subtitle-matching/</url>
-    <content><![CDATA[<p>最近遇到一个很有意思的事情。因为毒液2没有在中国上映，有不忍心看电影院手机直拍版，就一直没看。最近在电报里搞到了一份线上流媒体版MTK，自带五国字幕，但是没有中文。自己英语水平太差了，没办法看不太地道。遂在网上找到了枪版的中英双语字幕。</p>
-<p>本来想可以快乐看电影了，但突然发现这两个版本的字幕时间轴不一样。把原版字幕提取出来稍微看了一下，每一个大段的时间轴都是不匹配的。所以想把这两个字幕做一个匹配，就算只能能匹配上大部分字幕，自己的英语应该也是够用的。</p>
-<p>来看一下这两个字幕文件</p>
-<figure>
-<img src="/Subtitle-matching/image-english.png" alt="英文">
-<figcaption aria-hidden="true">英文</figcaption>
-</figure>
-<figure>
-<img src="/Subtitle-matching/image-20220110214743883.png" alt="中英字幕">
-<figcaption aria-hidden="true">中英字幕</figcaption>
-</figure>
-<p><em>中英字幕包含一些字幕头已经被我删掉了</em></p>
-<span id="more"></span>
-<h3 id="数据分析">1.数据分析</h3>
-<p>可以发现，这些字幕文件的内容都具有一定的规律。英文字幕都是四行一个单元，而中英字幕里前面的各个属性具有一定的长度，很容易可以删掉。</p>
-<p>在提取字幕后，因为对于我的需求而言，并不需要100%完美匹配所有的字幕，所以我首先到的是用字典来匹配，利用中英文字幕构建字典，英文作为key，判断英文字幕中的英语部分是否和key匹配，匹配则加入。</p>
-<h3 id="数据处理">2.数据处理</h3>
-<p>在python中，把字幕文件作为DataFrame读入</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line">eng_ass = pd.read_csv(<span class="string">&quot;Venom.Let.There.Be.Carnage.2021.1080p.AMZN.WEB-DL.DDP5.1.H.264-alfaHD_track3_eng.srt&quot;</span>,sep=<span class="string">&quot;\t&quot;</span>)</span><br><span class="line">chi_ass = pd.read_csv(<span class="string">&quot;Venom.Let.There.Be.Carnage.2021.1080p.WEBRip-C1NEM4.ass&quot;</span>,sep=<span class="string">&quot;\t&quot;</span>)</span><br></pre></td></tr></table></figure>
-<p><em>查看eng_ass</em></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">    1</span><br><span class="line">0    00:01:25,586 --&gt; 00:01:27,421</span><br><span class="line">1    Lights out!</span><br><span class="line">2    2</span><br><span class="line">3    00:01:28,589 --&gt; 00:01:31,058</span><br><span class="line">4    Cletus, are you there?</span><br><span class="line">5    3</span><br><span class="line">6    00:01:31,192 --&gt; 00:01:33,494</span><br></pre></td></tr></table></figure>
-<p><em>查看chi_ass</em></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">    Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text</span><br><span class="line"><span class="number">0</span>    Dialogue: <span class="number">0</span>,<span class="number">0</span>:01:<span class="number">24.40</span>,<span class="number">0</span>:01:<span class="number">25.93</span>,Default,,<span class="number">000.</span>..</span><br><span class="line"><span class="number">1</span>    Dialogue: <span class="number">0</span>,<span class="number">0</span>:01:<span class="number">27.11</span>,<span class="number">0</span>:01:<span class="number">29.51</span>,Default,,<span class="number">000.</span>..</span><br><span class="line"><span class="number">2</span>    Dialogue: <span class="number">0</span>,<span class="number">0</span>:01:<span class="number">29.65</span>,<span class="number">0</span>:01:<span class="number">31.75</span>,Default,,<span class="number">000.</span>..</span><br></pre></td></tr></table></figure>
-<p><em>由于太长了所以看不到后面的字幕</em></p>
-<p>接下来构建<strong>关于中英字幕的字典</strong></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">dirt_china = &#123;&#125;</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(chi_ass)):</span><br><span class="line">    dirt_china[<span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> chi_ass.iloc[i])[<span class="number">59</span>:][(<span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> chi_ass.iloc[i])[<span class="number">59</span>:].find(<span class="string">&quot;&#125;&quot;</span>)+<span class="number">1</span>):]] = <span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> chi_ass.iloc[i])[<span class="number">59</span>:]</span><br></pre></td></tr></table></figure>
-<p><em>dirt_china</em></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;&#x27;Lights out!&#x27;: &#x27;熄灯！\\N&#123;\\ren&#125;Lights out!&#x27;,</span><br><span class="line"> &#x27;Cletus, are you there?&#x27;: &#x27;克莱图斯，你在吗？\\N&#123;\\ren&#125;Cletus, are you there?&#x27;,</span><br><span class="line"> &#x27;My angel.&#x27;: &#x27;我的天使\\N&#123;\\ren&#125;My angel.&#x27;,</span><br><span class="line"> &#x27;This is for you.&#x27;: &#x27;这个给你\\N&#123;\\ren&#125;This is for you.&#x27;,</span><br><span class="line"> &#x27;What did the doctor say?&#x27;: &#x27;医生怎么说？\\N&#123;\\ren&#125;What did the doctor say?&#x27;,</span><br><span class="line"> &#x27;He said the mutations are advancing.&#x27;: &#x27;他说基因突变正在恶化\\N&#123;\\ren&#125;He said the mutations are advancing.&#x27;,</span><br><span class="line"> &#x27;My powers are too strong.&#x27;: &#x27;我的力量太强大了\\N&#123;\\ren&#125;My powers are too strong.&#x27;,</span><br><span class="line"> &quot;Cletus, I&#x27;m scared.&quot;: &quot;克莱图斯，我很害怕\\N&#123;\\ren&#125;Cletus, I&#x27;m scared.&quot;,</span><br></pre></td></tr></table></figure>
-<p>之后进行匹配后发现，英文字幕中有些英语句子是分段的，类似于</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">I love you,ok</span><br></pre></td></tr></table></figure>
-<p>会变成</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">I love you,</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ok</span><br></pre></td></tr></table></figure>
-<p>但这在字典中我们的key是连续的，所以要将这部分的字幕组合到一行</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">###多行合并一行</span></span><br><span class="line">i = <span class="number">1</span></span><br><span class="line"><span class="keyword">while</span> i &lt; <span class="built_in">len</span>(eng_ass):</span><br><span class="line">    <span class="keyword">if</span> <span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> eng_ass.iloc[i-<span class="number">1</span>])[<span class="number">0</span>].isalpha():</span><br><span class="line">        <span class="keyword">if</span> <span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> eng_ass.iloc[i])[<span class="number">0</span>].isalpha():</span><br><span class="line">            eng_ass.iloc[i-<span class="number">1</span>] = <span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> eng_ass.iloc[i-<span class="number">1</span>]) + <span class="string">&quot; &quot;</span>+<span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> eng_ass.iloc[i])</span><br><span class="line">            eng_ass.iloc[i] = <span class="string">&quot;buxuyaodehang&quot;</span></span><br><span class="line">    i += <span class="number">1</span></span><br><span class="line"><span class="comment">##保存之后手动去除&quot;buxuyaodehang&quot;</span></span><br><span class="line">eng_ass.to_csv(<span class="string">&quot;eng_ass_temp.txt&quot;</span>,index=<span class="literal">False</span>)</span><br></pre></td></tr></table></figure>
-<p>由于个人能力有限，无法加入空行，所以添加了空行内容为"buxuyaodehang"，在记事本用替换成空白即可去掉</p>
-<p>接下来读入并且匹配行</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">####匹配行</span></span><br><span class="line">eng_ass = pd.read_csv(<span class="string">&quot;eng_ass_temp.txt&quot;</span>,sep=<span class="string">&quot;\t&quot;</span>)</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(eng_ass)):</span><br><span class="line">    <span class="keyword">if</span> <span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> eng_ass.iloc[i]) <span class="keyword">in</span> dirt_china:</span><br><span class="line">        eng_ass.iloc[i] = dirt_china[<span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> eng_ass.iloc[i])]</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">0    00:01:25,586 --&gt; 00:01:27,421</span><br><span class="line">1    熄灯！\N&#123;\ren&#125;Lights out!</span><br><span class="line">2    2</span><br><span class="line">3    00:01:28,589 --&gt; 00:01:31,058</span><br><span class="line">4    克莱图斯，你在吗？\N&#123;\ren&#125;Cletus, are you there?</span><br><span class="line">5    3</span><br><span class="line">6    00:01:31,192 --&gt; 00:01:33,494</span><br><span class="line">7    我的天使\N&#123;\ren&#125;My angel.</span><br></pre></td></tr></table></figure>
-<p>字幕已经匹配上去了，但是由于字幕软件需要识别四个一组的行块，所以需要加入空行</p>
-<p>同时，由于读入问题，显示时间的行整体的类型为字符型</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&quot;00:01:31,192 --&gt; 00:01:33,494&quot;</span><br></pre></td></tr></table></figure>
-<p>解决两个问题</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">###缺少空行，在数字前面添加一串字符串，后用替换剔除,还要替换引号</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">pdinsert</span>(<span class="params">df,i,df_add</span>):</span></span><br><span class="line">    df1 = df.iloc[:i,:]</span><br><span class="line">    df2 = df.iloc[i:,:]</span><br><span class="line">    df_new = pd.concat([df1,df_add,df2],ignore_index=<span class="literal">True</span>)</span><br><span class="line">    <span class="keyword">return</span> df_new</span><br><span class="line">df_add = pd.DataFrame(&#123;<span class="string">&#x27;1&#x27;</span>:[<span class="string">&#x27;ddxyl&#x27;</span>]&#125;)</span><br><span class="line">i=<span class="number">0</span></span><br><span class="line"><span class="keyword">while</span> i &lt; <span class="number">6653</span>:</span><br><span class="line">    <span class="keyword">if</span> <span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> eng_ass.iloc[i]).isdigit():</span><br><span class="line">        eng_ass = pdinsert(eng_ass,i,df_add)</span><br><span class="line">        i +=<span class="number">2</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        i +=<span class="number">1</span></span><br><span class="line"><span class="comment">#######报错无所谓，已经加上了</span></span><br></pre></td></tr></table></figure>
-<p>运行代码过程中最后会报错，但是没有关系，已经匹配上了</p>
-<p>得到结果</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">0    00:01:25,586 --&gt; 00:01:27,421</span><br><span class="line">1    熄灯！\N&#123;\ren&#125;Lights out!</span><br><span class="line">2    ddxyl</span><br><span class="line">3    2</span><br><span class="line">4    00:01:28,589 --&gt; 00:01:31,058</span><br><span class="line">5    克莱图斯，你在吗？\N&#123;\ren&#125;Cletus, are you there?</span><br><span class="line">6    ddxyl</span><br><span class="line">7    3</span><br><span class="line">8    00:01:31,192 --&gt; 00:01:33,494</span><br><span class="line">9    我的天使\N&#123;\ren&#125;My angel.</span><br><span class="line">10    ddxyl</span><br></pre></td></tr></table></figure>
-<p>只需要把字符串"ddxyl"替换为空白即可正常使用</p>
-<h3 id="总结">3.总结</h3>
-<p>总之这个结果已经是可以用的了，在这个过程中我学到了一些关于字符串提取的方法，后续在下一篇文章详细讲讲是怎么提取相应的字符串的。以后也可能会写一些关于python
-pandas包的笔记总结等。</p>
-]]></content>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>多中心研究IDH野生型分子胶质母细胞瘤(molecular glioblastoma)的生存情况</title>
-    <url>/IDH2022/</url>
+    <url>/uncategorized/IDH2022/</url>
     <content><![CDATA[<h2 id="abstract">Abstract</h2>
 <p>组织学上定义的胶质母细胞瘤（GBM）为否存在中央假栅栏坏死和微血管增生(histGBM)。根据2021年WHO中枢神经系统肿瘤分类手册将IDH野生型弥散性星型胶质瘤，包括任一的分子特征：1）TERTp突变，2）EGFR基因扩增，3）七号染色体获得与十号染色体缺失，且无论是否存在中央假栅栏坏死和微血管增生定义为分子GBM（molGBM）。本研究是为了探究histGBM与molGBM患者间的生存差异。</p>
 <span id="more"></span>
@@ -321,7 +262,7 @@ GBM IDH 野生型组织学和分子诊断的所有连续患者的电子病历 20
 32, 49.23%），明显多于 histGBM 组的患者（p &lt; 0.001）。</p>
 <h6 id="molgbm-pfs优于histgbm">molGBM PFS优于histGBM</h6>
 <p>如图一所示，molGBM中位PFS为13个月而histGBM为8个月（p=0.0237）。表一，二展示了单变量和多变量的cox回归分析用于评估molGBM（表一）和histGBM（表二）对于FPS的保护和风险因素。</p>
-<p><img src="/IDH2022/图1.png"> 在milGBM组中（表一）：</p>
+<p><img src="/uncategorized/IDH2022/图1.png"> 在milGBM组中（表一）：</p>
 <ol type="1">
 <li><p>单变量分析显示在MRI中对比度增强为PFS的风险因素（HR 3.024 [CI 95%
 1.294–7.066], p = 0.011）。</p></li>
@@ -332,7 +273,7 @@ GBM IDH 野生型组织学和分子诊断的所有连续患者的电子病历 20
 <li><p>多变量分析中，MGMT基因甲基化为PFS的保护因素。（HR 0.026 [CI 95%
 0.065–0.655]，p = 0.007）</p></li>
 </ol>
-<p><img src="/IDH2022/表一.png"> 在histGBM组中(表二):</p>
+<p><img src="/uncategorized/IDH2022/表一.png"> 在histGBM组中(表二):</p>
 <ol type="1">
 <li><p>单变量分析显示侧脑室 (LV) 的接触为FPS的风险因素。(HR 1.812 [CI
 95% 1.242–2.644], p = 0.002)</p></li>
@@ -342,7 +283,7 @@ GBM IDH 野生型组织学和分子诊断的所有连续患者的电子病历 20
 95% 0.160–0.776],p=0.010)</p></li>
 <li><p>多变量分析显示，MGMT基因甲基化相对活检而言，为保护因素。</p></li>
 </ol>
-<p><img src="/IDH2022/表二.png"></p>
+<p><img src="/uncategorized/IDH2022/表二.png"></p>
 <h6 id="molgbm与histgbm总体生存期os相近">molGBM与histGBM总体生存期OS相近</h6>
 <p>molGBM 组的中位 OS 为 26 个月，histGBM 组为 21
 个月（图1）。与上一个结果相似，对OS使用COX回归分析风险/保护因素。</p>
@@ -354,7 +295,7 @@ GBM IDH 野生型组织学和分子诊断的所有连续患者的电子病历 20
 <li><p>多变量分析中，所有变量均无显著保护/风险相关。但对比度增强和侧脑室
 (LV) 的接触表现出风险趋势。</p></li>
 </ol>
-<p><img src="/IDH2022/表三.png"> 在histGBM组中(表四):</p>
+<p><img src="/uncategorized/IDH2022/表三.png"> 在histGBM组中(表四):</p>
 <ol type="1">
 <li><p>单变量分析显示，术前KPS&lt;=70和侧脑室 (LV)
 的接触为风险因素。</p></li>
@@ -363,7 +304,7 @@ GBM IDH 野生型组织学和分子诊断的所有连续患者的电子病历 20
 的接触<strong>仍</strong>为风险因素。</p></li>
 <li><p>相对于单变量分析，多变量中仅有MGMT基因甲基化<strong>仍</strong>为保护因素。</p></li>
 </ol>
-<p><img src="/IDH2022/表四.png"></p>
+<p><img src="/uncategorized/IDH2022/表四.png"></p>
 <h6 id="特定的分子异常不影响生存结果">特定的分子异常不影响生存结果</h6>
 <p>如图2所示，在 molGBM 组中，TERT 突变存在于 57 个肿瘤中，EGFR
 扩增存在于 20 个肿瘤中， + 7/- 10存在于 12 个肿瘤中。 在这个亚组中，15
@@ -374,10 +315,10 @@ GBM IDH 野生型组织学和分子诊断的所有连续患者的电子病历 20
 个肿瘤具有 TERT 突变和 EGFR 扩增的组合，34 个肿瘤具有 TERT 突变和组合 +
 7/- 10 的组合，5 个具有组合 + 7/- 10 和 EGFR 扩增的组合 , 和 5
 有三种分子异常的组合。</p>
-<p><img src="/IDH2022/图二.png"> 为了评估OS或者PFS的差异，对每个异常分子（TERT
+<p><img src="/uncategorized/IDH2022/图二.png"> 为了评估OS或者PFS的差异，对每个异常分子（TERT
 突变，EGFR 扩增或+7/-10）与OS或者PFS进行对数秩检验（log rank
 test）。在所有的队列中（包括molGBM和histGBM），三个分子对OS和PFS均无显著差异（图3）。在单独的molGBM组中，也均无差异（图3）。</p>
-<p><img src="/IDH2022/图3.png"></p>
+<p><img src="/uncategorized/IDH2022/图3.png"></p>
 <h2 id="conclusion">Conclusion</h2>
 <p>在我们的多中心研究中，molGBM较histGBM的PFS更长，而OS相似。在亚组中，存在MRI证实的对比度差异为PFS的风险因素，而存在MGMT甲基化提高了PFS。需要进一步的研究来更好地表征molGBM患者的生存情况。</p>
 ]]></content>
@@ -386,8 +327,67 @@ test）。在所有的队列中（包括molGBM和histGBM），三个分子对OS�
       </tags>
   </entry>
   <entry>
+    <title>用python匹配字幕</title>
+    <url>/uncategorized/Subtitle-matching/</url>
+    <content><![CDATA[<p>最近遇到一个很有意思的事情。因为毒液2没有在中国上映，有不忍心看电影院手机直拍版，就一直没看。最近在电报里搞到了一份线上流媒体版MTK，自带五国字幕，但是没有中文。自己英语水平太差了，没办法看不太地道。遂在网上找到了枪版的中英双语字幕。</p>
+<p>本来想可以快乐看电影了，但突然发现这两个版本的字幕时间轴不一样。把原版字幕提取出来稍微看了一下，每一个大段的时间轴都是不匹配的。所以想把这两个字幕做一个匹配，就算只能能匹配上大部分字幕，自己的英语应该也是够用的。</p>
+<p>来看一下这两个字幕文件</p>
+<figure>
+<img src="/uncategorized/Subtitle-matching/image-english.png" alt="英文">
+<figcaption aria-hidden="true">英文</figcaption>
+</figure>
+<figure>
+<img src="/uncategorized/Subtitle-matching/image-20220110214743883.png" alt="中英字幕">
+<figcaption aria-hidden="true">中英字幕</figcaption>
+</figure>
+<p><em>中英字幕包含一些字幕头已经被我删掉了</em></p>
+<span id="more"></span>
+<h3 id="数据分析">1.数据分析</h3>
+<p>可以发现，这些字幕文件的内容都具有一定的规律。英文字幕都是四行一个单元，而中英字幕里前面的各个属性具有一定的长度，很容易可以删掉。</p>
+<p>在提取字幕后，因为对于我的需求而言，并不需要100%完美匹配所有的字幕，所以我首先到的是用字典来匹配，利用中英文字幕构建字典，英文作为key，判断英文字幕中的英语部分是否和key匹配，匹配则加入。</p>
+<h3 id="数据处理">2.数据处理</h3>
+<p>在python中，把字幕文件作为DataFrame读入</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line">eng_ass = pd.read_csv(<span class="string">&quot;Venom.Let.There.Be.Carnage.2021.1080p.AMZN.WEB-DL.DDP5.1.H.264-alfaHD_track3_eng.srt&quot;</span>,sep=<span class="string">&quot;\t&quot;</span>)</span><br><span class="line">chi_ass = pd.read_csv(<span class="string">&quot;Venom.Let.There.Be.Carnage.2021.1080p.WEBRip-C1NEM4.ass&quot;</span>,sep=<span class="string">&quot;\t&quot;</span>)</span><br></pre></td></tr></table></figure>
+<p><em>查看eng_ass</em></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">    1</span><br><span class="line">0    00:01:25,586 --&gt; 00:01:27,421</span><br><span class="line">1    Lights out!</span><br><span class="line">2    2</span><br><span class="line">3    00:01:28,589 --&gt; 00:01:31,058</span><br><span class="line">4    Cletus, are you there?</span><br><span class="line">5    3</span><br><span class="line">6    00:01:31,192 --&gt; 00:01:33,494</span><br></pre></td></tr></table></figure>
+<p><em>查看chi_ass</em></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">    Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text</span><br><span class="line"><span class="number">0</span>    Dialogue: <span class="number">0</span>,<span class="number">0</span>:01:<span class="number">24.40</span>,<span class="number">0</span>:01:<span class="number">25.93</span>,Default,,<span class="number">000.</span>..</span><br><span class="line"><span class="number">1</span>    Dialogue: <span class="number">0</span>,<span class="number">0</span>:01:<span class="number">27.11</span>,<span class="number">0</span>:01:<span class="number">29.51</span>,Default,,<span class="number">000.</span>..</span><br><span class="line"><span class="number">2</span>    Dialogue: <span class="number">0</span>,<span class="number">0</span>:01:<span class="number">29.65</span>,<span class="number">0</span>:01:<span class="number">31.75</span>,Default,,<span class="number">000.</span>..</span><br></pre></td></tr></table></figure>
+<p><em>由于太长了所以看不到后面的字幕</em></p>
+<p>接下来构建<strong>关于中英字幕的字典</strong></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">dirt_china = &#123;&#125;</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(chi_ass)):</span><br><span class="line">    dirt_china[<span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> chi_ass.iloc[i])[<span class="number">59</span>:][(<span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> chi_ass.iloc[i])[<span class="number">59</span>:].find(<span class="string">&quot;&#125;&quot;</span>)+<span class="number">1</span>):]] = <span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> chi_ass.iloc[i])[<span class="number">59</span>:]</span><br></pre></td></tr></table></figure>
+<p><em>dirt_china</em></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;&#x27;Lights out!&#x27;: &#x27;熄灯！\\N&#123;\\ren&#125;Lights out!&#x27;,</span><br><span class="line"> &#x27;Cletus, are you there?&#x27;: &#x27;克莱图斯，你在吗？\\N&#123;\\ren&#125;Cletus, are you there?&#x27;,</span><br><span class="line"> &#x27;My angel.&#x27;: &#x27;我的天使\\N&#123;\\ren&#125;My angel.&#x27;,</span><br><span class="line"> &#x27;This is for you.&#x27;: &#x27;这个给你\\N&#123;\\ren&#125;This is for you.&#x27;,</span><br><span class="line"> &#x27;What did the doctor say?&#x27;: &#x27;医生怎么说？\\N&#123;\\ren&#125;What did the doctor say?&#x27;,</span><br><span class="line"> &#x27;He said the mutations are advancing.&#x27;: &#x27;他说基因突变正在恶化\\N&#123;\\ren&#125;He said the mutations are advancing.&#x27;,</span><br><span class="line"> &#x27;My powers are too strong.&#x27;: &#x27;我的力量太强大了\\N&#123;\\ren&#125;My powers are too strong.&#x27;,</span><br><span class="line"> &quot;Cletus, I&#x27;m scared.&quot;: &quot;克莱图斯，我很害怕\\N&#123;\\ren&#125;Cletus, I&#x27;m scared.&quot;,</span><br></pre></td></tr></table></figure>
+<p>之后进行匹配后发现，英文字幕中有些英语句子是分段的，类似于</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">I love you,ok</span><br></pre></td></tr></table></figure>
+<p>会变成</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">I love you,</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ok</span><br></pre></td></tr></table></figure>
+<p>但这在字典中我们的key是连续的，所以要将这部分的字幕组合到一行</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">###多行合并一行</span></span><br><span class="line">i = <span class="number">1</span></span><br><span class="line"><span class="keyword">while</span> i &lt; <span class="built_in">len</span>(eng_ass):</span><br><span class="line">    <span class="keyword">if</span> <span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> eng_ass.iloc[i-<span class="number">1</span>])[<span class="number">0</span>].isalpha():</span><br><span class="line">        <span class="keyword">if</span> <span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> eng_ass.iloc[i])[<span class="number">0</span>].isalpha():</span><br><span class="line">            eng_ass.iloc[i-<span class="number">1</span>] = <span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> eng_ass.iloc[i-<span class="number">1</span>]) + <span class="string">&quot; &quot;</span>+<span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> eng_ass.iloc[i])</span><br><span class="line">            eng_ass.iloc[i] = <span class="string">&quot;buxuyaodehang&quot;</span></span><br><span class="line">    i += <span class="number">1</span></span><br><span class="line"><span class="comment">##保存之后手动去除&quot;buxuyaodehang&quot;</span></span><br><span class="line">eng_ass.to_csv(<span class="string">&quot;eng_ass_temp.txt&quot;</span>,index=<span class="literal">False</span>)</span><br></pre></td></tr></table></figure>
+<p>由于个人能力有限，无法加入空行，所以添加了空行内容为"buxuyaodehang"，在记事本用替换成空白即可去掉</p>
+<p>接下来读入并且匹配行</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">####匹配行</span></span><br><span class="line">eng_ass = pd.read_csv(<span class="string">&quot;eng_ass_temp.txt&quot;</span>,sep=<span class="string">&quot;\t&quot;</span>)</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(eng_ass)):</span><br><span class="line">    <span class="keyword">if</span> <span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> eng_ass.iloc[i]) <span class="keyword">in</span> dirt_china:</span><br><span class="line">        eng_ass.iloc[i] = dirt_china[<span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> eng_ass.iloc[i])]</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">0    00:01:25,586 --&gt; 00:01:27,421</span><br><span class="line">1    熄灯！\N&#123;\ren&#125;Lights out!</span><br><span class="line">2    2</span><br><span class="line">3    00:01:28,589 --&gt; 00:01:31,058</span><br><span class="line">4    克莱图斯，你在吗？\N&#123;\ren&#125;Cletus, are you there?</span><br><span class="line">5    3</span><br><span class="line">6    00:01:31,192 --&gt; 00:01:33,494</span><br><span class="line">7    我的天使\N&#123;\ren&#125;My angel.</span><br></pre></td></tr></table></figure>
+<p>字幕已经匹配上去了，但是由于字幕软件需要识别四个一组的行块，所以需要加入空行</p>
+<p>同时，由于读入问题，显示时间的行整体的类型为字符型</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&quot;00:01:31,192 --&gt; 00:01:33,494&quot;</span><br></pre></td></tr></table></figure>
+<p>解决两个问题</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">###缺少空行，在数字前面添加一串字符串，后用替换剔除,还要替换引号</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">pdinsert</span>(<span class="params">df,i,df_add</span>):</span></span><br><span class="line">    df1 = df.iloc[:i,:]</span><br><span class="line">    df2 = df.iloc[i:,:]</span><br><span class="line">    df_new = pd.concat([df1,df_add,df2],ignore_index=<span class="literal">True</span>)</span><br><span class="line">    <span class="keyword">return</span> df_new</span><br><span class="line">df_add = pd.DataFrame(&#123;<span class="string">&#x27;1&#x27;</span>:[<span class="string">&#x27;ddxyl&#x27;</span>]&#125;)</span><br><span class="line">i=<span class="number">0</span></span><br><span class="line"><span class="keyword">while</span> i &lt; <span class="number">6653</span>:</span><br><span class="line">    <span class="keyword">if</span> <span class="string">&quot; &quot;</span>.join(<span class="string">&#x27;%s&#x27;</span> %<span class="built_in">id</span> <span class="keyword">for</span> <span class="built_in">id</span> <span class="keyword">in</span> eng_ass.iloc[i]).isdigit():</span><br><span class="line">        eng_ass = pdinsert(eng_ass,i,df_add)</span><br><span class="line">        i +=<span class="number">2</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        i +=<span class="number">1</span></span><br><span class="line"><span class="comment">#######报错无所谓，已经加上了</span></span><br></pre></td></tr></table></figure>
+<p>运行代码过程中最后会报错，但是没有关系，已经匹配上了</p>
+<p>得到结果</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">0    00:01:25,586 --&gt; 00:01:27,421</span><br><span class="line">1    熄灯！\N&#123;\ren&#125;Lights out!</span><br><span class="line">2    ddxyl</span><br><span class="line">3    2</span><br><span class="line">4    00:01:28,589 --&gt; 00:01:31,058</span><br><span class="line">5    克莱图斯，你在吗？\N&#123;\ren&#125;Cletus, are you there?</span><br><span class="line">6    ddxyl</span><br><span class="line">7    3</span><br><span class="line">8    00:01:31,192 --&gt; 00:01:33,494</span><br><span class="line">9    我的天使\N&#123;\ren&#125;My angel.</span><br><span class="line">10    ddxyl</span><br></pre></td></tr></table></figure>
+<p>只需要把字符串"ddxyl"替换为空白即可正常使用</p>
+<h3 id="总结">3.总结</h3>
+<p>总之这个结果已经是可以用的了，在这个过程中我学到了一些关于字符串提取的方法，后续在下一篇文章详细讲讲是怎么提取相应的字符串的。以后也可能会写一些关于python
+pandas包的笔记总结等。</p>
+]]></content>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>整合RNA和蛋白质组学数据识别多形性胶质母细胞瘤表面组特征</title>
-    <url>/literature-1/</url>
+    <url>/uncategorized/literature-1/</url>
     <content><![CDATA[<h2 id="abstract">Abstract</h2>
 <p>本文目的是发掘GBM相关的表面组基因以及识别关键的具有发展潜力的细胞表面基因作为GBM分子标志物用于治疗。主要利用TCGA
 GBM
@@ -404,7 +404,7 @@ hub基因分析整合了GBM转录组和细胞表面蛋白质组的特征。总�
 <h4 id="tcga和gtex患者的特征">TCGA和GTEx患者的特征</h4>
 <p>如表所示，对TCGA数据分别进行性别，治疗年龄以及治疗效果进行分组。</p>
 <figure>
-<img src="/literature-1/T1.png" alt="Table1">
+<img src="/uncategorized/literature-1/T1.png" alt="Table1">
 <figcaption aria-hidden="true">Table1</figcaption>
 </figure>
 <h4 id="识别gbm的差异表达基因">识别GBM的差异表达基因</h4>
@@ -412,28 +412,28 @@ hub基因分析整合了GBM转录组和细胞表面蛋白质组的特征。总�
 count
 值的方向性。图2.A清晰地显示了表达谱中正常脑组织和肿瘤中表达模式的不同。最终，RNA表达数据中18021个基因有13548个基因通过了质控。通过设置差异基因的阈值（具体阈值见Methods），在GBM中找到了2381个DEGs，其中有648个基因上调，1733个基因下调（见图2.B）。</p>
 <figure>
-<img src="/literature-1/12885_2021_8591_Fig1_HTML.jpg" alt="F1">
+<img src="/uncategorized/literature-1/12885_2021_8591_Fig1_HTML.jpg" alt="F1">
 <figcaption aria-hidden="true">F1</figcaption>
 </figure>
 <figure>
-<img src="/literature-1/12885_2021_8591_Fig2_HTML.jpg" alt="F2">
+<img src="/uncategorized/literature-1/12885_2021_8591_Fig2_HTML.jpg" alt="F2">
 <figcaption aria-hidden="true">F2</figcaption>
 </figure>
 <h4 id="对degs的功能富集和分类">对DEGs的功能富集和分类</h4>
 <p>对上述结果找到的差异基因进行GO和KEGG的功能富集。对于上调/下调的差异基因，GO富集显示差异基因与细胞表面和膜相关蛋白相关联；KEGG富集显示，上调基因主要涉及癌症传播和细胞黏附相关的通路，下调基因主要涉及神经活性配体-受体交互和主要细胞信号传导相关的通路。（图S1.ALL）</p>
 <figure>
-<img src="/literature-1/S1.png" alt="FS1">
+<img src="/uncategorized/literature-1/S1.png" alt="FS1">
 <figcaption aria-hidden="true">FS1</figcaption>
 </figure>
 <h4 id="识别gbm细胞表面抗原的候选分子">识别GBM细胞表面抗原的候选分子</h4>
 <p>Bausch-Fluck, Cunha. and
 Lee.等人的研究通过不同的研究方法，已经获得了表面组差异基因的基因列表。对他们基因列表取交集，得到了395个共同表面组差异基因，其中有124个上调基因，271个下调基因（图S2.A）。根据Almén等人的研究，表面组可以分为以下五个亚型：受体型，运输型，酶型，混杂型和未定义型。将图A中的结果根据亚型分类，可以发现42.8%的GBM差异表达基因属于受体亚型（图S2.B）。KEGG分析<strong>GBM-富集</strong>表面蛋白识别到与免疫防御和传播相关的通路；而<strong>GBM-缺乏</strong>细胞表面基因富集到与神经活性韧带交互和主要信号传导相关通路（图S3.ALL）。这一结果与之前所做的差异基因富集相类似，表明表面基因组在控制GBM细胞活动中起到重要作用。</p>
 <figure>
-<img src="/literature-1/S2.png" alt="FS2">
+<img src="/uncategorized/literature-1/S2.png" alt="FS2">
 <figcaption aria-hidden="true">FS2</figcaption>
 </figure>
 <figure>
-<img src="/literature-1/S3.png" alt="FS3">
+<img src="/uncategorized/literature-1/S3.png" alt="FS3">
 <figcaption aria-hidden="true">FS3</figcaption>
 </figure>
 <h4 id="整合转录组和蛋白组数据识别gbm细胞表面标志">整合转录组和蛋白组数据识别GBM细胞表面标志</h4>
@@ -445,7 +445,7 @@ Lee.等人的研究通过不同的研究方法，已经获得了表面组差异�
 FCGR3A, HLA-DRA, CD44, CD74, MSR1, CD163, EGFR, ITGB2,
 PTPRZ1（图F.3）。其中只有PTPRZ1基因表达上调，其余基因都为下调。以上，共有14个转录组，组织和细胞交叠基因。值得注意的是，质谱分析蛋白可能会由于蛋白溶解/隔离或其他内在变化影响质谱分析仪器对蛋白的敏感性和探测的能力。因此这些限制可能会导致预测结果的偏差。</p>
 <figure>
-<img src="/literature-1/12885_2021_8591_Fig3_HTML.jpg" alt="F3">
+<img src="/uncategorized/literature-1/12885_2021_8591_Fig3_HTML.jpg" alt="F3">
 <figcaption aria-hidden="true">F3</figcaption>
 </figure>
 <h4 id="表面基因组蛋白-蛋白交联网络分析和高置信度gbm细胞表面组标志物的优先级">表面基因组蛋白-蛋白交联网络分析和高置信度GBM细胞表面组标志物的优先级</h4>
@@ -453,7 +453,7 @@ PTPRZ1（图F.3）。其中只有PTPRZ1基因表达上调，其余基因都为�
 EGFR, TGFBR1, CD44, NGFR, ITGB2, DCC, PTPRJ, ANBCA1, HLA-DRA, CCR5 and
 CSF1R等。我们将之前得到的14个交叠基因与和PPI网络中至少20个交互边界的基因交叠，得到6个具有高置信度GBM表面组标志基因（图F.4B）。（这里需要强调，这里我们的数据整合了迄今为止的大量样本。）单细胞RNA测序已经证实GBM微环境内不同细胞间的共表达和相互作用驱动GBM细胞的致癌性（发生）。该研究还将GBM微环境进一步分层为巨噬细胞，少突细胞，T细胞和恶性细胞。上述得到的6个高置信基因中，只有EGFR与恶性细胞强相关，其他基因则与巨噬细胞具有强相关性。</p>
 <figure>
-<img src="/literature-1/12885_2021_8591_Fig4_HTML.jpg" alt="F4">
+<img src="/uncategorized/literature-1/12885_2021_8591_Fig4_HTML.jpg" alt="F4">
 <figcaption aria-hidden="true">F4</figcaption>
 </figure>
 <h4 id="验证高置信度gbm表面组基因和生存表达的相关分析">验证高置信度GBM表面组基因和生存表达的相关分析</h4>
@@ -464,7 +464,7 @@ CSF1R等。我们将之前得到的14个交叠基因与和PPI网络中至少20�
 CLIC4, GALNT2,
 TNC,和VIM。如图F.5B所示，所有的CD44共表达簇在GBM中具有高表达量（相对于正常脑组织）。结果表明CD44可能支持GBM的病理发生。</p>
 <figure>
-<img src="/literature-1/12885_2021_8591_Fig5_HTML.jpg" alt="F5">
+<img src="/uncategorized/literature-1/12885_2021_8591_Fig5_HTML.jpg" alt="F5">
 <figcaption aria-hidden="true">F5</figcaption>
 </figure>
 <h2 id="conclusion">Conclusion</h2>
@@ -493,7 +493,7 @@ Prefessional处理之后，构建成对的皮尔森相关矩阵，进行每个�
   </entry>
   <entry>
     <title>python笔记</title>
-    <url>/pandas-command/</url>
+    <url>/uncategorized/pandas-command/</url>
     <content><![CDATA[<p>这篇保存一些pandas常用的命令，字符串获取的方法，以及字典列表的一些实用方法</p>
 <h2 id="pandas">Pandas</h2>
 <h4 id="pandas读取">1.pandas读取</h4>
