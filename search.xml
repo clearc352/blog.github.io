@@ -51,56 +51,6 @@ as diagnostic markers by a novel detection platform</em></p>
       </tags>
   </entry>
   <entry>
-    <title>黄金分割法+斐波那契数列法求单峰函数极小值点</title>
-    <url>/uncategorized/GlodenCut/</url>
-    <content><![CDATA[<p>使用黄金分割法求极小值点。</p>
-<p>前提：函数在所求区间为单峰函数，即存在唯一极小值点。 <span id="more"></span></p>
-<h2 id="初步构思">初步构思</h2>
-<p>单峰函数：</p>
-<p><img src="/uncategorized/GlodenCut/单峰函数2.png"> 可以使用对称压缩区间的方法，满足： <span class="math display">\[a_1 - a_0 = b_0 - b_1 =
-\rho*(b_0-a_0)\]</span></p>
-<p>其中： <span class="math display">\[\rho &lt; \frac {1}
-{2}\]</span></p>
-<p>做上述处理后，可以得到点<span class="math inline">\(a_1\)</span>和<span class="math inline">\(b_1\)</span></p>
-<p><img src="/uncategorized/GlodenCut/图1.png"></p>
-<p>然后比较<span class="math inline">\(f(a_1)\)</span>与<span class="math inline">\(f(b_1)\)</span>的函数值大小</p>
-<p>if <span class="math inline">\(f(a_1) &lt; f(b_1)\)</span> :</p>
-<p>则函数的最小值落在区间<span class="math display">\[[a_0,b_1]\]</span></p>
-<p>重复上述的操作，可压缩出在一定精度区间范围内最小值点的值</p>
-<h2 id="黄金分割法">黄金分割法</h2>
-<p>我们可以找到一个合适的<span class="math inline">\(\rho\)</span>值，使得每次迭代只要计算一次目标函数的值。如图所示，这样的<span class="math inline">\(\rho\)</span>满足<span class="math display">\[\rho(b_1-a_0)=b_1-b_2\]</span> <img src="/uncategorized/GlodenCut/图2.png"></p>
-<p>设区间<span class="math inline">\([a_0,b_0]\)</span>为1，如图所示可得式子：<span class="math display">\[\rho(1-\rho)=1-2\rho\]</span></p>
-<p>要求<span class="math inline">\(\rho&lt;\frac {1}
-{2}\)</span>,解的<span class="math display">\[\rho=\frac {3-\sqrt 5 }
-{2}\]</span></p>
-<p>此时，注意到<span class="math display">\[1-\rho= \frac {\sqrt 5-1 }
-{2}\]</span></p>
-<p>故有<span class="math display">\[\frac {\rho} {1-\rho}=\frac {3-\sqrt
-5 } {\sqrt 5-1}=\frac {\sqrt 5-1 } {2}=\frac {\sqrt 1-\rho }
-{1}\]</span></p>
-<p><span class="math display">\[\frac {\rho} {1-\rho}=\frac {\sqrt
-1-\rho } {1}\]</span></p>
-<p>以<span class="math inline">\(\frac
-{\rho}{1-\rho}\)</span>的比例划分区间，可以<strong>使得短区间与长区间之间的壁纸等于长区间与整个区间长度的比值</strong></p>
-<p>同时，在第N步的压缩后，极小值所在的区间长度为<span class="math display">\[(1-\rho)^N \approx 0.61803)^N\]</span></p>
-<p>以此可以估计迭代的次数</p>
-<h2 id="斐波那契数列法">斐波那契数列法</h2>
-<p>在黄金分割法中，<span class="math inline">\(\rho\)</span>的值在迭代过程中是固定的，如果迭代过程中动态调整<span class="math inline">\(\rho\)</span>的的值，如图所示，可得</p>
-<p><img src="/uncategorized/GlodenCut/图3.png"></p>
-<p><span class="math display">\[\rho_k+1(1-\rho_k)=1-2\rho_k\]</span></p>
-<p>即<span class="math display">\[\rho_{k+1} = 1- \frac {\rho_k }
-{1-\rho_k}\tag{1}\]</span></p>
-<p>其总压缩比则变为<span class="math display">\[(1-\rho_1)(1-\rho_2)...(1-\rho_n)\]</span></p>
-<p><strong>则我们的优化目标为使得总压缩比越小，其效率越高</strong></p>
-<h3 id="引入斐波那契数列">引入斐波那契数列</h3>
-<p>对于斐波那契数列，令<span class="math inline">\(F_{-1}=0\)</span>,<span class="math inline">\(F_0=1\)</span>,有：</p>
-<p><span class="math display">\[F_{k+1} = F_k + F_{k-1}\]</span></p>
-]]></content>
-      <tags>
-        <tag>一维线性搜索</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>脑胶质瘤铁死亡相关基因标记预测预后和免疫治疗</title>
     <url>/uncategorized/Ferroptosis-related/</url>
     <content><![CDATA[<h2 id="abstract">Abstract</h2>
@@ -205,6 +155,56 @@ and immunotherapy in glioma</em></p>
 ]]></content>
       <tags>
         <tag>literature</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>黄金分割法+斐波那契数列法求单峰函数极小值点</title>
+    <url>/uncategorized/GlodenCut/</url>
+    <content><![CDATA[<p>使用黄金分割法求极小值点。</p>
+<p>前提：函数在所求区间为单峰函数，即存在唯一极小值点。 <span id="more"></span></p>
+<h2 id="初步构思">初步构思</h2>
+<p>单峰函数：</p>
+<p><img src="/uncategorized/GlodenCut/单峰函数2.png"> 可以使用对称压缩区间的方法，满足： <span class="math display">\[a_1 - a_0 = b_0 - b_1 =
+\rho*(b_0-a_0)\]</span></p>
+<p>其中： <span class="math display">\[\rho &lt; \frac {1}
+{2}\]</span></p>
+<p>做上述处理后，可以得到点<span class="math inline">\(a_1\)</span>和<span class="math inline">\(b_1\)</span></p>
+<p><img src="/uncategorized/GlodenCut/图1.png"></p>
+<p>然后比较<span class="math inline">\(f(a_1)\)</span>与<span class="math inline">\(f(b_1)\)</span>的函数值大小</p>
+<p>if <span class="math inline">\(f(a_1) &lt; f(b_1)\)</span> :</p>
+<p>则函数的最小值落在区间<span class="math display">\[[a_0,b_1]\]</span></p>
+<p>重复上述的操作，可压缩出在一定精度区间范围内最小值点的值</p>
+<h2 id="黄金分割法">黄金分割法</h2>
+<p>我们可以找到一个合适的<span class="math inline">\(\rho\)</span>值，使得每次迭代只要计算一次目标函数的值。如图所示，这样的<span class="math inline">\(\rho\)</span>满足<span class="math display">\[\rho(b_1-a_0)=b_1-b_2\]</span> <img src="/uncategorized/GlodenCut/图2.png"></p>
+<p>设区间<span class="math inline">\([a_0,b_0]\)</span>为1，如图所示可得式子：<span class="math display">\[\rho(1-\rho)=1-2\rho\]</span></p>
+<p>要求<span class="math inline">\(\rho&lt;\frac {1}
+{2}\)</span>,解的<span class="math display">\[\rho=\frac {3-\sqrt 5 }
+{2}\]</span></p>
+<p>此时，注意到<span class="math display">\[1-\rho= \frac {\sqrt 5-1 }
+{2}\]</span></p>
+<p>故有<span class="math display">\[\frac {\rho} {1-\rho}=\frac {3-\sqrt
+5 } {\sqrt 5-1}=\frac {\sqrt 5-1 } {2}=\frac {\sqrt 1-\rho }
+{1}\]</span></p>
+<p><span class="math display">\[\frac {\rho} {1-\rho}=\frac {\sqrt
+1-\rho } {1}\]</span></p>
+<p>以<span class="math inline">\(\frac
+{\rho}{1-\rho}\)</span>的比例划分区间，可以<strong>使得短区间与长区间之间的壁纸等于长区间与整个区间长度的比值</strong></p>
+<p>同时，在第N步的压缩后，极小值所在的区间长度为<span class="math display">\[(1-\rho)^N \approx 0.61803)^N\]</span></p>
+<p>以此可以估计迭代的次数</p>
+<h2 id="斐波那契数列法">斐波那契数列法</h2>
+<p>在黄金分割法中，<span class="math inline">\(\rho\)</span>的值在迭代过程中是固定的，如果迭代过程中动态调整<span class="math inline">\(\rho\)</span>的的值，如图所示，可得</p>
+<p><img src="/uncategorized/GlodenCut/图3.png"></p>
+<p><span class="math display">\[\rho_k+1(1-\rho_k)=1-2\rho_k\]</span></p>
+<p>即<span class="math display">\[\rho_{k+1} = 1- \frac {\rho_k }
+{1-\rho_k}\tag{1}\]</span></p>
+<p>其总压缩比则变为<span class="math display">\[(1-\rho_1)(1-\rho_2)...(1-\rho_n)\]</span></p>
+<p><strong>则我们的优化目标为使得总压缩比越小，其效率越高</strong></p>
+<h3 id="引入斐波那契数列">引入斐波那契数列</h3>
+<p>对于斐波那契数列，令<span class="math inline">\(F_{-1}=0\)</span>,<span class="math inline">\(F_0=1\)</span>,有：</p>
+<p><span class="math display">\[F_{k+1} = F_k + F_{k-1}\]</span></p>
+]]></content>
+      <tags>
+        <tag>一维线性搜索</tag>
       </tags>
   </entry>
   <entry>
