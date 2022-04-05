@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://clearc352.github.io/uncategorized/2022-3-09/</loc>
+    <loc>https://clearc352.github.io/uncategorized/birthday-page-welcome/</loc>
     
-    <lastmod>2022-03-09</lastmod>
+    <lastmod>2022-04-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -103,36 +103,29 @@
 
   <url>
     <loc>https://clearc352.github.io/</loc>
-    <lastmod>2022-03-17</lastmod>
+    <lastmod>2022-04-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://clearc352.github.io/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</loc>
-    <lastmod>2022-03-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://clearc352.github.io/tags/literature/</loc>
-    <lastmod>2022-03-17</lastmod>
+    <lastmod>2022-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://clearc352.github.io/tags/%E4%B8%80%E7%BB%B4%E7%BA%BF%E6%80%A7%E6%90%9C%E7%B4%A2/</loc>
-    <lastmod>2022-03-17</lastmod>
+    <lastmod>2022-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://clearc352.github.io/tags/python/</loc>
-    <lastmod>2022-03-17</lastmod>
+    <lastmod>2022-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
