@@ -689,4 +689,44 @@ Python 字符串操作（下）</a></em></p>
         <tag>python</tag>
       </tags>
   </entry>
+  <entry>
+    <title>miRNA-448通过调节Rho相关蛋白激酶1参与胶质母细胞瘤（GBM）的发展进程</title>
+    <url>/uncategorized/miRNA448/</url>
+    <content><![CDATA[<h2 id="introduction">Introduction</h2>
+<p>胶质母细胞瘤（GBM）是四级胶质瘤，其总体生存期很差，大约为14个月。目前的治疗方法对该类患者而言效果并不好，因此，探索新的治疗靶点可能对于治疗GBM患者有很大的帮助。</p>
+<p>众所周知，microRNAs（miRNAs）通过调节靶向基因调节细胞功能。最近，人卵巢癌和乳腺癌中，发现miRNA-448的表达下降。除此之外，miR-448在抑制胰腺癌的发生中发挥巨大的作用。然而，在GBM中，miR-448的作用还是未知的。</p>
+<p>在先前的研究中，Rho相关蛋白激酶1（ROCK1）在癌症的恶性程度方面扮演着重要角色。在胃癌和骨肉瘤中，监测到了ROCK1的表达增长，并且，ROCK1加速胰腺癌和前列腺癌细胞的增长。除此之外，ROCK1促进胶质瘤细胞的侵袭，这表明ROCK1 mRNA在胶质瘤患者中具有重大的诊断意义。但是目前关于miR-448和ROCK1在GBM的关系仍是未知的。本文主要探索miR-448如何在GBM中调节细胞进程。</p>
+<span id="more"></span>
+<h2 id="result">Result</h2>
+<p>一. miR-448在GBM中表达下调</p>
+<p>如图1.a所示，miR-448在GBM中的表达显著下调（对比正常组织，p&lt;0.01）。如图1.b所示，对比于NHAs（原发性正常人类星型细胞），miR-448在A-172MG和T98G细胞系中表达下调。如表所示，胶质瘤患者的组织学分级与miR-448的表达显著相关（p&lt;0.05）。</p>
+<p>如图1.c所示，在A-172MG细胞系中，miR-448类似物增加miR-448的表达，miR-448抑制剂减少miR-448的表达。</p>
+<p><img src="/uncategorized/miRNA448/CMMM2022-2502010.001.jpg" alt="图1"> <img src="/uncategorized/miRNA448/table1.png" alt="表1"></p>
+<p>二. 过表达的miR-448限制GBM的发展进程</p>
+<p>接下来，我们发现，在A-172MG细胞系中，过表达的miR-448会抑制癌细胞的扩增，下调miR-448点表达，将会加速癌细胞的扩增（图2.a，p&lt;0.01）。如图2.b所示，miR-448类似物会增加Bax蛋白的表达，减少Bcl-2蛋白的表达。<strong>【Bax蛋白为促凋亡蛋白，Bcl-2蛋白为抗凋亡蛋白】</strong> 而miR-448抑制剂中的Bax表达下降而Bcl-2表达增加。miR-448类似物会抑制细胞转移，miR-448抑制剂会促进细胞的转移（图2.c）。除此之外，miR-448在A-172MG细胞系中具有相同的效应（图2.d）。总之，GBM中过表达的miR-448会减少细胞生长，转移和侵袭。</p>
+<figure>
+<img src="/uncategorized/miRNA448/CMMM2022-2502010.002.jpg" alt="图2"><figcaption aria-hidden="true">图2</figcaption>
+</figure>
+<p>三. miR-448直接靶向ROCK1</p>
+<p>进一步的，我们在TargetScan数据库中展示了miR-448与ROCK1的结合（图3.a）。接着，荧光素受体化验展示，miR-448类似物会减少Wt-ROCK1荧光素的活性（p&lt;0.01,图3.b）。除此之外，在A-172MG细胞系中，miR-448的上/下调会抑制/提高ROCK1的表达（p&lt;0.01图3.c）。较之于正常组织，ROCK1在GBM组织中表达上调（p&lt;0.01，图3.d）。与此同时，miR-448在GBM组织中与ROCK1呈负相关（p&lt;0.01,<span class="math inline">\(R^2\)</span>=0.7078,图3.e）。以上的结果表明，miR-448通过结合<span class="math inline">\(3&#39;\)</span>-UTR减少ROCK1表达。</p>
+<figure>
+<img src="/uncategorized/miRNA448/CMMM2022-2502010.003.jpg" alt="图3"><figcaption aria-hidden="true">图3</figcaption>
+</figure>
+<p>四. 敲除ROCK1会阻碍GBM的发展进程</p>
+<p>接着，我们在GBM中检测到ROCK1的失调表达。我们发现ROCK1的表达相较于NHAs，在A-172MG和T98G细胞系中都有高表达（p&lt;0.01，图4.a）。接着，我们在A-172MG细胞系中使用ROCK1siRNA，探索ROCK1在GBM中的作用。通过siRNA，ROCK1呈现出下调的结果（p&lt;0.01，图4.b）。进一步的，在A-172MG细胞系中，ROCK1的敲除抑制了细胞的扩增（p&lt;0.01图4.c）。并且，沉默ROCK1之后，Bax表现出上调，Bcl-2表现为下调（p&lt;0.01图4.d）。除此之外，ROCK1沉默抑制了癌细胞的转移和侵袭（p&lt;0.01，图4e&amp;f）。基于上述的结果，表明ROCK1应该被认为是一个致癌基因。</p>
+<figure>
+<img src="/uncategorized/miRNA448/CMMM2022-2502010.004.jpg" alt="图4"><figcaption aria-hidden="true">图4</figcaption>
+</figure>
+<p>五. ROCK1表达上调会清除miR-448对GBM的限制</p>
+<p>我们在A-172MG细胞系中使用miR-448类似物和ROCK1因子来证实miR-448和ROCK1在GBM中的相互影响。结果表明，ROCK1因子会修复由miR-448类似物引发ROCK1下调（图5a）。更重要的是，ROCK1对上调会减弱miR-448类似物抑制细胞增殖的作用（图5b）。这一相反的效应在Bcl-2/Bax的表达上也相同。与此同时，上调的ROCK1削弱了miR-448抑制转移和侵袭的作用（图5d&amp;e）。总而言之，GBM中上调的ROCK1减弱了miR-448抗癌的影响。</p>
+<figure>
+<img src="/uncategorized/miRNA448/CMMM2022-2502010.jpg" alt="图5"><figcaption aria-hidden="true">图5</figcaption>
+</figure>
+<h2 id="conclusion">Conclusion</h2>
+<p>总之，GBM中miR-448的表达下调与不良的临床预后相关。并且，ROCK1的下调会减少miR-448对GBM进程的影响。即使我们解释了部分miR-448在GBM中的功能，但miR-448整体的调控网络还需要进一步探索。</p>
+]]></content>
+      <tags>
+        <tag>literature</tag>
+      </tags>
+  </entry>
 </search>
