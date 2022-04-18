@@ -729,4 +729,22 @@ Python 字符串操作（下）</a></em></p>
         <tag>literature</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Mac下读取NTFS硬盘</title>
+    <url>/uncategorized/mac-commod/</url>
+    <content><![CDATA[<p>最近搞了hackintosh，装完发现硬盘是只读状态了，挂载不上。Google了一下，找到下列解决方案：</p>
+<p>查看要挂载的盘符：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">diskutil list</span><br></pre></td></tr></table></figure>
+<p>如图所示，根据盘名找到要挂载的盘标识符（IDENTIFIER）</p>
+<p><img src="/uncategorized/mac-commod/p1.png"></p>
+<p>在Volumes创建所要挂载的标识符的文件夹</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo mkdir /Volumes/disk0s2</span><br></pre></td></tr></table></figure>
+<p>挂载</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo mount -t ntfs -o rw,auto,nobrowse /dev/disk0s2 /Volumes/disk0s2</span><br></pre></td></tr></table></figure>
+<p>大功告成</p>
+]]></content>
+      <tags>
+        <tag>technology</tag>
+      </tags>
+  </entry>
 </search>
