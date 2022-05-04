@@ -29,7 +29,7 @@
     <meta name="description" content="Love that will never die">
 <meta property="og:type" content="website">
 <meta property="og:title" content="CleaC&#39;s Blog">
-<meta property="og:url" content="https://clearc352.github.io/archives/index.html">
+<meta property="og:url" content="https://clearc352.github.io/page/2/index.html">
 <meta property="og:site_name" content="CleaC&#39;s Blog">
 <meta property="og:description" content="Love that will never die">
 <meta property="og:locale" content="en_US">
@@ -37,14 +37,14 @@
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://clearc352.github.io/archives/">
+<link rel="canonical" href="https://clearc352.github.io/page/2/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"en","comments":"","permalink":"","path":"archives/index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"en","comments":"","permalink":"","path":"page/2/index.html","title":""}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Archive | CleaC's Blog</title>
+<title>CleaC's Blog</title>
   
 
 
@@ -211,231 +211,214 @@
 </noscript>
 
 
-    <div class="main-inner archive posts-collapse">
+    <div class="main-inner index posts-expand">
+
+    
 
 
+<div class="post-block">
   
   
-  
-  <div class="post-block">
-    <div class="post-content">
-      <div class="collection-title">
-        <span class="collection-header">Um..! 12 posts in total. Keep on posting.</span>
-      </div>
 
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://clearc352.github.io/uncategorized/pandas-command/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar1.jpg">
+      <meta itemprop="name" content="Clearc352">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="CleaC's Blog">
+      <meta itemprop="description" content="Love that will never die">
+    </span>
+    
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | CleaC's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/uncategorized/pandas-command/" class="post-title-link" itemprop="url">python笔记</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
       
-    <div class="collection-year">
-      <span class="collection-header">2022</span>
+
+      <time title="Created: 2022-01-28 08:02:28 / Modified: 20:10:35" itemprop="dateCreated datePublished" datetime="2022-01-28T08:02:28+08:00">2022-01-28</time>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Symbols count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Symbols count in article: </span>
+      <span>6.9k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>6 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>这篇保存一些pandas常用的命令，字符串获取的方法，以及字典列表的一些实用方法</p>
+<h2 id="pandas">Pandas</h2>
+<h4 id="pandas读取">1.pandas读取</h4>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"><span class="keyword">from</span> io <span class="keyword">import</span> StringIO </span><br><span class="line"><span class="comment">##读取csv</span></span><br><span class="line">pd.read_csv(<span class="string">&#x27;data/data.csv&#x27;</span>)</span><br><span class="line"><span class="comment">##传入字符串</span></span><br><span class="line">data = (<span class="string">&#x27;col1,col2,col3\n&#x27;</span>  </span><br><span class="line">        <span class="string">&#x27;a,b,1\n&#x27;</span>  </span><br><span class="line">        <span class="string">&#x27;a,b,2\n&#x27;</span>  </span><br><span class="line">        <span class="string">&#x27;c,d,3&#x27;</span>)  </span><br><span class="line">pd.read_csv(StringIO(data))  </span><br><span class="line"><span class="comment">##分隔符，表头以及列名</span></span><br><span class="line">sep=<span class="string">&#x27;\t&#x27;</span>，header=<span class="number">0</span>/<span class="literal">None</span> <span class="comment">##0为第一行，None为无</span></span><br><span class="line">pd.read_csv(data,names=[<span class="string">&#x27;列1&#x27;</span>,<span class="string">&#x27;列2&#x27;</span>],header=<span class="number">0</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">##指定索引列</span></span><br><span class="line">pd.read_csv(data, index_col=<span class="literal">False</span>) <span class="comment"># 不再使用首列作为索引  </span></span><br><span class="line">pd.read_csv(data, index_col=<span class="number">0</span>) <span class="comment"># 第几列是索引  </span></span><br><span class="line">pd.read_csv(data, index_col=<span class="string">&#x27;年份&#x27;</span>) <span class="comment"># 指定列名  </span></span><br><span class="line">pd.read_csv(data, index_col=[<span class="string">&#x27;a&#x27;</span>,<span class="string">&#x27;b&#x27;</span>]) <span class="comment"># 多个索引  </span></span><br><span class="line"></span><br><span class="line"><span class="comment">##dtype可以指定各数据列的数据类型</span></span><br><span class="line">pd.read_csv(data, dtype=np.float64) <span class="comment"># 所有数据均为此数据类型  </span></span><br><span class="line">pd.read_csv(data, dtype=&#123;<span class="string">&#x27;c1&#x27;</span>:np.float64, <span class="string">&#x27;c2&#x27;</span>: <span class="built_in">str</span>&#125;) <span class="comment"># 指定字段的类型  </span></span><br><span class="line">pd.read_csv(data, dtype=[datetime, datetime, <span class="built_in">str</span>, <span class="built_in">float</span>]) <span class="comment"># 依次指定 </span></span><br></pre></td></tr></table></figure>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/uncategorized/pandas-command/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2022-05-02T16:49:24+08:00"
-              content="2022-05-02">
-          05-02
-        </time>
-      </div>
+    
+    
+    
 
-      <div class="post-title">
-          <a class="post-title-link" href="/uncategorized/DEM6A/" itemprop="url">
-            <span itemprop="name">Deep6mA探索不同物种DNA N6甲基化嘌呤位点相似模式的深度学习框架</span>
-          </a>
-      </div>
-
+    <footer class="post-footer">
+        <div class="post-eof"></div>
       
-    </header>
+    </footer>
   </article>
+</div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2022-04-27T20:32:07+08:00"
-              content="2022-04-27">
-          04-27
-        </time>
-      </div>
 
-      <div class="post-title">
-          <a class="post-title-link" href="/uncategorized/enrich-pathway-definition/" itemprop="url">
-            <span itemprop="name">enrich_pathway_definition</span>
-          </a>
-      </div>
 
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://clearc352.github.io/uncategorized/Subtitle-matching/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar1.jpg">
+      <meta itemprop="name" content="Clearc352">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="CleaC's Blog">
+      <meta itemprop="description" content="Love that will never die">
+    </span>
+    
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | CleaC's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/uncategorized/Subtitle-matching/" class="post-title-link" itemprop="url">用python匹配字幕</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2022-01-10 21:19:08" itemprop="dateCreated datePublished" datetime="2022-01-10T21:19:08+08:00">2022-01-10</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2022-03-06 22:12:56" itemprop="dateModified" datetime="2022-03-06T22:12:56+08:00">2022-03-06</time>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Symbols count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Symbols count in article: </span>
+      <span>4.2k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>4 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>最近遇到一个很有意思的事情。因为毒液2没有在中国上映，有不忍心看电影院手机直拍版，就一直没看。最近在电报里搞到了一份线上流媒体版MTK，自带五国字幕，但是没有中文。自己英语水平太差了，没办法看不太地道。遂在网上找到了枪版的中英双语字幕。</p>
+<p>本来想可以快乐看电影了，但突然发现这两个版本的字幕时间轴不一样。把原版字幕提取出来稍微看了一下，每一个大段的时间轴都是不匹配的。所以想把这两个字幕做一个匹配，就算只能能匹配上大部分字幕，自己的英语应该也是够用的。</p>
+<p>来看一下这两个字幕文件</p>
+<figure>
+<img src="/uncategorized/Subtitle-matching/image-english.png" alt="英文">
+<figcaption aria-hidden="true">英文</figcaption>
+</figure>
+<figure>
+<img src="/uncategorized/Subtitle-matching/image-20220110214743883.png" alt="中英字幕">
+<figcaption aria-hidden="true">中英字幕</figcaption>
+</figure>
+<p><em>中英字幕包含一些字幕头已经被我删掉了</em></p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/uncategorized/Subtitle-matching/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2022-04-17T15:00:30+08:00"
-              content="2022-04-17">
-          04-17
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/uncategorized/mac-commod/" itemprop="url">
-            <span itemprop="name">Mac下读取NTFS硬盘</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2022-04-09T19:39:25+08:00"
-              content="2022-04-09">
-          04-09
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/uncategorized/miRNA448/" itemprop="url">
-            <span itemprop="name">miRNA-448通过调节Rho相关蛋白激酶1参与胶质母细胞瘤（GBM）的发展进程</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2022-04-05T14:05:55+08:00"
-              content="2022-04-05">
-          04-05
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/uncategorized/birthday-page-welcome/" itemprop="url">
-            <span itemprop="name">今天有人过生日</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2022-03-06T14:11:42+08:00"
-              content="2022-03-06">
-          03-06
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/uncategorized/IDH2022/" itemprop="url">
-            <span itemprop="name">多中心研究IDH野生型分子胶质母细胞瘤(molecular glioblastoma)的生存情况</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2022-03-04T19:37:38+08:00"
-              content="2022-03-04">
-          03-04
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/uncategorized/GlodenCut/" itemprop="url">
-            <span itemprop="name">黄金分割法+斐波那契数列法求单峰函数极小值点</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2022-03-02T20:11:26+08:00"
-              content="2022-03-02">
-          03-02
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/uncategorized/CTC-novel-platform/" itemprop="url">
-            <span itemprop="name">通过新的检测平台证实胶质瘤循环细胞及其相关簇为诊断标志物</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2022-02-19T10:07:59+08:00"
-              content="2022-02-19">
-          02-19
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/uncategorized/Ferroptosis-related/" itemprop="url">
-            <span itemprop="name">脑胶质瘤铁死亡相关基因标记预测预后和免疫治疗</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2022-02-07T08:23:08+08:00"
-              content="2022-02-07">
-          02-07
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/uncategorized/literature-1/" itemprop="url">
-            <span itemprop="name">整合RNA和蛋白质组学数据识别多形性胶质母细胞瘤表面组特征</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-
     </div>
-  </div>
-  
-  
-  
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
   <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/archives/page/2/">2</a><a class="extend next" rel="next" href="/archives/page/2/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
+    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left" aria-label="Previous page"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
   </nav>
 
 </div>
@@ -523,7 +506,7 @@
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
 
-<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"clearc352","repo":"Comment_Repository","client_id":"b34462bb797d2514f1c3","client_secret":"65f694b730054a5f5abc99c6e22b6518883e4e75","admin_user":"clearc352","distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":null,"js":{"url":"https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.min.js","integrity":"sha256-Pmj85ojLaPOWwRtlMJwmezB/Qg8BzvJp5eTzvXaYAfA="},"path_md5":"b86805e3c045105f4f74c304744b551e"}</script>
+<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"clearc352","repo":"Comment_Repository","client_id":"b34462bb797d2514f1c3","client_secret":"65f694b730054a5f5abc99c6e22b6518883e4e75","admin_user":"clearc352","distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":null,"js":{"url":"https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.min.js","integrity":"sha256-Pmj85ojLaPOWwRtlMJwmezB/Qg8BzvJp5eTzvXaYAfA="},"path_md5":"c853ec00cc9d13bc22336b7d45d1416e"}</script>
 <script src="/js/third-party/comments/gitalk.js"></script>
 
 </body>

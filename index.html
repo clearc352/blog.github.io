@@ -166,7 +166,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">10</span>
+          <span class="site-state-item-count">12</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -212,6 +212,221 @@
 
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://clearc352.github.io/uncategorized/DEM6A/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar1.jpg">
+      <meta itemprop="name" content="Clearc352">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="CleaC's Blog">
+      <meta itemprop="description" content="Love that will never die">
+    </span>
+    
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | CleaC's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/uncategorized/DEM6A/" class="post-title-link" itemprop="url">Deep6mA探索不同物种DNA N6甲基化嘌呤位点相似模式的深度学习框架</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2022-05-02 16:49:24" itemprop="dateCreated datePublished" datetime="2022-05-02T16:49:24+08:00">2022-05-02</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2022-05-04 23:39:51" itemprop="dateModified" datetime="2022-05-04T23:39:51+08:00">2022-05-04</time>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Symbols count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Symbols count in article: </span>
+      <span>1.7k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>2 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>参考文章：Elucidation of DNA methylation on N6-adenine with deep learning，实践文章中从不同物种中迁移学习，预测6mA位点。</p>
+<h2 id="背景介绍">背景介绍</h2>
+<p>对真核生物在N<sup>6</sup>DNA甲基化的研究在最近得到了很大的关注。最近的研究已经产出了大量的6mA基因组数据，但是真核生物中DNA 6mA仍然有待探索。我们提出了在真核生物中6mA DNA是稀少的，这客观上限制了现有的生物学技术对6mA位点的检测，同时，6mA复杂的调节机制也对DNA 6mA的研究造成巨大挑战。为了探索现存的6mA基因组数据以及应对这一挑战，，这里我们提出了一种基于深度学习的算法用于在单碱基（single nucleotide resolution）中预测DNA 6mA位点。并且，我们还将算法应用于三个具有代表性的模型物种中：Arabidopsis thaliana（拟南芥），Drosophila（黑腹果蝇）和Escherichia coli（大肠杆菌）。大量的实验证明我们算法的性能优于传统基于k-mer的方法。进一步的，我们的基于显著图的上下文分析显示，围绕6mA位点的感兴趣的cis-调节位点模式在传统分析中被遗漏了。我们希望我们的分析工具可以帮助我们解释6mA的调节机制，深度探索其中的功能效应。最终，我们提供了一个基于硅的全基因组预测的具有潜力的6mA位点完整的条目。</p>
+<h3 id="神经网络结构">神经网络结构</h3>
+<p>如下图所示，神经网络输入经由one-hot变换的的矩阵；后经过五层卷积层，每个卷积层有80个滤波器；全连接层具有100个单元，最后利用sigmoid函数激活分类层。</p>
+<p><img src="/uncategorized/DEM6A/CNN.png" alt></p>
+<h3 id="文章结果">文章结果</h3>
+<p>下图展示在三个具有代表性的物种中十次独立实验的ROC曲线和平均AUC值</p>
+<p><img src="/uncategorized/DEM6A/AUC.png" alt></p>
+<p>对比DeepM6A，MLP，k-mer-based logist regeresion(LR)在不同序列长度上的性能</p>
+<p><img src="/uncategorized/DEM6A/conpair.png" alt></p>
+<h3 id="数据下载">数据下载</h3>
+<p>1.测试数据从<a target="_blank" rel="noopener" href="https://github.com/tanfei2007/DeepM6A">GitHub - tanfei2007/DeepM6A</a>下载</p>
+<p>2.软件包从<a target="_blank" rel="noopener" href="https://test.pypi.org/simple/dem6a/">Links for DEM6A</a>下载DEM6A -0.3</p>
+<p><strong>请注意</strong>，DEM6A -0.3中，sklean包已改名，将导致无法安装，解决方法见配置流程</p>
+<h3 id="软件安装">软件安装</h3>
+<p>安装环境：Anaconda3下conda-V4.12.0 虚拟环境</p>
+<p>Python版本：3.6.13</p>
+<p>配置流程</p>
+<p>step1:创建并激活虚拟环境</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">conda create -n DEM6A python=3.6</span><br><span class="line">conda activate DEM6A</span><br></pre></td></tr></table></figure>
+<p>step2：修改软件包</p>
+<p>方案1（推荐）：手动解压后，修改setup.py中install_requires中软件包名（如图红色圈出 ）</p>
+<p>方案2（不推荐）：手动安装解压后文件夹中的<strong>DEM6A.egg-info/requires.txt</strong>中的所有包，后在python或jupyter中使用sys引入。</p>
+<p>step3:安装所需包环境</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"> pip install Downloads/DEM6A-0.3 -i  https://mirrors.aliyun.com/pypi/simple/</span><br></pre></td></tr></table></figure>
+<p>step4:确认安装完成</p>
+<p><img src="/uncategorized/DEM6A/confirm.png" alt></p>
+<h3 id="数据准备">数据准备</h3>
+<p>如下图划分序列，得到训练集，测试集和验证集数据：（8:1:1划分）</p>
+<p><img src="/uncategorized/DEM6A/seq.png" alt></p>
+<p>这里,需要使用提供的测试数据，以大肠杆菌（E.coli）为例，首先利用下图脚本，从提供的m6A_ecoli.bed以及GCF_000005845.2_ASM584v2_genomic.fna获取m6A_ecoli_pos.csv，m6A_ecoli_neg.csv文件。</p>
+<p><img src="/uncategorized/DEM6A/4scrips.png" alt></p>
+<p>后利用下图脚本，输入GCF_000005845.2_ASM584v2_genomic.fna和m6A_ecoli_neg.csv，得到训练使用的train/test/valid.hdf5文件</p>
+<p><img src="/uncategorized/DEM6A/2scrips.png" alt></p>
+<p><strong>注意1</strong>这里R脚本内容存在一定的问题（至少0_process_bed.R有问题），所以后续使用了github仓库提供的m6A_ecoli_pos.csv，m6A_ecoli_neg.csv文件。</p>
+<p><strong>注意2</strong>python脚本fa_csv_to_h5.py需要根据文件名自行更改部分代码。DNA_IO.py文件第28行需要将变量seq_trim强制转换为int型（int(seq_trim)）。</p>
+<h3 id="模型训练">模型训练</h3>
+<p>训练数据</p>
+<p><img src="/uncategorized/DEM6A/train1.png" alt></p>
+<p>预测</p>
+<p><img src="/uncategorized/DEM6A/train2.png" alt></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://clearc352.github.io/uncategorized/enrich-pathway-definition/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar1.jpg">
+      <meta itemprop="name" content="Clearc352">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="CleaC's Blog">
+      <meta itemprop="description" content="Love that will never die">
+    </span>
+    
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | CleaC's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/uncategorized/enrich-pathway-definition/" class="post-title-link" itemprop="url">enrich_pathway_definition</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2022-04-27 20:32:07" itemprop="dateCreated datePublished" datetime="2022-04-27T20:32:07+08:00">2022-04-27</time>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Symbols count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Symbols count in article: </span>
+      <span>0</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>1 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
@@ -985,210 +1200,9 @@ RNA-Seq数据以及GTEx正常脑皮层数据识别在GBM中显著失调的表面
 
 
 
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://clearc352.github.io/uncategorized/pandas-command/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar1.jpg">
-      <meta itemprop="name" content="Clearc352">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="CleaC's Blog">
-      <meta itemprop="description" content="Love that will never die">
-    </span>
-    
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | CleaC's Blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/uncategorized/pandas-command/" class="post-title-link" itemprop="url">python笔记</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-      
-
-      <time title="Created: 2022-01-28 08:02:28 / Modified: 20:10:35" itemprop="dateCreated datePublished" datetime="2022-01-28T08:02:28+08:00">2022-01-28</time>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>6.9k</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>6 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>这篇保存一些pandas常用的命令，字符串获取的方法，以及字典列表的一些实用方法</p>
-<h2 id="pandas">Pandas</h2>
-<h4 id="pandas读取">1.pandas读取</h4>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"><span class="keyword">from</span> io <span class="keyword">import</span> StringIO </span><br><span class="line"><span class="comment">##读取csv</span></span><br><span class="line">pd.read_csv(<span class="string">&#x27;data/data.csv&#x27;</span>)</span><br><span class="line"><span class="comment">##传入字符串</span></span><br><span class="line">data = (<span class="string">&#x27;col1,col2,col3\n&#x27;</span>  </span><br><span class="line">        <span class="string">&#x27;a,b,1\n&#x27;</span>  </span><br><span class="line">        <span class="string">&#x27;a,b,2\n&#x27;</span>  </span><br><span class="line">        <span class="string">&#x27;c,d,3&#x27;</span>)  </span><br><span class="line">pd.read_csv(StringIO(data))  </span><br><span class="line"><span class="comment">##分隔符，表头以及列名</span></span><br><span class="line">sep=<span class="string">&#x27;\t&#x27;</span>，header=<span class="number">0</span>/<span class="literal">None</span> <span class="comment">##0为第一行，None为无</span></span><br><span class="line">pd.read_csv(data,names=[<span class="string">&#x27;列1&#x27;</span>,<span class="string">&#x27;列2&#x27;</span>],header=<span class="number">0</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">##指定索引列</span></span><br><span class="line">pd.read_csv(data, index_col=<span class="literal">False</span>) <span class="comment"># 不再使用首列作为索引  </span></span><br><span class="line">pd.read_csv(data, index_col=<span class="number">0</span>) <span class="comment"># 第几列是索引  </span></span><br><span class="line">pd.read_csv(data, index_col=<span class="string">&#x27;年份&#x27;</span>) <span class="comment"># 指定列名  </span></span><br><span class="line">pd.read_csv(data, index_col=[<span class="string">&#x27;a&#x27;</span>,<span class="string">&#x27;b&#x27;</span>]) <span class="comment"># 多个索引  </span></span><br><span class="line"></span><br><span class="line"><span class="comment">##dtype可以指定各数据列的数据类型</span></span><br><span class="line">pd.read_csv(data, dtype=np.float64) <span class="comment"># 所有数据均为此数据类型  </span></span><br><span class="line">pd.read_csv(data, dtype=&#123;<span class="string">&#x27;c1&#x27;</span>:np.float64, <span class="string">&#x27;c2&#x27;</span>: <span class="built_in">str</span>&#125;) <span class="comment"># 指定字段的类型  </span></span><br><span class="line">pd.read_csv(data, dtype=[datetime, datetime, <span class="built_in">str</span>, <span class="built_in">float</span>]) <span class="comment"># 依次指定 </span></span><br></pre></td></tr></table></figure>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/uncategorized/pandas-command/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://clearc352.github.io/uncategorized/Subtitle-matching/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar1.jpg">
-      <meta itemprop="name" content="Clearc352">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="CleaC's Blog">
-      <meta itemprop="description" content="Love that will never die">
-    </span>
-    
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | CleaC's Blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/uncategorized/Subtitle-matching/" class="post-title-link" itemprop="url">用python匹配字幕</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2022-01-10 21:19:08" itemprop="dateCreated datePublished" datetime="2022-01-10T21:19:08+08:00">2022-01-10</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2022-03-06 22:12:56" itemprop="dateModified" datetime="2022-03-06T22:12:56+08:00">2022-03-06</time>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>4.2k</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>4 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>最近遇到一个很有意思的事情。因为毒液2没有在中国上映，有不忍心看电影院手机直拍版，就一直没看。最近在电报里搞到了一份线上流媒体版MTK，自带五国字幕，但是没有中文。自己英语水平太差了，没办法看不太地道。遂在网上找到了枪版的中英双语字幕。</p>
-<p>本来想可以快乐看电影了，但突然发现这两个版本的字幕时间轴不一样。把原版字幕提取出来稍微看了一下，每一个大段的时间轴都是不匹配的。所以想把这两个字幕做一个匹配，就算只能能匹配上大部分字幕，自己的英语应该也是够用的。</p>
-<p>来看一下这两个字幕文件</p>
-<figure>
-<img src="/uncategorized/Subtitle-matching/image-english.png" alt="英文">
-<figcaption aria-hidden="true">英文</figcaption>
-</figure>
-<figure>
-<img src="/uncategorized/Subtitle-matching/image-20220110214743883.png" alt="中英字幕">
-<figcaption aria-hidden="true">中英字幕</figcaption>
-</figure>
-<p><em>中英字幕包含一些字幕头已经被我删掉了</em></p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/uncategorized/Subtitle-matching/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
+  </nav>
 
 </div>
   </main>
@@ -1211,14 +1225,14 @@ RNA-Seq数据以及GTEx正常脑皮层数据识别在GBM中显著失调的表面
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">29k</span>
+    <span title="Symbols count total">31k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">26 mins.</span>
+    <span title="Reading time total">28 mins.</span>
   </span>
 </div>
 <div class="busuanzi-count">
