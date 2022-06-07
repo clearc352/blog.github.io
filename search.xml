@@ -823,13 +823,14 @@ Archive（TCIA）数据库下载胶质瘤CT数据，搜了一圈似乎没有很�
 <h4 id="下载器安装">下载器安装</h4>
 <p>如下图所示，tcia文件的专用下载器NBIA Data
 Retriever支持三个平台。对于arch
-linux平台，可以使用debtap软件将deb进行转译。</p>
+linux平台，可以使用debtap软件将deb进行转译。 <img src="/uncategorized/tciaData/download.png"></p>
 <h4 id="manifest-file">manifest file</h4>
 <p>对于第一套数据，进入下载页面，可以看到下图所示，点击download，将会下载后缀为“.tcia”的manifest
 file，使用专用的下载器即可下载。</p>
-<p><img src></p>
+<p><img src="/uncategorized/tciaData/ICDC.png"> <img src="/uncategorized/tciaData/ICDC2.png"> <img src="/uncategorized/tciaData/icdc%20download.png"></p>
 <p>对于第二套数据，可以看见红色框出的Licence，说明该数据集下载受限（如下图）,不能像第一套数据集一样直接下载。我们需要点击红色框中的TCIA
-Restricted，将会下载一个pdf申请表格，需要按照表格需求填写相应的信息（表格中有一项需要注册tcia账号，按照提示注册即可），然后发送邮件到help@cancerimagingarchive.net进行申请。</p>
+Restricted，将会下载一个pdf申请表格，需要按照表格需求填写相应的信息（表格中有一项需要注册tcia账号，按照提示注册即可），然后发送邮件到help@cancerimagingarchive.net进行申请。
+<img src="/uncategorized/tciaData/GLIS.png"></p>
 <h2 id="data-convert">Data Convert</h2>
 <p>参考<a href="https://github.com/vivek8981/DICOM-to-JPG">GitHub -
 vivek8981/DICOM-to-JPG</a>链接中的代码，利用pydicom包，将DICOM（.dcm）图片转化为JPG（.jpg）图片。该项目中extract.py文件用于提取DICOM文件中的图片信息。（根据其提供的表格dicom_image_description.csv提取信息）。</p>
