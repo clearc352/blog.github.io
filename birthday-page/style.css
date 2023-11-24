@@ -73,7 +73,7 @@ a{
 }
 
 .frontend-text:after {
-  content: "3";
+  content: "1";
 
   position: absolute;
   left: 100%;
@@ -81,7 +81,7 @@ a{
           animation: f-right 0.75s 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
 }
 .frontend-text:before {
-  content: "3";
+  content: "1";
 
   position: absolute;
   right: 100%;
